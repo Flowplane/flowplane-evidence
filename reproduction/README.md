@@ -2,6 +2,12 @@
 
 This directory preserves the scripts and canonical fixture used to create the successful local integration bundles. The scripts are inspectable evidence of the processing path, but they are not a standalone replacement for the Flowplane product source tree and Docker build context.
 
+For the isolated 100 KB / 1,000-field HTTP, gRPC, batching, and custom Java
+campaign, see the [runtime performance reproduction package](runtime-performance-100kb-1000-fields/README.md).
+It contains the exact synthetic mapping, deterministic workload generator,
+input-only publisher, gRPC observation client, and mapping-specific custom Java
+counterfactual. It reuses an existing Docker stack and creates no Compose file.
+
 For the Connect + Flink walkthrough, see the [operational scripts behind the live Flowplane run](live-demo-flowplane/README.md). That guide links the runtime-registration, mapping-governance, deployment, raw-topic production, runtime-verification, and evidence-assembly scripts together with the actual mapping and payload fixtures.
 
 ## Prerequisites

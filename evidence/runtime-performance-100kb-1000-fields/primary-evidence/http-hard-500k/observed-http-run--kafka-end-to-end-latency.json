@@ -1,0 +1,6025 @@
+{
+  "campaignId": "hard-http-20260731-0805",
+  "kind": "flowplane-benchmark-kafka-end-to-end-latency",
+  "latencyMillis": {
+    "max": 3086,
+    "min": 4,
+    "p50": 14,
+    "p95": 26,
+    "p99": 54
+  },
+  "measurement": "raw Kafka record timestamp to runtime-derived output Kafka record timestamp",
+  "negativeLatencyCount": 0,
+  "outcome": "OBSERVED",
+  "runtimeType": "HTTP",
+  "sampleCountMatched": 1000,
+  "sampleCountMissing": 0,
+  "sampleCountRequested": 1000,
+  "samples": [
+    {
+      "latencyMillis": 56,
+      "outputTimestampEpochMs": 1785486077721,
+      "rawTimestampEpochMs": 1785486077665,
+      "sequence": 0
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486080269,
+      "rawTimestampEpochMs": 1785486080262,
+      "sequence": 500
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486083386,
+      "rawTimestampEpochMs": 1785486083379,
+      "sequence": 1000
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486086176,
+      "rawTimestampEpochMs": 1785486086166,
+      "sequence": 1501
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486089113,
+      "rawTimestampEpochMs": 1785486089108,
+      "sequence": 2001
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486091593,
+      "rawTimestampEpochMs": 1785486091588,
+      "sequence": 2502
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486094449,
+      "rawTimestampEpochMs": 1785486094442,
+      "sequence": 3002
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486100536,
+      "rawTimestampEpochMs": 1785486100526,
+      "sequence": 3503
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486103200,
+      "rawTimestampEpochMs": 1785486103186,
+      "sequence": 4003
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486105772,
+      "rawTimestampEpochMs": 1785486105767,
+      "sequence": 4504
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486108069,
+      "rawTimestampEpochMs": 1785486108056,
+      "sequence": 5004
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486110712,
+      "rawTimestampEpochMs": 1785486110705,
+      "sequence": 5505
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486113637,
+      "rawTimestampEpochMs": 1785486113623,
+      "sequence": 6005
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785486116753,
+      "rawTimestampEpochMs": 1785486116734,
+      "sequence": 6506
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486119474,
+      "rawTimestampEpochMs": 1785486119461,
+      "sequence": 7006
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486122154,
+      "rawTimestampEpochMs": 1785486122145,
+      "sequence": 7507
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486124756,
+      "rawTimestampEpochMs": 1785486124741,
+      "sequence": 8007
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785486127427,
+      "rawTimestampEpochMs": 1785486127407,
+      "sequence": 8508
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486133499,
+      "rawTimestampEpochMs": 1785486133486,
+      "sequence": 9008
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486135874,
+      "rawTimestampEpochMs": 1785486135861,
+      "sequence": 9509
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486138276,
+      "rawTimestampEpochMs": 1785486138266,
+      "sequence": 10009
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486140791,
+      "rawTimestampEpochMs": 1785486140775,
+      "sequence": 10510
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486143632,
+      "rawTimestampEpochMs": 1785486143618,
+      "sequence": 11010
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486146501,
+      "rawTimestampEpochMs": 1785486146490,
+      "sequence": 11511
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486149332,
+      "rawTimestampEpochMs": 1785486149318,
+      "sequence": 12011
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486152044,
+      "rawTimestampEpochMs": 1785486152038,
+      "sequence": 12512
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486154805,
+      "rawTimestampEpochMs": 1785486154795,
+      "sequence": 13012
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785486157601,
+      "rawTimestampEpochMs": 1785486157584,
+      "sequence": 13513
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486160506,
+      "rawTimestampEpochMs": 1785486160499,
+      "sequence": 14013
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486166892,
+      "rawTimestampEpochMs": 1785486166877,
+      "sequence": 14514
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486169827,
+      "rawTimestampEpochMs": 1785486169811,
+      "sequence": 15014
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486172686,
+      "rawTimestampEpochMs": 1785486172671,
+      "sequence": 15515
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486175760,
+      "rawTimestampEpochMs": 1785486175746,
+      "sequence": 16015
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486178731,
+      "rawTimestampEpochMs": 1785486178726,
+      "sequence": 16516
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486181349,
+      "rawTimestampEpochMs": 1785486181335,
+      "sequence": 17016
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486183997,
+      "rawTimestampEpochMs": 1785486183984,
+      "sequence": 17517
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486187029,
+      "rawTimestampEpochMs": 1785486187021,
+      "sequence": 18017
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785486189179,
+      "rawTimestampEpochMs": 1785486189162,
+      "sequence": 18518
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486191429,
+      "rawTimestampEpochMs": 1785486191421,
+      "sequence": 19018
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486193988,
+      "rawTimestampEpochMs": 1785486193979,
+      "sequence": 19519
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486200386,
+      "rawTimestampEpochMs": 1785486200371,
+      "sequence": 20019
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486203323,
+      "rawTimestampEpochMs": 1785486203314,
+      "sequence": 20520
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486206336,
+      "rawTimestampEpochMs": 1785486206325,
+      "sequence": 21020
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486208896,
+      "rawTimestampEpochMs": 1785486208891,
+      "sequence": 21521
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486211557,
+      "rawTimestampEpochMs": 1785486211546,
+      "sequence": 22021
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486214063,
+      "rawTimestampEpochMs": 1785486214050,
+      "sequence": 22522
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486216915,
+      "rawTimestampEpochMs": 1785486216902,
+      "sequence": 23022
+    },
+    {
+      "latencyMillis": 4,
+      "outputTimestampEpochMs": 1785486219542,
+      "rawTimestampEpochMs": 1785486219538,
+      "sequence": 23523
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486222358,
+      "rawTimestampEpochMs": 1785486222353,
+      "sequence": 24023
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486225230,
+      "rawTimestampEpochMs": 1785486225216,
+      "sequence": 24524
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486227971,
+      "rawTimestampEpochMs": 1785486227962,
+      "sequence": 25024
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486233748,
+      "rawTimestampEpochMs": 1785486233741,
+      "sequence": 25525
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486236698,
+      "rawTimestampEpochMs": 1785486236685,
+      "sequence": 26025
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486239758,
+      "rawTimestampEpochMs": 1785486239744,
+      "sequence": 26526
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486242383,
+      "rawTimestampEpochMs": 1785486242374,
+      "sequence": 27026
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486245107,
+      "rawTimestampEpochMs": 1785486245101,
+      "sequence": 27527
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486247904,
+      "rawTimestampEpochMs": 1785486247896,
+      "sequence": 28027
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486250671,
+      "rawTimestampEpochMs": 1785486250663,
+      "sequence": 28528
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486253341,
+      "rawTimestampEpochMs": 1785486253332,
+      "sequence": 29028
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486255924,
+      "rawTimestampEpochMs": 1785486255910,
+      "sequence": 29529
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486258892,
+      "rawTimestampEpochMs": 1785486258877,
+      "sequence": 30029
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486261903,
+      "rawTimestampEpochMs": 1785486261896,
+      "sequence": 30530
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486268321,
+      "rawTimestampEpochMs": 1785486268307,
+      "sequence": 31030
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486271083,
+      "rawTimestampEpochMs": 1785486271077,
+      "sequence": 31531
+    },
+    {
+      "latencyMillis": 26,
+      "outputTimestampEpochMs": 1785486273737,
+      "rawTimestampEpochMs": 1785486273711,
+      "sequence": 32031
+    },
+    {
+      "latencyMillis": 32,
+      "outputTimestampEpochMs": 1785486276674,
+      "rawTimestampEpochMs": 1785486276642,
+      "sequence": 32532
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486279425,
+      "rawTimestampEpochMs": 1785486279419,
+      "sequence": 33032
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486282135,
+      "rawTimestampEpochMs": 1785486282123,
+      "sequence": 33533
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486284755,
+      "rawTimestampEpochMs": 1785486284745,
+      "sequence": 34033
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486287234,
+      "rawTimestampEpochMs": 1785486287227,
+      "sequence": 34534
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486289990,
+      "rawTimestampEpochMs": 1785486289983,
+      "sequence": 35034
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486292671,
+      "rawTimestampEpochMs": 1785486292658,
+      "sequence": 35535
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486299045,
+      "rawTimestampEpochMs": 1785486299039,
+      "sequence": 36035
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486301927,
+      "rawTimestampEpochMs": 1785486301919,
+      "sequence": 36536
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486304652,
+      "rawTimestampEpochMs": 1785486304642,
+      "sequence": 37036
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486307417,
+      "rawTimestampEpochMs": 1785486307404,
+      "sequence": 37537
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486310097,
+      "rawTimestampEpochMs": 1785486310081,
+      "sequence": 38037
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486312730,
+      "rawTimestampEpochMs": 1785486312722,
+      "sequence": 38538
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486315757,
+      "rawTimestampEpochMs": 1785486315752,
+      "sequence": 39038
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486318171,
+      "rawTimestampEpochMs": 1785486318160,
+      "sequence": 39539
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486320492,
+      "rawTimestampEpochMs": 1785486320478,
+      "sequence": 40039
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486323384,
+      "rawTimestampEpochMs": 1785486323371,
+      "sequence": 40540
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486326561,
+      "rawTimestampEpochMs": 1785486326546,
+      "sequence": 41040
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486332658,
+      "rawTimestampEpochMs": 1785486332647,
+      "sequence": 41541
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486334734,
+      "rawTimestampEpochMs": 1785486334721,
+      "sequence": 42041
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486337162,
+      "rawTimestampEpochMs": 1785486337148,
+      "sequence": 42542
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486340051,
+      "rawTimestampEpochMs": 1785486340037,
+      "sequence": 43042
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486342518,
+      "rawTimestampEpochMs": 1785486342506,
+      "sequence": 43543
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486344758,
+      "rawTimestampEpochMs": 1785486344744,
+      "sequence": 44043
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486347483,
+      "rawTimestampEpochMs": 1785486347477,
+      "sequence": 44544
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486350489,
+      "rawTimestampEpochMs": 1785486350481,
+      "sequence": 45044
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486353689,
+      "rawTimestampEpochMs": 1785486353675,
+      "sequence": 45545
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486356562,
+      "rawTimestampEpochMs": 1785486356553,
+      "sequence": 46045
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486359219,
+      "rawTimestampEpochMs": 1785486359206,
+      "sequence": 46546
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486362458,
+      "rawTimestampEpochMs": 1785486362444,
+      "sequence": 47046
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486368426,
+      "rawTimestampEpochMs": 1785486368410,
+      "sequence": 47547
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486371266,
+      "rawTimestampEpochMs": 1785486371261,
+      "sequence": 48047
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486374277,
+      "rawTimestampEpochMs": 1785486374271,
+      "sequence": 48548
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486377375,
+      "rawTimestampEpochMs": 1785486377361,
+      "sequence": 49048
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486380023,
+      "rawTimestampEpochMs": 1785486380011,
+      "sequence": 49549
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486382574,
+      "rawTimestampEpochMs": 1785486382560,
+      "sequence": 50049
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486385269,
+      "rawTimestampEpochMs": 1785486385256,
+      "sequence": 50550
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486388346,
+      "rawTimestampEpochMs": 1785486388335,
+      "sequence": 51050
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486390353,
+      "rawTimestampEpochMs": 1785486390342,
+      "sequence": 51551
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486392422,
+      "rawTimestampEpochMs": 1785486392409,
+      "sequence": 52051
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486394506,
+      "rawTimestampEpochMs": 1785486394499,
+      "sequence": 52552
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486400111,
+      "rawTimestampEpochMs": 1785486400102,
+      "sequence": 53052
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486402099,
+      "rawTimestampEpochMs": 1785486402085,
+      "sequence": 53553
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486403949,
+      "rawTimestampEpochMs": 1785486403935,
+      "sequence": 54053
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486405398,
+      "rawTimestampEpochMs": 1785486405382,
+      "sequence": 54554
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785486407131,
+      "rawTimestampEpochMs": 1785486407114,
+      "sequence": 55054
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486408688,
+      "rawTimestampEpochMs": 1785486408674,
+      "sequence": 55555
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486410437,
+      "rawTimestampEpochMs": 1785486410425,
+      "sequence": 56055
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486411973,
+      "rawTimestampEpochMs": 1785486411960,
+      "sequence": 56556
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486413453,
+      "rawTimestampEpochMs": 1785486413448,
+      "sequence": 57056
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486414954,
+      "rawTimestampEpochMs": 1785486414942,
+      "sequence": 57557
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486416464,
+      "rawTimestampEpochMs": 1785486416455,
+      "sequence": 58057
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486418619,
+      "rawTimestampEpochMs": 1785486418607,
+      "sequence": 58558
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486420425,
+      "rawTimestampEpochMs": 1785486420409,
+      "sequence": 59058
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486422130,
+      "rawTimestampEpochMs": 1785486422121,
+      "sequence": 59559
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486424427,
+      "rawTimestampEpochMs": 1785486424413,
+      "sequence": 60059
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785486426358,
+      "rawTimestampEpochMs": 1785486426334,
+      "sequence": 60560
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486427927,
+      "rawTimestampEpochMs": 1785486427914,
+      "sequence": 61060
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486433480,
+      "rawTimestampEpochMs": 1785486433464,
+      "sequence": 61561
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486435502,
+      "rawTimestampEpochMs": 1785486435490,
+      "sequence": 62061
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785486437116,
+      "rawTimestampEpochMs": 1785486437098,
+      "sequence": 62562
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486438663,
+      "rawTimestampEpochMs": 1785486438652,
+      "sequence": 63062
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486440871,
+      "rawTimestampEpochMs": 1785486440859,
+      "sequence": 63563
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486443151,
+      "rawTimestampEpochMs": 1785486443135,
+      "sequence": 64063
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486445129,
+      "rawTimestampEpochMs": 1785486445117,
+      "sequence": 64564
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785486446932,
+      "rawTimestampEpochMs": 1785486446914,
+      "sequence": 65064
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486448686,
+      "rawTimestampEpochMs": 1785486448670,
+      "sequence": 65565
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486450230,
+      "rawTimestampEpochMs": 1785486450223,
+      "sequence": 66065
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486452134,
+      "rawTimestampEpochMs": 1785486452125,
+      "sequence": 66566
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785486454084,
+      "rawTimestampEpochMs": 1785486454065,
+      "sequence": 67066
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486455834,
+      "rawTimestampEpochMs": 1785486455821,
+      "sequence": 67567
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486457388,
+      "rawTimestampEpochMs": 1785486457374,
+      "sequence": 68067
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486458971,
+      "rawTimestampEpochMs": 1785486458960,
+      "sequence": 68568
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486460519,
+      "rawTimestampEpochMs": 1785486460503,
+      "sequence": 69068
+    },
+    {
+      "latencyMillis": 3086,
+      "outputTimestampEpochMs": 1785486465487,
+      "rawTimestampEpochMs": 1785486462401,
+      "sequence": 69569
+    },
+    {
+      "latencyMillis": 846,
+      "outputTimestampEpochMs": 1785486467966,
+      "rawTimestampEpochMs": 1785486467120,
+      "sequence": 70069
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486469287,
+      "rawTimestampEpochMs": 1785486469274,
+      "sequence": 70570
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785486471309,
+      "rawTimestampEpochMs": 1785486471287,
+      "sequence": 71070
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486472849,
+      "rawTimestampEpochMs": 1785486472843,
+      "sequence": 71571
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486474365,
+      "rawTimestampEpochMs": 1785486474354,
+      "sequence": 72071
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486476080,
+      "rawTimestampEpochMs": 1785486476070,
+      "sequence": 72572
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486478075,
+      "rawTimestampEpochMs": 1785486478067,
+      "sequence": 73072
+    },
+    {
+      "latencyMillis": 300,
+      "outputTimestampEpochMs": 1785486480834,
+      "rawTimestampEpochMs": 1785486480534,
+      "sequence": 73573
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486483327,
+      "rawTimestampEpochMs": 1785486483311,
+      "sequence": 74073
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785486486794,
+      "rawTimestampEpochMs": 1785486486773,
+      "sequence": 74574
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486489462,
+      "rawTimestampEpochMs": 1785486489450,
+      "sequence": 75074
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486491569,
+      "rawTimestampEpochMs": 1785486491556,
+      "sequence": 75575
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486493426,
+      "rawTimestampEpochMs": 1785486493410,
+      "sequence": 76075
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785486495208,
+      "rawTimestampEpochMs": 1785486495189,
+      "sequence": 76576
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785486500324,
+      "rawTimestampEpochMs": 1785486500307,
+      "sequence": 77076
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785486502122,
+      "rawTimestampEpochMs": 1785486502104,
+      "sequence": 77577
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785486503738,
+      "rawTimestampEpochMs": 1785486503719,
+      "sequence": 78077
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486505465,
+      "rawTimestampEpochMs": 1785486505454,
+      "sequence": 78578
+    },
+    {
+      "latencyMillis": 32,
+      "outputTimestampEpochMs": 1785486507282,
+      "rawTimestampEpochMs": 1785486507250,
+      "sequence": 79078
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785486509125,
+      "rawTimestampEpochMs": 1785486509108,
+      "sequence": 79579
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486510835,
+      "rawTimestampEpochMs": 1785486510820,
+      "sequence": 80079
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486513111,
+      "rawTimestampEpochMs": 1785486513096,
+      "sequence": 80580
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486515024,
+      "rawTimestampEpochMs": 1785486515010,
+      "sequence": 81080
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486516929,
+      "rawTimestampEpochMs": 1785486516919,
+      "sequence": 81581
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486518795,
+      "rawTimestampEpochMs": 1785486518783,
+      "sequence": 82081
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486520870,
+      "rawTimestampEpochMs": 1785486520854,
+      "sequence": 82582
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486522711,
+      "rawTimestampEpochMs": 1785486522701,
+      "sequence": 83082
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785486524241,
+      "rawTimestampEpochMs": 1785486524218,
+      "sequence": 83583
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486525870,
+      "rawTimestampEpochMs": 1785486525862,
+      "sequence": 84083
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486528178,
+      "rawTimestampEpochMs": 1785486528168,
+      "sequence": 84584
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486533990,
+      "rawTimestampEpochMs": 1785486533975,
+      "sequence": 85084
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486536432,
+      "rawTimestampEpochMs": 1785486536425,
+      "sequence": 85585
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486538691,
+      "rawTimestampEpochMs": 1785486538675,
+      "sequence": 86085
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486540973,
+      "rawTimestampEpochMs": 1785486540958,
+      "sequence": 86586
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486543252,
+      "rawTimestampEpochMs": 1785486543242,
+      "sequence": 87086
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785486545644,
+      "rawTimestampEpochMs": 1785486545624,
+      "sequence": 87587
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486548110,
+      "rawTimestampEpochMs": 1785486548095,
+      "sequence": 88087
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486550919,
+      "rawTimestampEpochMs": 1785486550904,
+      "sequence": 88588
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486553446,
+      "rawTimestampEpochMs": 1785486553432,
+      "sequence": 89088
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486556098,
+      "rawTimestampEpochMs": 1785486556090,
+      "sequence": 89589
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486558566,
+      "rawTimestampEpochMs": 1785486558550,
+      "sequence": 90089
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486561060,
+      "rawTimestampEpochMs": 1785486561053,
+      "sequence": 90590
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486567206,
+      "rawTimestampEpochMs": 1785486567197,
+      "sequence": 91090
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486569545,
+      "rawTimestampEpochMs": 1785486569539,
+      "sequence": 91591
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785486571560,
+      "rawTimestampEpochMs": 1785486571543,
+      "sequence": 92091
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486573578,
+      "rawTimestampEpochMs": 1785486573567,
+      "sequence": 92592
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486575583,
+      "rawTimestampEpochMs": 1785486575578,
+      "sequence": 93092
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486577908,
+      "rawTimestampEpochMs": 1785486577902,
+      "sequence": 93593
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486580022,
+      "rawTimestampEpochMs": 1785486580016,
+      "sequence": 94093
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785486582079,
+      "rawTimestampEpochMs": 1785486582058,
+      "sequence": 94594
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785486583985,
+      "rawTimestampEpochMs": 1785486583966,
+      "sequence": 95094
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785486585632,
+      "rawTimestampEpochMs": 1785486585608,
+      "sequence": 95595
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486587530,
+      "rawTimestampEpochMs": 1785486587514,
+      "sequence": 96095
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785486589304,
+      "rawTimestampEpochMs": 1785486589280,
+      "sequence": 96596
+    },
+    {
+      "latencyMillis": 42,
+      "outputTimestampEpochMs": 1785486591063,
+      "rawTimestampEpochMs": 1785486591021,
+      "sequence": 97096
+    },
+    {
+      "latencyMillis": 4,
+      "outputTimestampEpochMs": 1785486592899,
+      "rawTimestampEpochMs": 1785486592895,
+      "sequence": 97597
+    },
+    {
+      "latencyMillis": 54,
+      "outputTimestampEpochMs": 1785486594665,
+      "rawTimestampEpochMs": 1785486594611,
+      "sequence": 98097
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486600079,
+      "rawTimestampEpochMs": 1785486600068,
+      "sequence": 98598
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486602607,
+      "rawTimestampEpochMs": 1785486602591,
+      "sequence": 99098
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486604978,
+      "rawTimestampEpochMs": 1785486604972,
+      "sequence": 99599
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486607193,
+      "rawTimestampEpochMs": 1785486607179,
+      "sequence": 100099
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486609720,
+      "rawTimestampEpochMs": 1785486609708,
+      "sequence": 100600
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486612000,
+      "rawTimestampEpochMs": 1785486611990,
+      "sequence": 101100
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486614198,
+      "rawTimestampEpochMs": 1785486614193,
+      "sequence": 101601
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486616638,
+      "rawTimestampEpochMs": 1785486616631,
+      "sequence": 102101
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486618562,
+      "rawTimestampEpochMs": 1785486618557,
+      "sequence": 102602
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486620514,
+      "rawTimestampEpochMs": 1785486620508,
+      "sequence": 103102
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486622500,
+      "rawTimestampEpochMs": 1785486622487,
+      "sequence": 103603
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486625328,
+      "rawTimestampEpochMs": 1785486625316,
+      "sequence": 104103
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785486627432,
+      "rawTimestampEpochMs": 1785486627413,
+      "sequence": 104604
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486632939,
+      "rawTimestampEpochMs": 1785486632928,
+      "sequence": 105104
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486636551,
+      "rawTimestampEpochMs": 1785486636544,
+      "sequence": 105605
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486638908,
+      "rawTimestampEpochMs": 1785486638896,
+      "sequence": 106105
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486641311,
+      "rawTimestampEpochMs": 1785486641302,
+      "sequence": 106606
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785486643710,
+      "rawTimestampEpochMs": 1785486643687,
+      "sequence": 107106
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486646422,
+      "rawTimestampEpochMs": 1785486646414,
+      "sequence": 107607
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486648446,
+      "rawTimestampEpochMs": 1785486648438,
+      "sequence": 108107
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486650632,
+      "rawTimestampEpochMs": 1785486650625,
+      "sequence": 108608
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486653198,
+      "rawTimestampEpochMs": 1785486653184,
+      "sequence": 109108
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486656036,
+      "rawTimestampEpochMs": 1785486656022,
+      "sequence": 109609
+    },
+    {
+      "latencyMillis": 28,
+      "outputTimestampEpochMs": 1785486658890,
+      "rawTimestampEpochMs": 1785486658862,
+      "sequence": 110109
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486661004,
+      "rawTimestampEpochMs": 1785486660995,
+      "sequence": 110610
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486666788,
+      "rawTimestampEpochMs": 1785486666778,
+      "sequence": 111110
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486669635,
+      "rawTimestampEpochMs": 1785486669629,
+      "sequence": 111611
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486672326,
+      "rawTimestampEpochMs": 1785486672318,
+      "sequence": 112111
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486674638,
+      "rawTimestampEpochMs": 1785486674623,
+      "sequence": 112612
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486677537,
+      "rawTimestampEpochMs": 1785486677530,
+      "sequence": 113112
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486680327,
+      "rawTimestampEpochMs": 1785486680314,
+      "sequence": 113613
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785486682438,
+      "rawTimestampEpochMs": 1785486682415,
+      "sequence": 114113
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486684586,
+      "rawTimestampEpochMs": 1785486684578,
+      "sequence": 114614
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486687170,
+      "rawTimestampEpochMs": 1785486687157,
+      "sequence": 115114
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486689698,
+      "rawTimestampEpochMs": 1785486689690,
+      "sequence": 115615
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486691817,
+      "rawTimestampEpochMs": 1785486691810,
+      "sequence": 116115
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486694507,
+      "rawTimestampEpochMs": 1785486694492,
+      "sequence": 116616
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486700348,
+      "rawTimestampEpochMs": 1785486700340,
+      "sequence": 117116
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486702785,
+      "rawTimestampEpochMs": 1785486702775,
+      "sequence": 117617
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486705550,
+      "rawTimestampEpochMs": 1785486705536,
+      "sequence": 118117
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486708555,
+      "rawTimestampEpochMs": 1785486708544,
+      "sequence": 118618
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486711043,
+      "rawTimestampEpochMs": 1785486711030,
+      "sequence": 119118
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486713121,
+      "rawTimestampEpochMs": 1785486713112,
+      "sequence": 119619
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486715435,
+      "rawTimestampEpochMs": 1785486715426,
+      "sequence": 120119
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486718505,
+      "rawTimestampEpochMs": 1785486718497,
+      "sequence": 120620
+    },
+    {
+      "latencyMillis": 41,
+      "outputTimestampEpochMs": 1785486721270,
+      "rawTimestampEpochMs": 1785486721229,
+      "sequence": 121120
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486723088,
+      "rawTimestampEpochMs": 1785486723072,
+      "sequence": 121621
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486725560,
+      "rawTimestampEpochMs": 1785486725546,
+      "sequence": 122121
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486728323,
+      "rawTimestampEpochMs": 1785486728316,
+      "sequence": 122622
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486734441,
+      "rawTimestampEpochMs": 1785486734426,
+      "sequence": 123122
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486736926,
+      "rawTimestampEpochMs": 1785486736915,
+      "sequence": 123623
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486739738,
+      "rawTimestampEpochMs": 1785486739724,
+      "sequence": 124123
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486742518,
+      "rawTimestampEpochMs": 1785486742505,
+      "sequence": 124624
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486745310,
+      "rawTimestampEpochMs": 1785486745302,
+      "sequence": 125124
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486747989,
+      "rawTimestampEpochMs": 1785486747980,
+      "sequence": 125625
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486750285,
+      "rawTimestampEpochMs": 1785486750280,
+      "sequence": 126125
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486752537,
+      "rawTimestampEpochMs": 1785486752524,
+      "sequence": 126626
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486755485,
+      "rawTimestampEpochMs": 1785486755471,
+      "sequence": 127126
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486758348,
+      "rawTimestampEpochMs": 1785486758343,
+      "sequence": 127627
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486760443,
+      "rawTimestampEpochMs": 1785486760436,
+      "sequence": 128127
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486766696,
+      "rawTimestampEpochMs": 1785486766686,
+      "sequence": 128628
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486768962,
+      "rawTimestampEpochMs": 1785486768955,
+      "sequence": 129128
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486771611,
+      "rawTimestampEpochMs": 1785486771603,
+      "sequence": 129629
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486774206,
+      "rawTimestampEpochMs": 1785486774195,
+      "sequence": 130129
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486776374,
+      "rawTimestampEpochMs": 1785486776360,
+      "sequence": 130630
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486778705,
+      "rawTimestampEpochMs": 1785486778697,
+      "sequence": 131130
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486781273,
+      "rawTimestampEpochMs": 1785486781260,
+      "sequence": 131631
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486783891,
+      "rawTimestampEpochMs": 1785486783878,
+      "sequence": 132131
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486786115,
+      "rawTimestampEpochMs": 1785486786108,
+      "sequence": 132632
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486788560,
+      "rawTimestampEpochMs": 1785486788553,
+      "sequence": 133132
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486791366,
+      "rawTimestampEpochMs": 1785486791357,
+      "sequence": 133633
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486793997,
+      "rawTimestampEpochMs": 1785486793988,
+      "sequence": 134133
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486799229,
+      "rawTimestampEpochMs": 1785486799215,
+      "sequence": 134634
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486801539,
+      "rawTimestampEpochMs": 1785486801526,
+      "sequence": 135134
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486804323,
+      "rawTimestampEpochMs": 1785486804309,
+      "sequence": 135635
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486807045,
+      "rawTimestampEpochMs": 1785486807031,
+      "sequence": 136135
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486809769,
+      "rawTimestampEpochMs": 1785486809760,
+      "sequence": 136636
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486811894,
+      "rawTimestampEpochMs": 1785486811881,
+      "sequence": 137136
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486814162,
+      "rawTimestampEpochMs": 1785486814152,
+      "sequence": 137637
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486816921,
+      "rawTimestampEpochMs": 1785486816909,
+      "sequence": 138137
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785486819143,
+      "rawTimestampEpochMs": 1785486819122,
+      "sequence": 138638
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486821843,
+      "rawTimestampEpochMs": 1785486821829,
+      "sequence": 139138
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486824240,
+      "rawTimestampEpochMs": 1785486824226,
+      "sequence": 139639
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486826820,
+      "rawTimestampEpochMs": 1785486826815,
+      "sequence": 140139
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486832700,
+      "rawTimestampEpochMs": 1785486832689,
+      "sequence": 140640
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486835565,
+      "rawTimestampEpochMs": 1785486835559,
+      "sequence": 141140
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486837897,
+      "rawTimestampEpochMs": 1785486837881,
+      "sequence": 141641
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486839872,
+      "rawTimestampEpochMs": 1785486839866,
+      "sequence": 142141
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486842294,
+      "rawTimestampEpochMs": 1785486842280,
+      "sequence": 142642
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486844388,
+      "rawTimestampEpochMs": 1785486844376,
+      "sequence": 143142
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486846979,
+      "rawTimestampEpochMs": 1785486846968,
+      "sequence": 143643
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486849536,
+      "rawTimestampEpochMs": 1785486849523,
+      "sequence": 144143
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486852578,
+      "rawTimestampEpochMs": 1785486852566,
+      "sequence": 144644
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486854629,
+      "rawTimestampEpochMs": 1785486854616,
+      "sequence": 145144
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486856526,
+      "rawTimestampEpochMs": 1785486856514,
+      "sequence": 145645
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486858851,
+      "rawTimestampEpochMs": 1785486858837,
+      "sequence": 146145
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486861226,
+      "rawTimestampEpochMs": 1785486861219,
+      "sequence": 146646
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785486867533,
+      "rawTimestampEpochMs": 1785486867520,
+      "sequence": 147146
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486870908,
+      "rawTimestampEpochMs": 1785486870892,
+      "sequence": 147647
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486873072,
+      "rawTimestampEpochMs": 1785486873057,
+      "sequence": 148147
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486875221,
+      "rawTimestampEpochMs": 1785486875207,
+      "sequence": 148648
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486878078,
+      "rawTimestampEpochMs": 1785486878070,
+      "sequence": 149148
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486880820,
+      "rawTimestampEpochMs": 1785486880814,
+      "sequence": 149649
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486883527,
+      "rawTimestampEpochMs": 1785486883512,
+      "sequence": 150149
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486885728,
+      "rawTimestampEpochMs": 1785486885716,
+      "sequence": 150650
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486887789,
+      "rawTimestampEpochMs": 1785486887784,
+      "sequence": 151150
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785486889847,
+      "rawTimestampEpochMs": 1785486889841,
+      "sequence": 151651
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486892403,
+      "rawTimestampEpochMs": 1785486892394,
+      "sequence": 152151
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486895077,
+      "rawTimestampEpochMs": 1785486895065,
+      "sequence": 152652
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486900637,
+      "rawTimestampEpochMs": 1785486900626,
+      "sequence": 153152
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486903205,
+      "rawTimestampEpochMs": 1785486903190,
+      "sequence": 153653
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486905309,
+      "rawTimestampEpochMs": 1785486905293,
+      "sequence": 154153
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486907183,
+      "rawTimestampEpochMs": 1785486907167,
+      "sequence": 154654
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486909329,
+      "rawTimestampEpochMs": 1785486909315,
+      "sequence": 155154
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486911611,
+      "rawTimestampEpochMs": 1785486911597,
+      "sequence": 155655
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486913628,
+      "rawTimestampEpochMs": 1785486913614,
+      "sequence": 156155
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785486916170,
+      "rawTimestampEpochMs": 1785486916148,
+      "sequence": 156656
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785486919138,
+      "rawTimestampEpochMs": 1785486919115,
+      "sequence": 157156
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486921576,
+      "rawTimestampEpochMs": 1785486921567,
+      "sequence": 157657
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486923896,
+      "rawTimestampEpochMs": 1785486923881,
+      "sequence": 158157
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486925895,
+      "rawTimestampEpochMs": 1785486925879,
+      "sequence": 158658
+    },
+    {
+      "latencyMillis": 31,
+      "outputTimestampEpochMs": 1785486927946,
+      "rawTimestampEpochMs": 1785486927915,
+      "sequence": 159158
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486933569,
+      "rawTimestampEpochMs": 1785486933554,
+      "sequence": 159659
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486935896,
+      "rawTimestampEpochMs": 1785486935882,
+      "sequence": 160159
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486938746,
+      "rawTimestampEpochMs": 1785486938738,
+      "sequence": 160660
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486941371,
+      "rawTimestampEpochMs": 1785486941363,
+      "sequence": 161160
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785486944096,
+      "rawTimestampEpochMs": 1785486944088,
+      "sequence": 161661
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785486946741,
+      "rawTimestampEpochMs": 1785486946732,
+      "sequence": 162161
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486949350,
+      "rawTimestampEpochMs": 1785486949334,
+      "sequence": 162662
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486951868,
+      "rawTimestampEpochMs": 1785486951858,
+      "sequence": 163162
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486954139,
+      "rawTimestampEpochMs": 1785486954127,
+      "sequence": 163663
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486955923,
+      "rawTimestampEpochMs": 1785486955911,
+      "sequence": 164163
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486958103,
+      "rawTimestampEpochMs": 1785486958089,
+      "sequence": 164664
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486960274,
+      "rawTimestampEpochMs": 1785486960262,
+      "sequence": 165164
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785486965934,
+      "rawTimestampEpochMs": 1785486965929,
+      "sequence": 165665
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785486968911,
+      "rawTimestampEpochMs": 1785486968897,
+      "sequence": 166165
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785486971530,
+      "rawTimestampEpochMs": 1785486971519,
+      "sequence": 166666
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486973584,
+      "rawTimestampEpochMs": 1785486973568,
+      "sequence": 167166
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785486975725,
+      "rawTimestampEpochMs": 1785486975706,
+      "sequence": 167667
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785486977727,
+      "rawTimestampEpochMs": 1785486977711,
+      "sequence": 168167
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785486979950,
+      "rawTimestampEpochMs": 1785486979940,
+      "sequence": 168668
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486982919,
+      "rawTimestampEpochMs": 1785486982904,
+      "sequence": 169168
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785486985785,
+      "rawTimestampEpochMs": 1785486985766,
+      "sequence": 169669
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785486987700,
+      "rawTimestampEpochMs": 1785486987693,
+      "sequence": 170169
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785486989695,
+      "rawTimestampEpochMs": 1785486989676,
+      "sequence": 170670
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785486991887,
+      "rawTimestampEpochMs": 1785486991872,
+      "sequence": 171170
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785486994589,
+      "rawTimestampEpochMs": 1785486994577,
+      "sequence": 171671
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487000587,
+      "rawTimestampEpochMs": 1785487000572,
+      "sequence": 172171
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487003018,
+      "rawTimestampEpochMs": 1785487003004,
+      "sequence": 172672
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487005903,
+      "rawTimestampEpochMs": 1785487005894,
+      "sequence": 173172
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487008423,
+      "rawTimestampEpochMs": 1785487008417,
+      "sequence": 173673
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487010851,
+      "rawTimestampEpochMs": 1785487010837,
+      "sequence": 174173
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487013310,
+      "rawTimestampEpochMs": 1785487013301,
+      "sequence": 174674
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487016083,
+      "rawTimestampEpochMs": 1785487016076,
+      "sequence": 175174
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487019010,
+      "rawTimestampEpochMs": 1785487019001,
+      "sequence": 175675
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487021422,
+      "rawTimestampEpochMs": 1785487021415,
+      "sequence": 176175
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487023533,
+      "rawTimestampEpochMs": 1785487023523,
+      "sequence": 176676
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487025846,
+      "rawTimestampEpochMs": 1785487025837,
+      "sequence": 177176
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487028593,
+      "rawTimestampEpochMs": 1785487028586,
+      "sequence": 177677
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487034822,
+      "rawTimestampEpochMs": 1785487034806,
+      "sequence": 178177
+    },
+    {
+      "latencyMillis": 26,
+      "outputTimestampEpochMs": 1785487037422,
+      "rawTimestampEpochMs": 1785487037396,
+      "sequence": 178678
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487039475,
+      "rawTimestampEpochMs": 1785487039458,
+      "sequence": 179178
+    },
+    {
+      "latencyMillis": 4,
+      "outputTimestampEpochMs": 1785487041824,
+      "rawTimestampEpochMs": 1785487041820,
+      "sequence": 179679
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487044704,
+      "rawTimestampEpochMs": 1785487044690,
+      "sequence": 180179
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487047325,
+      "rawTimestampEpochMs": 1785487047311,
+      "sequence": 180680
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487049801,
+      "rawTimestampEpochMs": 1785487049796,
+      "sequence": 181180
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487052060,
+      "rawTimestampEpochMs": 1785487052051,
+      "sequence": 181681
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487054741,
+      "rawTimestampEpochMs": 1785487054732,
+      "sequence": 182181
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487057781,
+      "rawTimestampEpochMs": 1785487057766,
+      "sequence": 182682
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487060314,
+      "rawTimestampEpochMs": 1785487060309,
+      "sequence": 183182
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487066056,
+      "rawTimestampEpochMs": 1785487066047,
+      "sequence": 183683
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487068747,
+      "rawTimestampEpochMs": 1785487068735,
+      "sequence": 184183
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487071061,
+      "rawTimestampEpochMs": 1785487071052,
+      "sequence": 184684
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487073149,
+      "rawTimestampEpochMs": 1785487073138,
+      "sequence": 185184
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487075193,
+      "rawTimestampEpochMs": 1785487075182,
+      "sequence": 185685
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487077809,
+      "rawTimestampEpochMs": 1785487077804,
+      "sequence": 186185
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487080452,
+      "rawTimestampEpochMs": 1785487080441,
+      "sequence": 186686
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487082942,
+      "rawTimestampEpochMs": 1785487082935,
+      "sequence": 187186
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487085649,
+      "rawTimestampEpochMs": 1785487085644,
+      "sequence": 187687
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487088154,
+      "rawTimestampEpochMs": 1785487088140,
+      "sequence": 188187
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487090712,
+      "rawTimestampEpochMs": 1785487090704,
+      "sequence": 188688
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487093426,
+      "rawTimestampEpochMs": 1785487093412,
+      "sequence": 189188
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487099213,
+      "rawTimestampEpochMs": 1785487099199,
+      "sequence": 189689
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487101445,
+      "rawTimestampEpochMs": 1785487101431,
+      "sequence": 190189
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487103563,
+      "rawTimestampEpochMs": 1785487103549,
+      "sequence": 190690
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487106104,
+      "rawTimestampEpochMs": 1785487106090,
+      "sequence": 191190
+    },
+    {
+      "latencyMillis": 4,
+      "outputTimestampEpochMs": 1785487109023,
+      "rawTimestampEpochMs": 1785487109019,
+      "sequence": 191691
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487111446,
+      "rawTimestampEpochMs": 1785487111436,
+      "sequence": 192191
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487113701,
+      "rawTimestampEpochMs": 1785487113687,
+      "sequence": 192692
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487116052,
+      "rawTimestampEpochMs": 1785487116044,
+      "sequence": 193192
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487118576,
+      "rawTimestampEpochMs": 1785487118566,
+      "sequence": 193693
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487121205,
+      "rawTimestampEpochMs": 1785487121190,
+      "sequence": 194193
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487123646,
+      "rawTimestampEpochMs": 1785487123641,
+      "sequence": 194694
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487126105,
+      "rawTimestampEpochMs": 1785487126093,
+      "sequence": 195194
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487128634,
+      "rawTimestampEpochMs": 1785487128624,
+      "sequence": 195695
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487134569,
+      "rawTimestampEpochMs": 1785487134563,
+      "sequence": 196195
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487137108,
+      "rawTimestampEpochMs": 1785487137101,
+      "sequence": 196696
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487140019,
+      "rawTimestampEpochMs": 1785487140008,
+      "sequence": 197196
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487142345,
+      "rawTimestampEpochMs": 1785487142332,
+      "sequence": 197697
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487144665,
+      "rawTimestampEpochMs": 1785487144655,
+      "sequence": 198197
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487147398,
+      "rawTimestampEpochMs": 1785487147384,
+      "sequence": 198698
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487149614,
+      "rawTimestampEpochMs": 1785487149598,
+      "sequence": 199198
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487151407,
+      "rawTimestampEpochMs": 1785487151392,
+      "sequence": 199699
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487153231,
+      "rawTimestampEpochMs": 1785487153218,
+      "sequence": 200199
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487155135,
+      "rawTimestampEpochMs": 1785487155120,
+      "sequence": 200700
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487157022,
+      "rawTimestampEpochMs": 1785487157007,
+      "sequence": 201200
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487159104,
+      "rawTimestampEpochMs": 1785487159095,
+      "sequence": 201701
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487161741,
+      "rawTimestampEpochMs": 1785487161736,
+      "sequence": 202201
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487164595,
+      "rawTimestampEpochMs": 1785487164578,
+      "sequence": 202702
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487166829,
+      "rawTimestampEpochMs": 1785487166821,
+      "sequence": 203202
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487169223,
+      "rawTimestampEpochMs": 1785487169208,
+      "sequence": 203703
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487171459,
+      "rawTimestampEpochMs": 1785487171445,
+      "sequence": 204203
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487173915,
+      "rawTimestampEpochMs": 1785487173906,
+      "sequence": 204704
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487176871,
+      "rawTimestampEpochMs": 1785487176863,
+      "sequence": 205204
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487183916,
+      "rawTimestampEpochMs": 1785487183901,
+      "sequence": 205705
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487186000,
+      "rawTimestampEpochMs": 1785487185995,
+      "sequence": 206205
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487188547,
+      "rawTimestampEpochMs": 1785487188532,
+      "sequence": 206706
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487191379,
+      "rawTimestampEpochMs": 1785487191371,
+      "sequence": 207206
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487194282,
+      "rawTimestampEpochMs": 1785487194271,
+      "sequence": 207707
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487196444,
+      "rawTimestampEpochMs": 1785487196437,
+      "sequence": 208207
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785487199894,
+      "rawTimestampEpochMs": 1785487199875,
+      "sequence": 208708
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487201996,
+      "rawTimestampEpochMs": 1785487201983,
+      "sequence": 209208
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487204324,
+      "rawTimestampEpochMs": 1785487204316,
+      "sequence": 209709
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487206643,
+      "rawTimestampEpochMs": 1785487206632,
+      "sequence": 210209
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487208966,
+      "rawTimestampEpochMs": 1785487208952,
+      "sequence": 210710
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487211522,
+      "rawTimestampEpochMs": 1785487211517,
+      "sequence": 211210
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487214394,
+      "rawTimestampEpochMs": 1785487214389,
+      "sequence": 211711
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487217187,
+      "rawTimestampEpochMs": 1785487217178,
+      "sequence": 212211
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487219497,
+      "rawTimestampEpochMs": 1785487219490,
+      "sequence": 212712
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487222152,
+      "rawTimestampEpochMs": 1785487222144,
+      "sequence": 213212
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487223850,
+      "rawTimestampEpochMs": 1785487223845,
+      "sequence": 213713
+    },
+    {
+      "latencyMillis": 29,
+      "outputTimestampEpochMs": 1785487225423,
+      "rawTimestampEpochMs": 1785487225394,
+      "sequence": 214213
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487227012,
+      "rawTimestampEpochMs": 1785487227004,
+      "sequence": 214714
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487232246,
+      "rawTimestampEpochMs": 1785487232234,
+      "sequence": 215214
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785487234554,
+      "rawTimestampEpochMs": 1785487234532,
+      "sequence": 215715
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487236343,
+      "rawTimestampEpochMs": 1785487236336,
+      "sequence": 216215
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487238629,
+      "rawTimestampEpochMs": 1785487238615,
+      "sequence": 216716
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487241412,
+      "rawTimestampEpochMs": 1785487241395,
+      "sequence": 217216
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487243535,
+      "rawTimestampEpochMs": 1785487243520,
+      "sequence": 217717
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487245746,
+      "rawTimestampEpochMs": 1785487245741,
+      "sequence": 218217
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487248150,
+      "rawTimestampEpochMs": 1785487248144,
+      "sequence": 218718
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487250359,
+      "rawTimestampEpochMs": 1785487250348,
+      "sequence": 219218
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487252991,
+      "rawTimestampEpochMs": 1785487252977,
+      "sequence": 219719
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487254697,
+      "rawTimestampEpochMs": 1785487254681,
+      "sequence": 220219
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487256531,
+      "rawTimestampEpochMs": 1785487256525,
+      "sequence": 220720
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487258619,
+      "rawTimestampEpochMs": 1785487258606,
+      "sequence": 221220
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487261177,
+      "rawTimestampEpochMs": 1785487261168,
+      "sequence": 221721
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487266691,
+      "rawTimestampEpochMs": 1785487266677,
+      "sequence": 222221
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487269373,
+      "rawTimestampEpochMs": 1785487269359,
+      "sequence": 222722
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487271932,
+      "rawTimestampEpochMs": 1785487271927,
+      "sequence": 223222
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487274225,
+      "rawTimestampEpochMs": 1785487274210,
+      "sequence": 223723
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487276794,
+      "rawTimestampEpochMs": 1785487276780,
+      "sequence": 224223
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487279452,
+      "rawTimestampEpochMs": 1785487279437,
+      "sequence": 224724
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487281348,
+      "rawTimestampEpochMs": 1785487281338,
+      "sequence": 225224
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487283671,
+      "rawTimestampEpochMs": 1785487283658,
+      "sequence": 225725
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487285840,
+      "rawTimestampEpochMs": 1785487285824,
+      "sequence": 226225
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487287816,
+      "rawTimestampEpochMs": 1785487287801,
+      "sequence": 226726
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487289858,
+      "rawTimestampEpochMs": 1785487289845,
+      "sequence": 227226
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487291994,
+      "rawTimestampEpochMs": 1785487291986,
+      "sequence": 227727
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487293968,
+      "rawTimestampEpochMs": 1785487293955,
+      "sequence": 228227
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785487299408,
+      "rawTimestampEpochMs": 1785487299384,
+      "sequence": 228728
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487301446,
+      "rawTimestampEpochMs": 1785487301432,
+      "sequence": 229228
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487304316,
+      "rawTimestampEpochMs": 1785487304301,
+      "sequence": 229729
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487306945,
+      "rawTimestampEpochMs": 1785487306938,
+      "sequence": 230229
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785487309759,
+      "rawTimestampEpochMs": 1785487309740,
+      "sequence": 230730
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487311818,
+      "rawTimestampEpochMs": 1785487311805,
+      "sequence": 231230
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487314416,
+      "rawTimestampEpochMs": 1785487314405,
+      "sequence": 231731
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487317225,
+      "rawTimestampEpochMs": 1785487317212,
+      "sequence": 232231
+    },
+    {
+      "latencyMillis": 4,
+      "outputTimestampEpochMs": 1785487319479,
+      "rawTimestampEpochMs": 1785487319475,
+      "sequence": 232732
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487322009,
+      "rawTimestampEpochMs": 1785487321992,
+      "sequence": 233232
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487324718,
+      "rawTimestampEpochMs": 1785487324704,
+      "sequence": 233733
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487327509,
+      "rawTimestampEpochMs": 1785487327501,
+      "sequence": 234233
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487333238,
+      "rawTimestampEpochMs": 1785487333232,
+      "sequence": 234734
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487336151,
+      "rawTimestampEpochMs": 1785487336136,
+      "sequence": 235234
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487338715,
+      "rawTimestampEpochMs": 1785487338708,
+      "sequence": 235735
+    },
+    {
+      "latencyMillis": 4,
+      "outputTimestampEpochMs": 1785487341113,
+      "rawTimestampEpochMs": 1785487341109,
+      "sequence": 236235
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487343669,
+      "rawTimestampEpochMs": 1785487343653,
+      "sequence": 236736
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487346414,
+      "rawTimestampEpochMs": 1785487346408,
+      "sequence": 237236
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487349080,
+      "rawTimestampEpochMs": 1785487349072,
+      "sequence": 237737
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487351396,
+      "rawTimestampEpochMs": 1785487351381,
+      "sequence": 238237
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487353400,
+      "rawTimestampEpochMs": 1785487353387,
+      "sequence": 238738
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487356182,
+      "rawTimestampEpochMs": 1785487356174,
+      "sequence": 239238
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487358541,
+      "rawTimestampEpochMs": 1785487358525,
+      "sequence": 239739
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487361022,
+      "rawTimestampEpochMs": 1785487361005,
+      "sequence": 240239
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487366511,
+      "rawTimestampEpochMs": 1785487366494,
+      "sequence": 240740
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487368753,
+      "rawTimestampEpochMs": 1785487368739,
+      "sequence": 241240
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487370967,
+      "rawTimestampEpochMs": 1785487370951,
+      "sequence": 241741
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487373469,
+      "rawTimestampEpochMs": 1785487373461,
+      "sequence": 242241
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487376256,
+      "rawTimestampEpochMs": 1785487376245,
+      "sequence": 242742
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487378624,
+      "rawTimestampEpochMs": 1785487378610,
+      "sequence": 243242
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487381130,
+      "rawTimestampEpochMs": 1785487381117,
+      "sequence": 243743
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487383737,
+      "rawTimestampEpochMs": 1785487383720,
+      "sequence": 244243
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487386579,
+      "rawTimestampEpochMs": 1785487386566,
+      "sequence": 244744
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487389430,
+      "rawTimestampEpochMs": 1785487389418,
+      "sequence": 245244
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487392399,
+      "rawTimestampEpochMs": 1785487392386,
+      "sequence": 245745
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487395228,
+      "rawTimestampEpochMs": 1785487395215,
+      "sequence": 246245
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487401119,
+      "rawTimestampEpochMs": 1785487401114,
+      "sequence": 246746
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487403417,
+      "rawTimestampEpochMs": 1785487403409,
+      "sequence": 247246
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487405990,
+      "rawTimestampEpochMs": 1785487405983,
+      "sequence": 247747
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487409082,
+      "rawTimestampEpochMs": 1785487409068,
+      "sequence": 248247
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785487411754,
+      "rawTimestampEpochMs": 1785487411736,
+      "sequence": 248748
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487414883,
+      "rawTimestampEpochMs": 1785487414875,
+      "sequence": 249248
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487417171,
+      "rawTimestampEpochMs": 1785487417158,
+      "sequence": 249749
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487420159,
+      "rawTimestampEpochMs": 1785487420145,
+      "sequence": 250249
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487422378,
+      "rawTimestampEpochMs": 1785487422368,
+      "sequence": 250750
+    },
+    {
+      "latencyMillis": 141,
+      "outputTimestampEpochMs": 1785487424660,
+      "rawTimestampEpochMs": 1785487424519,
+      "sequence": 251250
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487426435,
+      "rawTimestampEpochMs": 1785487426427,
+      "sequence": 251751
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487428440,
+      "rawTimestampEpochMs": 1785487428424,
+      "sequence": 252251
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487434446,
+      "rawTimestampEpochMs": 1785487434436,
+      "sequence": 252752
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487436917,
+      "rawTimestampEpochMs": 1785487436904,
+      "sequence": 253252
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487438901,
+      "rawTimestampEpochMs": 1785487438887,
+      "sequence": 253753
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487441101,
+      "rawTimestampEpochMs": 1785487441092,
+      "sequence": 254253
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487443925,
+      "rawTimestampEpochMs": 1785487443920,
+      "sequence": 254754
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487446677,
+      "rawTimestampEpochMs": 1785487446670,
+      "sequence": 255254
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487448631,
+      "rawTimestampEpochMs": 1785487448618,
+      "sequence": 255755
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487450596,
+      "rawTimestampEpochMs": 1785487450580,
+      "sequence": 256255
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487452438,
+      "rawTimestampEpochMs": 1785487452429,
+      "sequence": 256756
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487454284,
+      "rawTimestampEpochMs": 1785487454279,
+      "sequence": 257256
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487456527,
+      "rawTimestampEpochMs": 1785487456515,
+      "sequence": 257757
+    },
+    {
+      "latencyMillis": 1470,
+      "outputTimestampEpochMs": 1785487460185,
+      "rawTimestampEpochMs": 1785487458715,
+      "sequence": 258257
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487460944,
+      "rawTimestampEpochMs": 1785487460930,
+      "sequence": 258758
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487466985,
+      "rawTimestampEpochMs": 1785487466972,
+      "sequence": 259258
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487469596,
+      "rawTimestampEpochMs": 1785487469584,
+      "sequence": 259759
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487472017,
+      "rawTimestampEpochMs": 1785487472008,
+      "sequence": 260259
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487474274,
+      "rawTimestampEpochMs": 1785487474260,
+      "sequence": 260760
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487477011,
+      "rawTimestampEpochMs": 1785487477004,
+      "sequence": 261260
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487480011,
+      "rawTimestampEpochMs": 1785487480004,
+      "sequence": 261761
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487482751,
+      "rawTimestampEpochMs": 1785487482745,
+      "sequence": 262261
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487485400,
+      "rawTimestampEpochMs": 1785487485389,
+      "sequence": 262762
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487487476,
+      "rawTimestampEpochMs": 1785487487470,
+      "sequence": 263262
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785487489327,
+      "rawTimestampEpochMs": 1785487489306,
+      "sequence": 263763
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487491364,
+      "rawTimestampEpochMs": 1785487491351,
+      "sequence": 264263
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487494282,
+      "rawTimestampEpochMs": 1785487494275,
+      "sequence": 264764
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487500119,
+      "rawTimestampEpochMs": 1785487500104,
+      "sequence": 265264
+    },
+    {
+      "latencyMillis": 75,
+      "outputTimestampEpochMs": 1785487502701,
+      "rawTimestampEpochMs": 1785487502626,
+      "sequence": 265765
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487505361,
+      "rawTimestampEpochMs": 1785487505351,
+      "sequence": 266265
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487508451,
+      "rawTimestampEpochMs": 1785487508439,
+      "sequence": 266766
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487510795,
+      "rawTimestampEpochMs": 1785487510784,
+      "sequence": 267266
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487513084,
+      "rawTimestampEpochMs": 1785487513074,
+      "sequence": 267767
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487516077,
+      "rawTimestampEpochMs": 1785487516063,
+      "sequence": 268267
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487519055,
+      "rawTimestampEpochMs": 1785487519045,
+      "sequence": 268768
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487521904,
+      "rawTimestampEpochMs": 1785487521892,
+      "sequence": 269268
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487524009,
+      "rawTimestampEpochMs": 1785487524004,
+      "sequence": 269769
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487526884,
+      "rawTimestampEpochMs": 1785487526870,
+      "sequence": 270269
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487533026,
+      "rawTimestampEpochMs": 1785487533012,
+      "sequence": 270770
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487535112,
+      "rawTimestampEpochMs": 1785487535098,
+      "sequence": 271270
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487537532,
+      "rawTimestampEpochMs": 1785487537521,
+      "sequence": 271771
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487540191,
+      "rawTimestampEpochMs": 1785487540178,
+      "sequence": 272271
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785487542949,
+      "rawTimestampEpochMs": 1785487542931,
+      "sequence": 272772
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487545723,
+      "rawTimestampEpochMs": 1785487545707,
+      "sequence": 273272
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487548444,
+      "rawTimestampEpochMs": 1785487548434,
+      "sequence": 273773
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487550817,
+      "rawTimestampEpochMs": 1785487550810,
+      "sequence": 274273
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487552953,
+      "rawTimestampEpochMs": 1785487552947,
+      "sequence": 274774
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487554975,
+      "rawTimestampEpochMs": 1785487554964,
+      "sequence": 275274
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487557349,
+      "rawTimestampEpochMs": 1785487557336,
+      "sequence": 275775
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487559837,
+      "rawTimestampEpochMs": 1785487559831,
+      "sequence": 276275
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487565827,
+      "rawTimestampEpochMs": 1785487565817,
+      "sequence": 276776
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487568642,
+      "rawTimestampEpochMs": 1785487568628,
+      "sequence": 277276
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487571381,
+      "rawTimestampEpochMs": 1785487571374,
+      "sequence": 277777
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487573676,
+      "rawTimestampEpochMs": 1785487573661,
+      "sequence": 278277
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487576465,
+      "rawTimestampEpochMs": 1785487576452,
+      "sequence": 278778
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487579500,
+      "rawTimestampEpochMs": 1785487579486,
+      "sequence": 279278
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487582214,
+      "rawTimestampEpochMs": 1785487582200,
+      "sequence": 279779
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487584357,
+      "rawTimestampEpochMs": 1785487584349,
+      "sequence": 280279
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487587310,
+      "rawTimestampEpochMs": 1785487587296,
+      "sequence": 280780
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487590138,
+      "rawTimestampEpochMs": 1785487590121,
+      "sequence": 281280
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487592444,
+      "rawTimestampEpochMs": 1785487592430,
+      "sequence": 281781
+    },
+    {
+      "latencyMillis": 4,
+      "outputTimestampEpochMs": 1785487595247,
+      "rawTimestampEpochMs": 1785487595243,
+      "sequence": 282281
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487601107,
+      "rawTimestampEpochMs": 1785487601098,
+      "sequence": 282782
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487603760,
+      "rawTimestampEpochMs": 1785487603752,
+      "sequence": 283282
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487606695,
+      "rawTimestampEpochMs": 1785487606690,
+      "sequence": 283783
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487609521,
+      "rawTimestampEpochMs": 1785487609507,
+      "sequence": 284283
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487612184,
+      "rawTimestampEpochMs": 1785487612178,
+      "sequence": 284784
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487615074,
+      "rawTimestampEpochMs": 1785487615060,
+      "sequence": 285284
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487617816,
+      "rawTimestampEpochMs": 1785487617808,
+      "sequence": 285785
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487619910,
+      "rawTimestampEpochMs": 1785487619901,
+      "sequence": 286285
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487622203,
+      "rawTimestampEpochMs": 1785487622192,
+      "sequence": 286786
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487624748,
+      "rawTimestampEpochMs": 1785487624741,
+      "sequence": 287286
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487627670,
+      "rawTimestampEpochMs": 1785487627657,
+      "sequence": 287787
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487633828,
+      "rawTimestampEpochMs": 1785487633822,
+      "sequence": 288287
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487635875,
+      "rawTimestampEpochMs": 1785487635866,
+      "sequence": 288788
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487638363,
+      "rawTimestampEpochMs": 1785487638349,
+      "sequence": 289288
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487641266,
+      "rawTimestampEpochMs": 1785487641255,
+      "sequence": 289789
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487644107,
+      "rawTimestampEpochMs": 1785487644102,
+      "sequence": 290289
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487646795,
+      "rawTimestampEpochMs": 1785487646784,
+      "sequence": 290790
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487649715,
+      "rawTimestampEpochMs": 1785487649701,
+      "sequence": 291290
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487652059,
+      "rawTimestampEpochMs": 1785487652047,
+      "sequence": 291791
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487654425,
+      "rawTimestampEpochMs": 1785487654410,
+      "sequence": 292291
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487657235,
+      "rawTimestampEpochMs": 1785487657221,
+      "sequence": 292792
+    },
+    {
+      "latencyMillis": 4,
+      "outputTimestampEpochMs": 1785487659798,
+      "rawTimestampEpochMs": 1785487659794,
+      "sequence": 293292
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487666028,
+      "rawTimestampEpochMs": 1785487666021,
+      "sequence": 293793
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487668295,
+      "rawTimestampEpochMs": 1785487668286,
+      "sequence": 294293
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487670686,
+      "rawTimestampEpochMs": 1785487670680,
+      "sequence": 294794
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487672848,
+      "rawTimestampEpochMs": 1785487672841,
+      "sequence": 295294
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487675290,
+      "rawTimestampEpochMs": 1785487675282,
+      "sequence": 295795
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487677868,
+      "rawTimestampEpochMs": 1785487677855,
+      "sequence": 296295
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487680491,
+      "rawTimestampEpochMs": 1785487680477,
+      "sequence": 296796
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487682676,
+      "rawTimestampEpochMs": 1785487682660,
+      "sequence": 297296
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487684590,
+      "rawTimestampEpochMs": 1785487684578,
+      "sequence": 297797
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487687540,
+      "rawTimestampEpochMs": 1785487687530,
+      "sequence": 298297
+    },
+    {
+      "latencyMillis": 29,
+      "outputTimestampEpochMs": 1785487690455,
+      "rawTimestampEpochMs": 1785487690426,
+      "sequence": 298798
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487693413,
+      "rawTimestampEpochMs": 1785487693399,
+      "sequence": 299298
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487699739,
+      "rawTimestampEpochMs": 1785487699726,
+      "sequence": 299799
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487702434,
+      "rawTimestampEpochMs": 1785487702421,
+      "sequence": 300299
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487705187,
+      "rawTimestampEpochMs": 1785487705171,
+      "sequence": 300800
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487707854,
+      "rawTimestampEpochMs": 1785487707846,
+      "sequence": 301300
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487710661,
+      "rawTimestampEpochMs": 1785487710650,
+      "sequence": 301801
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487713099,
+      "rawTimestampEpochMs": 1785487713085,
+      "sequence": 302301
+    },
+    {
+      "latencyMillis": 5,
+      "outputTimestampEpochMs": 1785487715793,
+      "rawTimestampEpochMs": 1785487715788,
+      "sequence": 302802
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487718396,
+      "rawTimestampEpochMs": 1785487718383,
+      "sequence": 303302
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487720820,
+      "rawTimestampEpochMs": 1785487720806,
+      "sequence": 303803
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487723510,
+      "rawTimestampEpochMs": 1785487723503,
+      "sequence": 304303
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487726060,
+      "rawTimestampEpochMs": 1785487726053,
+      "sequence": 304804
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487729081,
+      "rawTimestampEpochMs": 1785487729066,
+      "sequence": 305304
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487734879,
+      "rawTimestampEpochMs": 1785487734873,
+      "sequence": 305805
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487737713,
+      "rawTimestampEpochMs": 1785487737700,
+      "sequence": 306305
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487740682,
+      "rawTimestampEpochMs": 1785487740672,
+      "sequence": 306806
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487742947,
+      "rawTimestampEpochMs": 1785487742940,
+      "sequence": 307306
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487745171,
+      "rawTimestampEpochMs": 1785487745162,
+      "sequence": 307807
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487747577,
+      "rawTimestampEpochMs": 1785487747571,
+      "sequence": 308307
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487750189,
+      "rawTimestampEpochMs": 1785487750175,
+      "sequence": 308808
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487752871,
+      "rawTimestampEpochMs": 1785487752858,
+      "sequence": 309308
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487755102,
+      "rawTimestampEpochMs": 1785487755092,
+      "sequence": 309809
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487757170,
+      "rawTimestampEpochMs": 1785487757154,
+      "sequence": 310309
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487759823,
+      "rawTimestampEpochMs": 1785487759810,
+      "sequence": 310810
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487761671,
+      "rawTimestampEpochMs": 1785487761657,
+      "sequence": 311310
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487767130,
+      "rawTimestampEpochMs": 1785487767117,
+      "sequence": 311811
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487768973,
+      "rawTimestampEpochMs": 1785487768958,
+      "sequence": 312311
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785487771624,
+      "rawTimestampEpochMs": 1785487771603,
+      "sequence": 312812
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487774021,
+      "rawTimestampEpochMs": 1785487774014,
+      "sequence": 313312
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487776895,
+      "rawTimestampEpochMs": 1785487776887,
+      "sequence": 313813
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785487779862,
+      "rawTimestampEpochMs": 1785487779856,
+      "sequence": 314313
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487782227,
+      "rawTimestampEpochMs": 1785487782218,
+      "sequence": 314814
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487784442,
+      "rawTimestampEpochMs": 1785487784431,
+      "sequence": 315314
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487787188,
+      "rawTimestampEpochMs": 1785487787181,
+      "sequence": 315815
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487789843,
+      "rawTimestampEpochMs": 1785487789836,
+      "sequence": 316315
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487791681,
+      "rawTimestampEpochMs": 1785487791671,
+      "sequence": 316816
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487793444,
+      "rawTimestampEpochMs": 1785487793434,
+      "sequence": 317316
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487795787,
+      "rawTimestampEpochMs": 1785487795774,
+      "sequence": 317817
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487801645,
+      "rawTimestampEpochMs": 1785487801635,
+      "sequence": 318317
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487804061,
+      "rawTimestampEpochMs": 1785487804053,
+      "sequence": 318818
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487806394,
+      "rawTimestampEpochMs": 1785487806382,
+      "sequence": 319318
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487808322,
+      "rawTimestampEpochMs": 1785487808307,
+      "sequence": 319819
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487810462,
+      "rawTimestampEpochMs": 1785487810445,
+      "sequence": 320319
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785487812569,
+      "rawTimestampEpochMs": 1785487812561,
+      "sequence": 320820
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487814999,
+      "rawTimestampEpochMs": 1785487814985,
+      "sequence": 321320
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785487818063,
+      "rawTimestampEpochMs": 1785487818056,
+      "sequence": 321821
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487820409,
+      "rawTimestampEpochMs": 1785487820392,
+      "sequence": 322321
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487823026,
+      "rawTimestampEpochMs": 1785487823015,
+      "sequence": 322822
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487825701,
+      "rawTimestampEpochMs": 1785487825684,
+      "sequence": 323322
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487827739,
+      "rawTimestampEpochMs": 1785487827728,
+      "sequence": 323823
+    },
+    {
+      "latencyMillis": 31,
+      "outputTimestampEpochMs": 1785487833548,
+      "rawTimestampEpochMs": 1785487833517,
+      "sequence": 324323
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785487837362,
+      "rawTimestampEpochMs": 1785487837340,
+      "sequence": 324824
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785487840380,
+      "rawTimestampEpochMs": 1785487840362,
+      "sequence": 325324
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487843026,
+      "rawTimestampEpochMs": 1785487843017,
+      "sequence": 325825
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785487845244,
+      "rawTimestampEpochMs": 1785487845226,
+      "sequence": 326325
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487847732,
+      "rawTimestampEpochMs": 1785487847718,
+      "sequence": 326826
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785487850200,
+      "rawTimestampEpochMs": 1785487850177,
+      "sequence": 327326
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487852273,
+      "rawTimestampEpochMs": 1785487852260,
+      "sequence": 327827
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785487854504,
+      "rawTimestampEpochMs": 1785487854486,
+      "sequence": 328327
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487856616,
+      "rawTimestampEpochMs": 1785487856602,
+      "sequence": 328828
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785487859488,
+      "rawTimestampEpochMs": 1785487859466,
+      "sequence": 329328
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785487866842,
+      "rawTimestampEpochMs": 1785487866818,
+      "sequence": 329829
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487869990,
+      "rawTimestampEpochMs": 1785487869976,
+      "sequence": 330329
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487873001,
+      "rawTimestampEpochMs": 1785487872990,
+      "sequence": 330830
+    },
+    {
+      "latencyMillis": 26,
+      "outputTimestampEpochMs": 1785487878923,
+      "rawTimestampEpochMs": 1785487878897,
+      "sequence": 331330
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487881980,
+      "rawTimestampEpochMs": 1785487881967,
+      "sequence": 331831
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785487884142,
+      "rawTimestampEpochMs": 1785487884129,
+      "sequence": 332331
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785487886081,
+      "rawTimestampEpochMs": 1785487886061,
+      "sequence": 332832
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487888042,
+      "rawTimestampEpochMs": 1785487888030,
+      "sequence": 333332
+    },
+    {
+      "latencyMillis": 70,
+      "outputTimestampEpochMs": 1785487890919,
+      "rawTimestampEpochMs": 1785487890849,
+      "sequence": 333833
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785487894016,
+      "rawTimestampEpochMs": 1785487893995,
+      "sequence": 334333
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487899594,
+      "rawTimestampEpochMs": 1785487899579,
+      "sequence": 334834
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785487901628,
+      "rawTimestampEpochMs": 1785487901609,
+      "sequence": 335334
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785487903912,
+      "rawTimestampEpochMs": 1785487903900,
+      "sequence": 335835
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785487906928,
+      "rawTimestampEpochMs": 1785487906906,
+      "sequence": 336335
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487909424,
+      "rawTimestampEpochMs": 1785487909415,
+      "sequence": 336836
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487911645,
+      "rawTimestampEpochMs": 1785487911636,
+      "sequence": 337336
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785487913682,
+      "rawTimestampEpochMs": 1785487913663,
+      "sequence": 337837
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487915897,
+      "rawTimestampEpochMs": 1785487915882,
+      "sequence": 338337
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487918277,
+      "rawTimestampEpochMs": 1785487918266,
+      "sequence": 338838
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487921147,
+      "rawTimestampEpochMs": 1785487921137,
+      "sequence": 339338
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487923438,
+      "rawTimestampEpochMs": 1785487923422,
+      "sequence": 339839
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785487925521,
+      "rawTimestampEpochMs": 1785487925501,
+      "sequence": 340339
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487927581,
+      "rawTimestampEpochMs": 1785487927566,
+      "sequence": 340840
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487933168,
+      "rawTimestampEpochMs": 1785487933152,
+      "sequence": 341340
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785487935557,
+      "rawTimestampEpochMs": 1785487935538,
+      "sequence": 341841
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785487937907,
+      "rawTimestampEpochMs": 1785487937898,
+      "sequence": 342341
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785487940774,
+      "rawTimestampEpochMs": 1785487940763,
+      "sequence": 342842
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785487943254,
+      "rawTimestampEpochMs": 1785487943232,
+      "sequence": 343342
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487945741,
+      "rawTimestampEpochMs": 1785487945731,
+      "sequence": 343843
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785487948217,
+      "rawTimestampEpochMs": 1785487948197,
+      "sequence": 344343
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785487950730,
+      "rawTimestampEpochMs": 1785487950708,
+      "sequence": 344844
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785487953777,
+      "rawTimestampEpochMs": 1785487953755,
+      "sequence": 345344
+    },
+    {
+      "latencyMillis": 33,
+      "outputTimestampEpochMs": 1785487956239,
+      "rawTimestampEpochMs": 1785487956206,
+      "sequence": 345845
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785487958656,
+      "rawTimestampEpochMs": 1785487958646,
+      "sequence": 346345
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487961678,
+      "rawTimestampEpochMs": 1785487961661,
+      "sequence": 346846
+    },
+    {
+      "latencyMillis": 26,
+      "outputTimestampEpochMs": 1785487967322,
+      "rawTimestampEpochMs": 1785487967296,
+      "sequence": 347346
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785487969541,
+      "rawTimestampEpochMs": 1785487969519,
+      "sequence": 347847
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785487971818,
+      "rawTimestampEpochMs": 1785487971794,
+      "sequence": 348347
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487973897,
+      "rawTimestampEpochMs": 1785487973881,
+      "sequence": 348848
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785487976208,
+      "rawTimestampEpochMs": 1785487976188,
+      "sequence": 349348
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785487978145,
+      "rawTimestampEpochMs": 1785487978129,
+      "sequence": 349849
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785487980043,
+      "rawTimestampEpochMs": 1785487980024,
+      "sequence": 350349
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785487982391,
+      "rawTimestampEpochMs": 1785487982368,
+      "sequence": 350850
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785487984920,
+      "rawTimestampEpochMs": 1785487984905,
+      "sequence": 351350
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785487987290,
+      "rawTimestampEpochMs": 1785487987268,
+      "sequence": 351851
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487989402,
+      "rawTimestampEpochMs": 1785487989388,
+      "sequence": 352351
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785487991531,
+      "rawTimestampEpochMs": 1785487991513,
+      "sequence": 352852
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785487993651,
+      "rawTimestampEpochMs": 1785487993634,
+      "sequence": 353352
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785487999215,
+      "rawTimestampEpochMs": 1785487999201,
+      "sequence": 353853
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785488001284,
+      "rawTimestampEpochMs": 1785488001275,
+      "sequence": 354353
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785488003752,
+      "rawTimestampEpochMs": 1785488003744,
+      "sequence": 354854
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488005789,
+      "rawTimestampEpochMs": 1785488005777,
+      "sequence": 355354
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785488007832,
+      "rawTimestampEpochMs": 1785488007821,
+      "sequence": 355855
+    },
+    {
+      "latencyMillis": 27,
+      "outputTimestampEpochMs": 1785488010032,
+      "rawTimestampEpochMs": 1785488010005,
+      "sequence": 356355
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488012720,
+      "rawTimestampEpochMs": 1785488012703,
+      "sequence": 356856
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488016044,
+      "rawTimestampEpochMs": 1785488016026,
+      "sequence": 357356
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488018011,
+      "rawTimestampEpochMs": 1785488017992,
+      "sequence": 357857
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488019947,
+      "rawTimestampEpochMs": 1785488019932,
+      "sequence": 358357
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488022514,
+      "rawTimestampEpochMs": 1785488022498,
+      "sequence": 358858
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488024636,
+      "rawTimestampEpochMs": 1785488024623,
+      "sequence": 359358
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488026902,
+      "rawTimestampEpochMs": 1785488026889,
+      "sequence": 359859
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785488032708,
+      "rawTimestampEpochMs": 1785488032698,
+      "sequence": 360359
+    },
+    {
+      "latencyMillis": 36,
+      "outputTimestampEpochMs": 1785488034735,
+      "rawTimestampEpochMs": 1785488034699,
+      "sequence": 360860
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488037141,
+      "rawTimestampEpochMs": 1785488037126,
+      "sequence": 361360
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785488040012,
+      "rawTimestampEpochMs": 1785488040003,
+      "sequence": 361861
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488043844,
+      "rawTimestampEpochMs": 1785488043825,
+      "sequence": 362361
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488046918,
+      "rawTimestampEpochMs": 1785488046901,
+      "sequence": 362862
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488048988,
+      "rawTimestampEpochMs": 1785488048969,
+      "sequence": 363362
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488051115,
+      "rawTimestampEpochMs": 1785488051101,
+      "sequence": 363863
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488053112,
+      "rawTimestampEpochMs": 1785488053092,
+      "sequence": 364363
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785488055302,
+      "rawTimestampEpochMs": 1785488055278,
+      "sequence": 364864
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785488057506,
+      "rawTimestampEpochMs": 1785488057498,
+      "sequence": 365364
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488059756,
+      "rawTimestampEpochMs": 1785488059737,
+      "sequence": 365865
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488061680,
+      "rawTimestampEpochMs": 1785488061661,
+      "sequence": 366365
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488066950,
+      "rawTimestampEpochMs": 1785488066935,
+      "sequence": 366866
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488069082,
+      "rawTimestampEpochMs": 1785488069066,
+      "sequence": 367366
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785488071281,
+      "rawTimestampEpochMs": 1785488071260,
+      "sequence": 367867
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785488075003,
+      "rawTimestampEpochMs": 1785488074994,
+      "sequence": 368367
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488078257,
+      "rawTimestampEpochMs": 1785488078239,
+      "sequence": 368868
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785488080275,
+      "rawTimestampEpochMs": 1785488080265,
+      "sequence": 369368
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488082855,
+      "rawTimestampEpochMs": 1785488082838,
+      "sequence": 369869
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785488085355,
+      "rawTimestampEpochMs": 1785488085334,
+      "sequence": 370369
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488087486,
+      "rawTimestampEpochMs": 1785488087470,
+      "sequence": 370870
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488089456,
+      "rawTimestampEpochMs": 1785488089437,
+      "sequence": 371370
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488091590,
+      "rawTimestampEpochMs": 1785488091577,
+      "sequence": 371871
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785488093640,
+      "rawTimestampEpochMs": 1785488093619,
+      "sequence": 372371
+    },
+    {
+      "latencyMillis": 27,
+      "outputTimestampEpochMs": 1785488100158,
+      "rawTimestampEpochMs": 1785488100131,
+      "sequence": 372872
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785488102954,
+      "rawTimestampEpochMs": 1785488102947,
+      "sequence": 373372
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488105192,
+      "rawTimestampEpochMs": 1785488105179,
+      "sequence": 373873
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785488107312,
+      "rawTimestampEpochMs": 1785488107304,
+      "sequence": 374373
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488109280,
+      "rawTimestampEpochMs": 1785488109261,
+      "sequence": 374874
+    },
+    {
+      "latencyMillis": 38,
+      "outputTimestampEpochMs": 1785488111931,
+      "rawTimestampEpochMs": 1785488111893,
+      "sequence": 375374
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785488114817,
+      "rawTimestampEpochMs": 1785488114808,
+      "sequence": 375875
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488117570,
+      "rawTimestampEpochMs": 1785488117554,
+      "sequence": 376375
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785488120547,
+      "rawTimestampEpochMs": 1785488120525,
+      "sequence": 376876
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785488122821,
+      "rawTimestampEpochMs": 1785488122797,
+      "sequence": 377376
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488125376,
+      "rawTimestampEpochMs": 1785488125363,
+      "sequence": 377877
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488127417,
+      "rawTimestampEpochMs": 1785488127402,
+      "sequence": 378377
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488133060,
+      "rawTimestampEpochMs": 1785488133040,
+      "sequence": 378878
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488136038,
+      "rawTimestampEpochMs": 1785488136026,
+      "sequence": 379378
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488138417,
+      "rawTimestampEpochMs": 1785488138399,
+      "sequence": 379879
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488140701,
+      "rawTimestampEpochMs": 1785488140685,
+      "sequence": 380379
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488142898,
+      "rawTimestampEpochMs": 1785488142883,
+      "sequence": 380880
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488145125,
+      "rawTimestampEpochMs": 1785488145106,
+      "sequence": 381380
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785488147324,
+      "rawTimestampEpochMs": 1785488147313,
+      "sequence": 381881
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488149581,
+      "rawTimestampEpochMs": 1785488149569,
+      "sequence": 382381
+    },
+    {
+      "latencyMillis": 26,
+      "outputTimestampEpochMs": 1785488152081,
+      "rawTimestampEpochMs": 1785488152055,
+      "sequence": 382882
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488154381,
+      "rawTimestampEpochMs": 1785488154363,
+      "sequence": 383382
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785488157785,
+      "rawTimestampEpochMs": 1785488157761,
+      "sequence": 383883
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488160408,
+      "rawTimestampEpochMs": 1785488160390,
+      "sequence": 384383
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488166102,
+      "rawTimestampEpochMs": 1785488166088,
+      "sequence": 384884
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488168609,
+      "rawTimestampEpochMs": 1785488168597,
+      "sequence": 385384
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488170725,
+      "rawTimestampEpochMs": 1785488170705,
+      "sequence": 385885
+    },
+    {
+      "latencyMillis": 28,
+      "outputTimestampEpochMs": 1785488173051,
+      "rawTimestampEpochMs": 1785488173023,
+      "sequence": 386385
+    },
+    {
+      "latencyMillis": 54,
+      "outputTimestampEpochMs": 1785488175142,
+      "rawTimestampEpochMs": 1785488175088,
+      "sequence": 386886
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488177324,
+      "rawTimestampEpochMs": 1785488177305,
+      "sequence": 387386
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488179549,
+      "rawTimestampEpochMs": 1785488179526,
+      "sequence": 387887
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785488181631,
+      "rawTimestampEpochMs": 1785488181622,
+      "sequence": 388387
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785488183804,
+      "rawTimestampEpochMs": 1785488183793,
+      "sequence": 388888
+    },
+    {
+      "latencyMillis": 32,
+      "outputTimestampEpochMs": 1785488186658,
+      "rawTimestampEpochMs": 1785488186626,
+      "sequence": 389388
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785488189200,
+      "rawTimestampEpochMs": 1785488189189,
+      "sequence": 389889
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488192586,
+      "rawTimestampEpochMs": 1785488192563,
+      "sequence": 390389
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488195153,
+      "rawTimestampEpochMs": 1785488195138,
+      "sequence": 390890
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488200519,
+      "rawTimestampEpochMs": 1785488200499,
+      "sequence": 391390
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488202837,
+      "rawTimestampEpochMs": 1785488202821,
+      "sequence": 391891
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488204798,
+      "rawTimestampEpochMs": 1785488204786,
+      "sequence": 392391
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785488206929,
+      "rawTimestampEpochMs": 1785488206907,
+      "sequence": 392892
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488209156,
+      "rawTimestampEpochMs": 1785488209133,
+      "sequence": 393392
+    },
+    {
+      "latencyMillis": 27,
+      "outputTimestampEpochMs": 1785488211954,
+      "rawTimestampEpochMs": 1785488211927,
+      "sequence": 393893
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488214556,
+      "rawTimestampEpochMs": 1785488214538,
+      "sequence": 394393
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488217072,
+      "rawTimestampEpochMs": 1785488217053,
+      "sequence": 394894
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488219809,
+      "rawTimestampEpochMs": 1785488219792,
+      "sequence": 395394
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488222617,
+      "rawTimestampEpochMs": 1785488222600,
+      "sequence": 395895
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785488225019,
+      "rawTimestampEpochMs": 1785488224997,
+      "sequence": 396395
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488227415,
+      "rawTimestampEpochMs": 1785488227399,
+      "sequence": 396896
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488233128,
+      "rawTimestampEpochMs": 1785488233110,
+      "sequence": 397396
+    },
+    {
+      "latencyMillis": 28,
+      "outputTimestampEpochMs": 1785488235446,
+      "rawTimestampEpochMs": 1785488235418,
+      "sequence": 397897
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785488237659,
+      "rawTimestampEpochMs": 1785488237650,
+      "sequence": 398397
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488239895,
+      "rawTimestampEpochMs": 1785488239879,
+      "sequence": 398898
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488242241,
+      "rawTimestampEpochMs": 1785488242224,
+      "sequence": 399398
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488244383,
+      "rawTimestampEpochMs": 1785488244365,
+      "sequence": 399899
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785488246394,
+      "rawTimestampEpochMs": 1785488246372,
+      "sequence": 400399
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785488249107,
+      "rawTimestampEpochMs": 1785488249097,
+      "sequence": 400900
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785488251418,
+      "rawTimestampEpochMs": 1785488251397,
+      "sequence": 401400
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488254255,
+      "rawTimestampEpochMs": 1785488254243,
+      "sequence": 401901
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488256266,
+      "rawTimestampEpochMs": 1785488256248,
+      "sequence": 402401
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488258213,
+      "rawTimestampEpochMs": 1785488258199,
+      "sequence": 402902
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785488260418,
+      "rawTimestampEpochMs": 1785488260394,
+      "sequence": 403402
+    },
+    {
+      "latencyMillis": 35,
+      "outputTimestampEpochMs": 1785488265796,
+      "rawTimestampEpochMs": 1785488265761,
+      "sequence": 403903
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488268131,
+      "rawTimestampEpochMs": 1785488268117,
+      "sequence": 404403
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785488270080,
+      "rawTimestampEpochMs": 1785488270072,
+      "sequence": 404904
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488272227,
+      "rawTimestampEpochMs": 1785488272213,
+      "sequence": 405404
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488274106,
+      "rawTimestampEpochMs": 1785488274090,
+      "sequence": 405905
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488276485,
+      "rawTimestampEpochMs": 1785488276473,
+      "sequence": 406405
+    },
+    {
+      "latencyMillis": 27,
+      "outputTimestampEpochMs": 1785488278897,
+      "rawTimestampEpochMs": 1785488278870,
+      "sequence": 406906
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488281190,
+      "rawTimestampEpochMs": 1785488281174,
+      "sequence": 407406
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488283603,
+      "rawTimestampEpochMs": 1785488283590,
+      "sequence": 407907
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488286099,
+      "rawTimestampEpochMs": 1785488286080,
+      "sequence": 408407
+    },
+    {
+      "latencyMillis": 50,
+      "outputTimestampEpochMs": 1785488288257,
+      "rawTimestampEpochMs": 1785488288207,
+      "sequence": 408908
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488290697,
+      "rawTimestampEpochMs": 1785488290680,
+      "sequence": 409408
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488292879,
+      "rawTimestampEpochMs": 1785488292860,
+      "sequence": 409909
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488294888,
+      "rawTimestampEpochMs": 1785488294872,
+      "sequence": 410409
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488300163,
+      "rawTimestampEpochMs": 1785488300145,
+      "sequence": 410910
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488302359,
+      "rawTimestampEpochMs": 1785488302336,
+      "sequence": 411410
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488304638,
+      "rawTimestampEpochMs": 1785488304623,
+      "sequence": 411911
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785488306802,
+      "rawTimestampEpochMs": 1785488306793,
+      "sequence": 412411
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488308758,
+      "rawTimestampEpochMs": 1785488308741,
+      "sequence": 412912
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488310882,
+      "rawTimestampEpochMs": 1785488310864,
+      "sequence": 413412
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488313859,
+      "rawTimestampEpochMs": 1785488313840,
+      "sequence": 413913
+    },
+    {
+      "latencyMillis": 46,
+      "outputTimestampEpochMs": 1785488317009,
+      "rawTimestampEpochMs": 1785488316963,
+      "sequence": 414413
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785488319011,
+      "rawTimestampEpochMs": 1785488318987,
+      "sequence": 414914
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488321311,
+      "rawTimestampEpochMs": 1785488321296,
+      "sequence": 415414
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488323317,
+      "rawTimestampEpochMs": 1785488323304,
+      "sequence": 415915
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488325549,
+      "rawTimestampEpochMs": 1785488325537,
+      "sequence": 416415
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488327637,
+      "rawTimestampEpochMs": 1785488327622,
+      "sequence": 416916
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488333531,
+      "rawTimestampEpochMs": 1785488333516,
+      "sequence": 417416
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488335672,
+      "rawTimestampEpochMs": 1785488335652,
+      "sequence": 417917
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785488337623,
+      "rawTimestampEpochMs": 1785488337616,
+      "sequence": 418417
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488339585,
+      "rawTimestampEpochMs": 1785488339569,
+      "sequence": 418918
+    },
+    {
+      "latencyMillis": 26,
+      "outputTimestampEpochMs": 1785488341654,
+      "rawTimestampEpochMs": 1785488341628,
+      "sequence": 419418
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488343863,
+      "rawTimestampEpochMs": 1785488343851,
+      "sequence": 419919
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488346425,
+      "rawTimestampEpochMs": 1785488346411,
+      "sequence": 420419
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488348545,
+      "rawTimestampEpochMs": 1785488348531,
+      "sequence": 420920
+    },
+    {
+      "latencyMillis": 28,
+      "outputTimestampEpochMs": 1785488350760,
+      "rawTimestampEpochMs": 1785488350732,
+      "sequence": 421420
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488352968,
+      "rawTimestampEpochMs": 1785488352954,
+      "sequence": 421921
+    },
+    {
+      "latencyMillis": 27,
+      "outputTimestampEpochMs": 1785488355200,
+      "rawTimestampEpochMs": 1785488355173,
+      "sequence": 422421
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785488357437,
+      "rawTimestampEpochMs": 1785488357428,
+      "sequence": 422922
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488359539,
+      "rawTimestampEpochMs": 1785488359520,
+      "sequence": 423422
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488361619,
+      "rawTimestampEpochMs": 1785488361604,
+      "sequence": 423923
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488367042,
+      "rawTimestampEpochMs": 1785488367028,
+      "sequence": 424423
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488369129,
+      "rawTimestampEpochMs": 1785488369110,
+      "sequence": 424924
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785488371230,
+      "rawTimestampEpochMs": 1785488371206,
+      "sequence": 425424
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488374642,
+      "rawTimestampEpochMs": 1785488374622,
+      "sequence": 425925
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488376916,
+      "rawTimestampEpochMs": 1785488376896,
+      "sequence": 426425
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488379024,
+      "rawTimestampEpochMs": 1785488379009,
+      "sequence": 426926
+    },
+    {
+      "latencyMillis": 25,
+      "outputTimestampEpochMs": 1785488381000,
+      "rawTimestampEpochMs": 1785488380975,
+      "sequence": 427426
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488383446,
+      "rawTimestampEpochMs": 1785488383432,
+      "sequence": 427927
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785488386637,
+      "rawTimestampEpochMs": 1785488386616,
+      "sequence": 428427
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488388722,
+      "rawTimestampEpochMs": 1785488388705,
+      "sequence": 428928
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488390787,
+      "rawTimestampEpochMs": 1785488390774,
+      "sequence": 429428
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488392821,
+      "rawTimestampEpochMs": 1785488392803,
+      "sequence": 429929
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488395180,
+      "rawTimestampEpochMs": 1785488395168,
+      "sequence": 430429
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785488400546,
+      "rawTimestampEpochMs": 1785488400535,
+      "sequence": 430930
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488403140,
+      "rawTimestampEpochMs": 1785488403126,
+      "sequence": 431430
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785488405457,
+      "rawTimestampEpochMs": 1785488405446,
+      "sequence": 431931
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488407481,
+      "rawTimestampEpochMs": 1785488407468,
+      "sequence": 432431
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488409757,
+      "rawTimestampEpochMs": 1785488409741,
+      "sequence": 432932
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488411744,
+      "rawTimestampEpochMs": 1785488411729,
+      "sequence": 433432
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488413895,
+      "rawTimestampEpochMs": 1785488413883,
+      "sequence": 433933
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488416271,
+      "rawTimestampEpochMs": 1785488416248,
+      "sequence": 434433
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488418360,
+      "rawTimestampEpochMs": 1785488418348,
+      "sequence": 434934
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488420980,
+      "rawTimestampEpochMs": 1785488420964,
+      "sequence": 435434
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488423164,
+      "rawTimestampEpochMs": 1785488423147,
+      "sequence": 435935
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488424994,
+      "rawTimestampEpochMs": 1785488424977,
+      "sequence": 436435
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785488427307,
+      "rawTimestampEpochMs": 1785488427283,
+      "sequence": 436936
+    },
+    {
+      "latencyMillis": 28,
+      "outputTimestampEpochMs": 1785488432989,
+      "rawTimestampEpochMs": 1785488432961,
+      "sequence": 437436
+    },
+    {
+      "latencyMillis": 31,
+      "outputTimestampEpochMs": 1785488436205,
+      "rawTimestampEpochMs": 1785488436174,
+      "sequence": 437937
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488438632,
+      "rawTimestampEpochMs": 1785488438616,
+      "sequence": 438437
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785488440528,
+      "rawTimestampEpochMs": 1785488440518,
+      "sequence": 438938
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488443086,
+      "rawTimestampEpochMs": 1785488443072,
+      "sequence": 439438
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488445247,
+      "rawTimestampEpochMs": 1785488445228,
+      "sequence": 439939
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488447752,
+      "rawTimestampEpochMs": 1785488447729,
+      "sequence": 440439
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488450023,
+      "rawTimestampEpochMs": 1785488450011,
+      "sequence": 440940
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488452521,
+      "rawTimestampEpochMs": 1785488452509,
+      "sequence": 441440
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488455143,
+      "rawTimestampEpochMs": 1785488455130,
+      "sequence": 441941
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488457463,
+      "rawTimestampEpochMs": 1785488457443,
+      "sequence": 442441
+    },
+    {
+      "latencyMillis": 25,
+      "outputTimestampEpochMs": 1785488459716,
+      "rawTimestampEpochMs": 1785488459691,
+      "sequence": 442942
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488466022,
+      "rawTimestampEpochMs": 1785488466004,
+      "sequence": 443442
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488468299,
+      "rawTimestampEpochMs": 1785488468285,
+      "sequence": 443943
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488470612,
+      "rawTimestampEpochMs": 1785488470593,
+      "sequence": 444443
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488473097,
+      "rawTimestampEpochMs": 1785488473074,
+      "sequence": 444944
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488475247,
+      "rawTimestampEpochMs": 1785488475227,
+      "sequence": 445444
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488477540,
+      "rawTimestampEpochMs": 1785488477525,
+      "sequence": 445945
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488479630,
+      "rawTimestampEpochMs": 1785488479617,
+      "sequence": 446445
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785488482165,
+      "rawTimestampEpochMs": 1785488482157,
+      "sequence": 446946
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488484689,
+      "rawTimestampEpochMs": 1785488484675,
+      "sequence": 447446
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488487191,
+      "rawTimestampEpochMs": 1785488487173,
+      "sequence": 447947
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785488490045,
+      "rawTimestampEpochMs": 1785488490034,
+      "sequence": 448447
+    },
+    {
+      "latencyMillis": 25,
+      "outputTimestampEpochMs": 1785488493666,
+      "rawTimestampEpochMs": 1785488493641,
+      "sequence": 448948
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488500153,
+      "rawTimestampEpochMs": 1785488500138,
+      "sequence": 449448
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488502540,
+      "rawTimestampEpochMs": 1785488502522,
+      "sequence": 449949
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488504951,
+      "rawTimestampEpochMs": 1785488504931,
+      "sequence": 450449
+    },
+    {
+      "latencyMillis": 35,
+      "outputTimestampEpochMs": 1785488507100,
+      "rawTimestampEpochMs": 1785488507065,
+      "sequence": 450950
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488509387,
+      "rawTimestampEpochMs": 1785488509368,
+      "sequence": 451450
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488512009,
+      "rawTimestampEpochMs": 1785488511995,
+      "sequence": 451951
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488514028,
+      "rawTimestampEpochMs": 1785488514005,
+      "sequence": 452451
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785488516129,
+      "rawTimestampEpochMs": 1785488516122,
+      "sequence": 452952
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488518170,
+      "rawTimestampEpochMs": 1785488518153,
+      "sequence": 453452
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785488520279,
+      "rawTimestampEpochMs": 1785488520258,
+      "sequence": 453953
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785488522932,
+      "rawTimestampEpochMs": 1785488522910,
+      "sequence": 454453
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488525361,
+      "rawTimestampEpochMs": 1785488525344,
+      "sequence": 454954
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785488527372,
+      "rawTimestampEpochMs": 1785488527351,
+      "sequence": 455454
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488532543,
+      "rawTimestampEpochMs": 1785488532524,
+      "sequence": 455955
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785488534615,
+      "rawTimestampEpochMs": 1785488534594,
+      "sequence": 456455
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488536603,
+      "rawTimestampEpochMs": 1785488536588,
+      "sequence": 456956
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488539045,
+      "rawTimestampEpochMs": 1785488539025,
+      "sequence": 457456
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488540966,
+      "rawTimestampEpochMs": 1785488540953,
+      "sequence": 457957
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785488543174,
+      "rawTimestampEpochMs": 1785488543163,
+      "sequence": 458457
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488545272,
+      "rawTimestampEpochMs": 1785488545260,
+      "sequence": 458958
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488547309,
+      "rawTimestampEpochMs": 1785488547293,
+      "sequence": 459458
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785488549331,
+      "rawTimestampEpochMs": 1785488549321,
+      "sequence": 459959
+    },
+    {
+      "latencyMillis": 31,
+      "outputTimestampEpochMs": 1785488552532,
+      "rawTimestampEpochMs": 1785488552501,
+      "sequence": 460459
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488555486,
+      "rawTimestampEpochMs": 1785488555472,
+      "sequence": 460960
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488557620,
+      "rawTimestampEpochMs": 1785488557607,
+      "sequence": 461460
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488559566,
+      "rawTimestampEpochMs": 1785488559552,
+      "sequence": 461961
+    },
+    {
+      "latencyMillis": 26,
+      "outputTimestampEpochMs": 1785488561752,
+      "rawTimestampEpochMs": 1785488561726,
+      "sequence": 462461
+    },
+    {
+      "latencyMillis": 657,
+      "outputTimestampEpochMs": 1785488568043,
+      "rawTimestampEpochMs": 1785488567386,
+      "sequence": 462962
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785488570050,
+      "rawTimestampEpochMs": 1785488570041,
+      "sequence": 463462
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785488572383,
+      "rawTimestampEpochMs": 1785488572362,
+      "sequence": 463963
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488574443,
+      "rawTimestampEpochMs": 1785488574430,
+      "sequence": 464463
+    },
+    {
+      "latencyMillis": 31,
+      "outputTimestampEpochMs": 1785488576524,
+      "rawTimestampEpochMs": 1785488576493,
+      "sequence": 464964
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488578802,
+      "rawTimestampEpochMs": 1785488578787,
+      "sequence": 465464
+    },
+    {
+      "latencyMillis": 27,
+      "outputTimestampEpochMs": 1785488581165,
+      "rawTimestampEpochMs": 1785488581138,
+      "sequence": 465965
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488583403,
+      "rawTimestampEpochMs": 1785488583387,
+      "sequence": 466465
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488585677,
+      "rawTimestampEpochMs": 1785488585660,
+      "sequence": 466966
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488587787,
+      "rawTimestampEpochMs": 1785488587768,
+      "sequence": 467466
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488589889,
+      "rawTimestampEpochMs": 1785488589869,
+      "sequence": 467967
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488592443,
+      "rawTimestampEpochMs": 1785488592425,
+      "sequence": 468467
+    },
+    {
+      "latencyMillis": 8,
+      "outputTimestampEpochMs": 1785488594563,
+      "rawTimestampEpochMs": 1785488594555,
+      "sequence": 468968
+    },
+    {
+      "latencyMillis": 200,
+      "outputTimestampEpochMs": 1785488600274,
+      "rawTimestampEpochMs": 1785488600074,
+      "sequence": 469468
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488602040,
+      "rawTimestampEpochMs": 1785488602021,
+      "sequence": 469969
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488604507,
+      "rawTimestampEpochMs": 1785488604492,
+      "sequence": 470469
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785488607098,
+      "rawTimestampEpochMs": 1785488607074,
+      "sequence": 470970
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488609030,
+      "rawTimestampEpochMs": 1785488609012,
+      "sequence": 471470
+    },
+    {
+      "latencyMillis": 7,
+      "outputTimestampEpochMs": 1785488610934,
+      "rawTimestampEpochMs": 1785488610927,
+      "sequence": 471971
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488613654,
+      "rawTimestampEpochMs": 1785488613641,
+      "sequence": 472471
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785488616132,
+      "rawTimestampEpochMs": 1785488616121,
+      "sequence": 472972
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488618480,
+      "rawTimestampEpochMs": 1785488618465,
+      "sequence": 473472
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488620971,
+      "rawTimestampEpochMs": 1785488620959,
+      "sequence": 473973
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488623179,
+      "rawTimestampEpochMs": 1785488623163,
+      "sequence": 474473
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488625325,
+      "rawTimestampEpochMs": 1785488625312,
+      "sequence": 474974
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488627370,
+      "rawTimestampEpochMs": 1785488627357,
+      "sequence": 475474
+    },
+    {
+      "latencyMillis": 11,
+      "outputTimestampEpochMs": 1785488633223,
+      "rawTimestampEpochMs": 1785488633212,
+      "sequence": 475975
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488635489,
+      "rawTimestampEpochMs": 1785488635475,
+      "sequence": 476475
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488637430,
+      "rawTimestampEpochMs": 1785488637417,
+      "sequence": 476976
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488639516,
+      "rawTimestampEpochMs": 1785488639497,
+      "sequence": 477476
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785488641516,
+      "rawTimestampEpochMs": 1785488641506,
+      "sequence": 477977
+    },
+    {
+      "latencyMillis": 21,
+      "outputTimestampEpochMs": 1785488643815,
+      "rawTimestampEpochMs": 1785488643794,
+      "sequence": 478477
+    },
+    {
+      "latencyMillis": 13,
+      "outputTimestampEpochMs": 1785488646474,
+      "rawTimestampEpochMs": 1785488646461,
+      "sequence": 478978
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488648543,
+      "rawTimestampEpochMs": 1785488648531,
+      "sequence": 479478
+    },
+    {
+      "latencyMillis": 9,
+      "outputTimestampEpochMs": 1785488650496,
+      "rawTimestampEpochMs": 1785488650487,
+      "sequence": 479979
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488652732,
+      "rawTimestampEpochMs": 1785488652709,
+      "sequence": 480479
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488654880,
+      "rawTimestampEpochMs": 1785488654862,
+      "sequence": 480980
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785488657246,
+      "rawTimestampEpochMs": 1785488657224,
+      "sequence": 481480
+    },
+    {
+      "latencyMillis": 10,
+      "outputTimestampEpochMs": 1785488660198,
+      "rawTimestampEpochMs": 1785488660188,
+      "sequence": 481981
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488662694,
+      "rawTimestampEpochMs": 1785488662680,
+      "sequence": 482481
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488667766,
+      "rawTimestampEpochMs": 1785488667752,
+      "sequence": 482982
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488669753,
+      "rawTimestampEpochMs": 1785488669737,
+      "sequence": 483482
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488671974,
+      "rawTimestampEpochMs": 1785488671959,
+      "sequence": 483983
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488675090,
+      "rawTimestampEpochMs": 1785488675078,
+      "sequence": 484483
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488677259,
+      "rawTimestampEpochMs": 1785488677241,
+      "sequence": 484984
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488679139,
+      "rawTimestampEpochMs": 1785488679122,
+      "sequence": 485484
+    },
+    {
+      "latencyMillis": 22,
+      "outputTimestampEpochMs": 1785488680994,
+      "rawTimestampEpochMs": 1785488680972,
+      "sequence": 485985
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488683217,
+      "rawTimestampEpochMs": 1785488683203,
+      "sequence": 486485
+    },
+    {
+      "latencyMillis": 19,
+      "outputTimestampEpochMs": 1785488685355,
+      "rawTimestampEpochMs": 1785488685336,
+      "sequence": 486986
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488688024,
+      "rawTimestampEpochMs": 1785488688007,
+      "sequence": 487486
+    },
+    {
+      "latencyMillis": 29,
+      "outputTimestampEpochMs": 1785488690348,
+      "rawTimestampEpochMs": 1785488690319,
+      "sequence": 487987
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488692668,
+      "rawTimestampEpochMs": 1785488692645,
+      "sequence": 488487
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488694828,
+      "rawTimestampEpochMs": 1785488694810,
+      "sequence": 488988
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488700182,
+      "rawTimestampEpochMs": 1785488700165,
+      "sequence": 489488
+    },
+    {
+      "latencyMillis": 40,
+      "outputTimestampEpochMs": 1785488702801,
+      "rawTimestampEpochMs": 1785488702761,
+      "sequence": 489989
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488705099,
+      "rawTimestampEpochMs": 1785488705087,
+      "sequence": 490489
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488707322,
+      "rawTimestampEpochMs": 1785488707299,
+      "sequence": 490990
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488709465,
+      "rawTimestampEpochMs": 1785488709449,
+      "sequence": 491490
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488711598,
+      "rawTimestampEpochMs": 1785488711581,
+      "sequence": 491991
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488713556,
+      "rawTimestampEpochMs": 1785488713539,
+      "sequence": 492491
+    },
+    {
+      "latencyMillis": 17,
+      "outputTimestampEpochMs": 1785488716044,
+      "rawTimestampEpochMs": 1785488716027,
+      "sequence": 492992
+    },
+    {
+      "latencyMillis": 16,
+      "outputTimestampEpochMs": 1785488718116,
+      "rawTimestampEpochMs": 1785488718100,
+      "sequence": 493492
+    },
+    {
+      "latencyMillis": 34,
+      "outputTimestampEpochMs": 1785488720217,
+      "rawTimestampEpochMs": 1785488720183,
+      "sequence": 493993
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488722461,
+      "rawTimestampEpochMs": 1785488722441,
+      "sequence": 494493
+    },
+    {
+      "latencyMillis": 23,
+      "outputTimestampEpochMs": 1785488724498,
+      "rawTimestampEpochMs": 1785488724475,
+      "sequence": 494994
+    },
+    {
+      "latencyMillis": 24,
+      "outputTimestampEpochMs": 1785488727483,
+      "rawTimestampEpochMs": 1785488727459,
+      "sequence": 495494
+    },
+    {
+      "latencyMillis": 34,
+      "outputTimestampEpochMs": 1785488735280,
+      "rawTimestampEpochMs": 1785488735246,
+      "sequence": 495995
+    },
+    {
+      "latencyMillis": 18,
+      "outputTimestampEpochMs": 1785488737933,
+      "rawTimestampEpochMs": 1785488737915,
+      "sequence": 496495
+    },
+    {
+      "latencyMillis": 15,
+      "outputTimestampEpochMs": 1785488739966,
+      "rawTimestampEpochMs": 1785488739951,
+      "sequence": 496996
+    },
+    {
+      "latencyMillis": 14,
+      "outputTimestampEpochMs": 1785488741970,
+      "rawTimestampEpochMs": 1785488741956,
+      "sequence": 497496
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488744070,
+      "rawTimestampEpochMs": 1785488744050,
+      "sequence": 497997
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488746460,
+      "rawTimestampEpochMs": 1785488746440,
+      "sequence": 498497
+    },
+    {
+      "latencyMillis": 12,
+      "outputTimestampEpochMs": 1785488748681,
+      "rawTimestampEpochMs": 1785488748669,
+      "sequence": 498998
+    },
+    {
+      "latencyMillis": 20,
+      "outputTimestampEpochMs": 1785488750956,
+      "rawTimestampEpochMs": 1785488750936,
+      "sequence": 499498
+    },
+    {
+      "latencyMillis": 6,
+      "outputTimestampEpochMs": 1785488753101,
+      "rawTimestampEpochMs": 1785488753095,
+      "sequence": 499999
+    }
+  ],
+  "schemaVersion": 1,
+  "topicRecordsScanned": {
+    "output": 510000,
+    "raw": 510000
+  }
+}

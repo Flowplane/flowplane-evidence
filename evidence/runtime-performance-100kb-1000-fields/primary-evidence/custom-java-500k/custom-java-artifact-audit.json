@@ -1,0 +1,85 @@
+{
+    "schemaVersion":  3,
+    "kind":  "custom-java-artifact-audit",
+    "auditedAtUtc":  "2026-07-31T08:56:23.5361100Z",
+    "artifact":  {
+                     "path":  "<benchmark-workspace>\\competitors\\custom-java\\target\\custom-java-json-runtime.jar",
+                     "sha256":  "067f69ecd7388f1a7378571f0d22c7a06356e7a1df319b223a663ecb973e5a3a",
+                     "entryCount":  4918,
+                     "flowPlaneCoreEntryCount":  0,
+                     "flowPlaneRuntimeEntryCount":  0,
+                     "unexpectedOracleOrCorpusEntries":  0
+                 },
+    "dependencies":  {
+                         "declaredRuntime":  [
+                                                 "com.fasterxml.jackson.core:jackson-core:2.21.5",
+                                                 "org.apache.kafka:kafka-clients:4.1.1",
+                                                 "com.github.luben:zstd-jni:1.5.6-10",
+                                                 "org.lz4:lz4-java:1.8.0",
+                                                 "org.xerial.snappy:snappy-java:1.1.10.7",
+                                                 "org.slf4j:slf4j-api:1.7.36"
+                                             ],
+                         "flowPlaneRuntimeDependencyCount":  0,
+                         "jdepsFlowPlaneReferenceCount":  0
+                     },
+    "tests":  {
+                  "total":  4,
+                  "failures":  0,
+                  "errors":  0,
+                  "suites":  [
+                                 {
+                                     "suite":  "com.flowplane.benchmark.customjson.HardMappingParityTest",
+                                     "tests":  2,
+                                     "failures":  0,
+                                     "errors":  0,
+                                     "names":  [
+                                                   "invalidRequiredFieldRoutesToDlqWithoutThrowing",
+                                                   "exactMappingIdentityAndAllOneHundredValidOutputsMatchByteForByte"
+                                               ]
+                                 },
+                                 {
+                                     "suite":  "com.flowplane.benchmark.customjson.PolicyProjectionTest",
+                                     "tests":  2,
+                                     "failures":  0,
+                                     "errors":  0,
+                                     "names":  [
+                                                   "malformedJsonUsesInputParsePolicyProjection",
+                                                   "liveKafkaDlqUsesFullSharedPolicyEnvelopeAndAllOrderedErrors"
+                                               ]
+                                 }
+                             ]
+              },
+    "parity":  {
+                   "evidencePath":  "<benchmark-workspace>\\competitors\\custom-java\\policy\\generated\\policy-parity-evidence.json",
+                   "evidenceSha256":  "dfc1e4d19f09c302401f51bf25a3d21e3afeddde61444b78df49ee834cf848bb",
+                   "expectedSha256":  "71ec48ab729fa93f46b4bfd02c52fcb50f216295b5cc05fa396fd642e73e72db",
+                   "actualSha256":  "71ec48ab729fa93f46b4bfd02c52fcb50f216295b5cc05fa396fd642e73e72db",
+                   "byteEqual":  true,
+                   "recordCount":  6,
+                   "canaries":  [
+                                    "required",
+                                    "validation",
+                                    "type_mismatch",
+                                    "lookup_miss",
+                                    "overflow",
+                                    "malformed_json"
+                                ]
+               },
+    "livePolicyPath":  {
+                           "sharedSerializer":  "com.flowplane.benchmark.customjson.PolicyProjection",
+                           "kafkaDlqCallsSharedSerializer":  true,
+                           "allOrderedErrorsSerialized":  true,
+                           "transformationErrorInputParseProjection":  true,
+                           "sourceAndKeyInEnvelope":  true,
+                           "producerKeyAndOrderedHeadersPreserved":  true,
+                           "payloadRedactionTested":  true
+                       },
+    "sourceAudit":  {
+                        "mainSourceOracleOrExpectedCorpusReadCount":  0,
+                        "constantPoolSuspiciousReferenceCount":  0,
+                        "mappingIdentityGuardReferencePresent":  true
+                    },
+    "liveTrafficUsed":  false,
+    "manualDownstreamInsertionUsed":  false,
+    "performanceVerdict":  null
+}

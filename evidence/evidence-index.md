@@ -13,6 +13,7 @@
 | Core-surface stability soaks | 2026-07-21 | Five local Docker live runs; 10,000 records and at least five minutes each | `LIVE_LOCAL_VERIFIED` | [runtime table](integration-proofs/EVIDENCE-OVERVIEW.md#flowplane-runtime-and-protocol-surfaces) |
 | Azure/GCP provider triggers | 2026-07-21 | Local emulator and function-handler runs | `PASS` within the documented trigger contract | [trigger table](integration-proofs/EVIDENCE-OVERVIEW.md#provider-trigger-proofs) |
 | Historical integration attempts | through 2026-07-19 | Preserved failed or incomplete runs | `INCOMPLETE` / `PRESERVED_FAILURE` | [historical attempts](historical-attempts/README.md) |
+| HTTP/gRPC 100 KB, 1,000-field runtime campaign | 2026-07-31 | Five live local and counterfactual observations with exact accounting | `MEASURED` | [overview](runtime-performance-100kb-1000-fields/README.md), [methodology](runtime-performance-100kb-1000-fields/methodology.md), [workload](runtime-performance-100kb-1000-fields/workload-manifest.json) |
 
 All timestamps, scopes, and statuses refer only to the preserved runs. See the [claims matrix](claims-matrix.csv), [methodology](../docs/benchmark-methodology.md), [interpretation guide](../docs/benchmark-interpretation.md), and [checksums](checksums.sha256).
 

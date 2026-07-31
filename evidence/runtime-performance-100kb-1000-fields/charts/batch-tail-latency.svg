@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP batch size 10 versus 50 Kafka-to-output latency</title>
+  <desc id="desc">Grouped bars compare p50, p95, p99, and maximum latency for one observation per batch size.</desc>
+  <rect width="960" height="440" fill="#0b1220"/>
+  <text x="48" y="48" fill="#f8fafc" font-family="system-ui" font-size="24" font-weight="700">HTTP batch tail latency</text>
+  <text x="48" y="75" fill="#94a3b8" font-family="system-ui" font-size="14">Kafka input timestamp → runtime-derived output timestamp; one observation per size</text>
+  <line x1="100" y1="360" x2="900" y2="360" stroke="#475569"/>
+  <g font-family="system-ui" font-size="13" text-anchor="middle">
+    <rect x="150" y="352" width="42" height="8" fill="#38bdf8"/><rect x="195" y="351" width="42" height="9" fill="#f59e0b"/><text x="193" y="385" fill="#cbd5e1">p50</text><text x="171" y="341" fill="#cbd5e1">46</text><text x="216" y="340" fill="#cbd5e1">56</text>
+    <rect x="330" y="348" width="42" height="12" fill="#38bdf8"/><rect x="375" y="344" width="42" height="16" fill="#f59e0b"/><text x="373" y="385" fill="#cbd5e1">p95</text><text x="351" y="337" fill="#cbd5e1">71</text><text x="396" y="333" fill="#cbd5e1">95</text>
+    <rect x="510" y="346" width="42" height="14" fill="#38bdf8"/><rect x="555" y="246" width="42" height="114" fill="#f59e0b"/><text x="553" y="385" fill="#cbd5e1">p99</text><text x="531" y="335" fill="#cbd5e1">82</text><text x="576" y="235" fill="#cbd5e1">681</text>
+    <rect x="690" y="336" width="42" height="24" fill="#38bdf8"/><rect x="735" y="123" width="42" height="237" fill="#f59e0b"/><text x="733" y="385" fill="#cbd5e1">max</text><text x="711" y="325" fill="#cbd5e1">141</text><text x="756" y="112" fill="#f8fafc">1,420 ms</text>
+  </g>
+  <rect x="48" y="410" width="14" height="14" fill="#38bdf8"/><text x="70" y="422" fill="#cbd5e1" font-family="system-ui" font-size="13">Batch 10</text>
+  <rect x="165" y="410" width="14" height="14" fill="#f59e0b"/><text x="187" y="422" fill="#cbd5e1" font-family="system-ui" font-size="13">Batch 50</text>
+  <text x="600" y="422" fill="#94a3b8" font-family="system-ui" font-size="12">Exploratory, not a tuning recommendation</text>
+</svg>

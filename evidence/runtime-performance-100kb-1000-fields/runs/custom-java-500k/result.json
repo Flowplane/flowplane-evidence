@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "custom-java-20260731-0937",
+  "status": "MEASURED",
+  "outcome": "OBSERVED",
+  "performanceThresholdsApplied": false,
+  "runtime": "mapping-specific custom Java JSON",
+  "zeroCopy": false,
+  "identity": {
+    "mappingSha256": "007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "payloadCorpusSha256": "ba3fc084ce067c2ef6b52b7326760889b492e6ad8dc553a0a2aecf4bf0c7a607",
+    "payloadVariants": 100,
+    "payloadBytesEach": 102400,
+    "mappingFields": 1000
+  },
+  "parity": {
+    "status": "CONTRACT_VERIFIED",
+    "validByteExactRecords": 100,
+    "validDifferences": 0,
+    "policyRecordsCompared": 6,
+    "policyDifferences": 0,
+    "orderedFieldErrorsCompared": true,
+    "httpErrorSemanticsCompared": true,
+    "transformErrorsCompared": true,
+    "dlqEnvelopesCompared": true,
+    "kafkaKeysCompared": true,
+    "orderedHeadersCompared": true
+  },
+  "accounting": {"input": 500000, "output": 500000, "dlq": 0, "finalConsumerLag": 0, "manualTransformedInsertionUsed": false},
+  "publisher": {"inputBytes": 51200000000, "elapsedSeconds": 3544.0974703999964, "recordsPerSecond": 141.07964134055507},
+  "transform": {"operationsIncludingWarmup": 510000, "meanNanosPerRecord": 1180051.302, "percentilesAvailable": false},
+  "allocationEstimatedBytesPerOperation": {"runtimeJvm": 446297.632848, "sourceProducerJvm": 595494.093664, "sharedKafkaBrokerJvm": 185104.075344, "availableComponentSubtotal": 1226895.801856, "wholeStackState": "incomplete"},
+  "nonblankPhysicalLineCounts": {"productionJava": 1237, "testJava": 137, "policyOracleJava": 147, "powershellHarness": 985, "totalInspected": 2506}
+}

@@ -1,0 +1,22 @@
+{
+    "schemaVersion":  1,
+    "kind":  "flowplane-benchmark-process-allocation-summary",
+    "campaignId":  "http-batch50-20260731-0915",
+    "runtimeType":  "HTTP",
+    "artifactHash":  "sha256:007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "component":  "redpanda-connect-http-batch50-bridge",
+    "allocator":  "Go pprof alloc_space cumulative sampled-byte delta",
+    "state":  "available",
+    "reason":  "cumulative_pprof_alloc_space_sample_delta",
+    "estimatedAllocatedBytes":  7480323856,
+    "estimatedBytesPerSecond":  69808635.898828372502837159574,
+    "measuredOperations":  10000,
+    "estimatedBytesPerOperation":  748032.3856,
+    "measurementWindowStart":  "2026-07-31T16:28:46.3929059Z",
+    "measurementWindowEnd":  "2026-07-31T16:30:33.5476119Z",
+    "measurementWindowApplied":  true,
+    "estimate":  true,
+    "beforeMetrics":  "<benchmark-workspace>\\results\\http-batch50-20260731-0915\\exploratory-http-batch50-10k-run\\whole-stack-allocation\\redpanda-connect-before.prom",
+    "afterMetrics":  "<benchmark-workspace>\\results\\http-batch50-20260731-0915\\exploratory-http-batch50-10k-run\\whole-stack-allocation\\redpanda-connect-after.prom",
+    "capturedAt":  "2026-07-31T16:30:35.2785402+00:00"
+}

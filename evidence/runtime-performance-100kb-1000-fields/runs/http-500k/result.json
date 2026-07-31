@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "hard-http-20260731-0805",
+  "status": "MEASURED",
+  "outcome": "OBSERVED",
+  "performanceThresholdsApplied": false,
+  "topology": "Kafka input -> Redpanda Connect HTTP bridge -> Flowplane HTTP runtime -> Kafka output/DLQ",
+  "identity": {
+    "mappingSha256": "007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "payloadCorpusSha256": "ba3fc084ce067c2ef6b52b7326760889b492e6ad8dc553a0a2aecf4bf0c7a607",
+    "payloadVariants": 100,
+    "payloadBytesEach": 102400,
+    "mappingFields": 1000
+  },
+  "accounting": {
+    "input": 500000,
+    "output": 500000,
+    "dlq": 0,
+    "finalConsumerLag": 0,
+    "manualTransformedInsertionUsed": false
+  },
+  "publisher": {
+    "inputBytes": 51200000000,
+    "elapsedSeconds": 2677.1277087000053,
+    "recordsPerSecond": 186.76733215794047
+  },
+  "latency": {
+    "transformOnlyMicros": {"samples": 10000, "p50": 523.0, "p95": 1592.0, "p99": 2202.0, "max": 4664.0},
+    "kafkaToOutputMillis": {"matchedSamples": 1000, "missingSamples": 0, "negativeTimestampSamples": 0, "p50": 14, "p95": 26, "p99": 54, "max": 3086},
+    "liveRollingMicros": {"windows": 160, "p50Range": [1053, 2205], "p95Range": [1621, 7127], "p99Range": [3252, 17766]}
+  },
+  "allocationEstimatedBytesPerOperation": {
+    "transformOnlyP50": 419144,
+    "transformOnlyP95": 419144,
+    "transformOnlyP99": 419144,
+    "runtimeJvm": 864950.59016,
+    "sourceProducerJvm": 611664.534048,
+    "sharedKafkaBrokerJvm": 200098.992096,
+    "redpandaConnect": 69144.667808,
+    "availableComponentSubtotal": 1745858.784112,
+    "wholeStackState": "incomplete"
+  },
+  "docker": {
+    "samples": 184,
+    "runtime": {"cpuAveragePercent": 62.97, "cpuMaxPercent": 120.04, "memoryAverageMiB": 565.27, "memoryMaxMiB": 674.60},
+    "redpandaConnect": {"cpuAveragePercent": 44.34, "cpuMaxPercent": 82.36, "memoryAverageMiB": 85.61, "memoryMaxMiB": 97.69}
+  },
+  "gates": {"policyCanaryObserved": true, "uiVerified": true, "evidenceValidated": true}
+}

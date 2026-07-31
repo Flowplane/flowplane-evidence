@@ -1,0 +1,84 @@
+{
+    "schemaVersion":  1,
+    "kind":  "custom-java-runtime-output-provenance",
+    "campaignId":  "custom-java-20260731-0937",
+    "runtimeType":  "CUSTOM_JAVA_JSON",
+    "publisherDestinations":  [
+                                  "fpbench-custom-java-custom-java-20260731-0937-raw"
+                              ],
+    "runtimeContainer":  "fpbench-custom-java-custom-java-20260731-0937-runtime",
+    "runtimeImageId":  "sha256:dc971f9cbfc80a258914b5f418f59788fc580ccb6b718d0e0e4c315d22be9342",
+    "runtimeDestinations":  [
+                                "fpbench-custom-java-custom-java-20260731-0937-output",
+                                "fpbench-custom-java-custom-java-20260731-0937-dlq"
+                            ],
+    "baselineOffsets":  {
+                            "input":  10000,
+                            "output":  10000,
+                            "dlq":  0,
+                            "derivation":  "exact scoped final totals minus the complete 500000-record measured manifest; cross-checked by the complete 10000-record warmup manifest"
+                        },
+    "finalOffsets":  {
+                         "capturedAtUtc":  "2026-07-31T10:43:12.4081227Z",
+                         "input":  {
+                                       "total":  510000,
+                                       "partitions":  [
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:0:42547",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:1:42431",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:10:42551",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:11:42539",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:2:42710",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:3:42202",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:4:42693",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:5:42193",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:6:42881",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:7:42467",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:8:42458",
+                                                          "fpbench-custom-java-custom-java-20260731-0937-raw:9:42328"
+                                                      ]
+                                   },
+                         "output":  {
+                                        "total":  510000,
+                                        "partitions":  [
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:0:42547",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:1:42431",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:10:42551",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:11:42539",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:2:42710",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:3:42202",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:4:42693",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:5:42193",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:6:42881",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:7:42467",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:8:42458",
+                                                           "fpbench-custom-java-custom-java-20260731-0937-output:9:42328"
+                                                       ]
+                                    },
+                         "dlq":  {
+                                     "total":  0,
+                                     "partitions":  [
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:0:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:1:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:10:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:11:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:2:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:3:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:4:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:5:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:6:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:7:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:8:0",
+                                                        "fpbench-custom-java-custom-java-20260731-0937-dlq:9:0"
+                                                    ]
+                                 }
+                     },
+    "measuredDeltas":  {
+                           "input":  500000,
+                           "output":  500000,
+                           "dlq":  0
+                       },
+    "measuredOutputPlusDlq":  500000,
+    "runtimeOnlyOutputInsertion":  true,
+    "manualDownstreamInsertionUsed":  false,
+    "recoveredWithoutRepublish":  true
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "workloadId": "hard-complexity-100kb-1000-fields-v1",
+  "syntheticData": true,
+  "payload": {
+    "variantCount": 100,
+    "serializedBytesEach": 102400,
+    "schemaStableAcrossVariants": true,
+    "variation": "scalar values only",
+    "corpusSha256": "ba3fc084ce067c2ef6b52b7326760889b492e6ad8dc553a0a2aecf4bf0c7a607",
+    "corpusPublished": false,
+    "omissionReason": "The deterministic generator is published; the generated JSONL is approximately 10 MB."
+  },
+  "mapping": {
+    "path": "reproduction/runtime-performance-100kb-1000-fields/mapping/mapping.dsl",
+    "sha256": "007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "outputFieldCount": 1000,
+    "coreFieldCount": 77,
+    "hardWideFieldCount": 923,
+    "passThroughWideFieldCount": 0,
+    "minimumOperationsPerWideField": 3,
+    "chainFamilyCounts": {
+      "chain-0": 116,
+      "chain-1": 116,
+      "chain-2": 116,
+      "chain-3": 115,
+      "chain-4": 115,
+      "chain-5": 115,
+      "chain-6": 115,
+      "chain-7": 115
+    }
+  },
+  "recordPolicies": {
+    "onTransformationError": "ROUTE_TO_DLQ",
+    "onValidationFailure": "ROUTE_TO_DLQ",
+    "onTypeMismatch": "ROUTE_TO_DLQ"
+  },
+  "validCorpusExpectedErrors": 0,
+  "measuredCampaignRecordCount": 500000
+}

@@ -1,0 +1,118 @@
+{
+    "schemaVersion":  1,
+    "kind":  "flowplane-benchmark-whole-stack-allocation-report",
+    "campaignId":  "hard-http-20260731-0805",
+    "runtimeType":  "HTTP",
+    "artifactHash":  "sha256:007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "measuredOperations":  500000,
+    "measurementWindowStart":  "2026-07-31T08:21:13.9543154Z",
+    "measurementWindowEnd":  "2026-07-31T09:06:10.2975844Z",
+    "state":  "incomplete",
+    "reason":  "required_allocator_evidence_missing",
+    "coverage":  {
+                     "complete":  false,
+                     "requiredDataPathComponents":  [
+                                                        "python-payload-renderer",
+                                                        "kafka-console-producer",
+                                                        "kafka-broker",
+                                                        "redpanda-connect-http-bridge",
+                                                        "flowplane-http-runtime"
+                                                    ],
+                     "missingRequiredComponents":  [
+                                                       "python-payload-renderer"
+                                                   ],
+                     "excludedComponents":  [
+                                                {
+                                                    "name":  "flowplane-control-plane",
+                                                    "reason":  "assignment and telemetry plane only; no measured record payload path"
+                                                },
+                                                {
+                                                    "name":  "docker-engine-and-os",
+                                                    "reason":  "allocator-level per-record attribution unavailable; RSS is intentionally not converted to B/op"
+                                                }
+                                            ]
+                 },
+    "aggregate":  {
+                      "estimatedAllocatedBytes":  null,
+                      "estimatedBytesPerOperation":  null,
+                      "estimate":  true,
+                      "semantics":  "sum of allocator-reported bytes for required measured-data-path processes over one shared window; never derived from RSS"
+                  },
+    "observedAvailableComponents":  {
+                                        "estimatedAllocatedBytes":  872929392056,
+                                        "estimatedBytesPerOperation":  1745858.784112,
+                                        "estimate":  true,
+                                        "semantics":  "subtotal of available allocator evidence only; not a whole-stack total when required coverage is incomplete"
+                                    },
+    "components":  [
+                       {
+                           "name":  "python-payload-renderer",
+                           "role":  "fixture renderer, stdin feeder, and Docker client",
+                           "required":  true,
+                           "inMeasuredDataPath":  true,
+                           "state":  "unavailable",
+                           "reason":  "publisher JFR covers kafka-console-producer JVM but excludes the host Python corpus renderer, stdin feeder, and Docker client",
+                           "allocator":  "unavailable",
+                           "estimatedAllocatedBytes":  null,
+                           "estimatedBytesPerOperation":  null,
+                           "estimate":  false,
+                           "evidencePath":  "<benchmark-workspace>\\results\\hard-http-20260731-0805\\observed-http-run\\whole-stack-allocation\\python-publisher-allocation-unavailable.json"
+                       },
+                       {
+                           "name":  "kafka-console-producer",
+                           "role":  "source Kafka producer JVM",
+                           "required":  true,
+                           "inMeasuredDataPath":  true,
+                           "state":  "available",
+                           "reason":  "object_allocation_sample_weight",
+                           "allocator":  "JFR jdk.ObjectAllocationSample weighted estimate",
+                           "estimatedAllocatedBytes":  305832267024,
+                           "estimatedBytesPerOperation":  611664.534048,
+                           "estimate":  true,
+                           "evidencePath":  "<benchmark-workspace>\\results\\hard-http-20260731-0805\\observed-http-run\\whole-stack-allocation\\source-producer-jfr-evidence\\jfr-allocation-summary.json"
+                       },
+                       {
+                           "name":  "kafka-broker",
+                           "role":  "shared Kafka broker JVM",
+                           "required":  true,
+                           "inMeasuredDataPath":  true,
+                           "state":  "available",
+                           "reason":  "object_allocation_sample_weight",
+                           "allocator":  "JFR jdk.ObjectAllocationSample weighted estimate",
+                           "estimatedAllocatedBytes":  100049496048,
+                           "estimatedBytesPerOperation":  200098.992096,
+                           "estimate":  true,
+                           "evidencePath":  "<benchmark-workspace>\\results\\hard-http-20260731-0805\\observed-http-run\\whole-stack-allocation\\kafka-broker-jfr-evidence\\jfr-allocation-summary.json"
+                       },
+                       {
+                           "name":  "redpanda-connect-http-bridge",
+                           "role":  "Kafka-to-HTTP-to-Kafka runtime bridge",
+                           "required":  true,
+                           "inMeasuredDataPath":  true,
+                           "state":  "available",
+                           "reason":  "cumulative_pprof_alloc_space_sample_delta",
+                           "allocator":  "Go pprof alloc_space cumulative sampled-byte delta",
+                           "estimatedAllocatedBytes":  34572333904,
+                           "estimatedBytesPerOperation":  69144.667808,
+                           "estimate":  true,
+                           "evidencePath":  "<benchmark-workspace>\\results\\hard-http-20260731-0805\\observed-http-run\\whole-stack-allocation\\redpanda-connect-allocation-summary.json"
+                       },
+                       {
+                           "name":  "flowplane-http-runtime",
+                           "role":  "governed hard-mapping HTTP transform runtime",
+                           "required":  true,
+                           "inMeasuredDataPath":  true,
+                           "state":  "available",
+                           "reason":  "object_allocation_sample_weight",
+                           "allocator":  "JFR jdk.ObjectAllocationSample weighted estimate",
+                           "estimatedAllocatedBytes":  432475295080,
+                           "estimatedBytesPerOperation":  864950.59016,
+                           "estimate":  true,
+                           "evidencePath":  "<benchmark-workspace>\\results\\hard-http-20260731-0805\\observed-http-run\\whole-stack-allocation\\http-runtime-jfr-evidence\\jfr-allocation-summary.json"
+                       }
+                   ],
+    "observationalOnly":  true,
+    "performanceThresholdsApplied":  false,
+    "inputManifest":  "<benchmark-workspace>\\results\\hard-http-20260731-0805\\observed-http-run\\whole-stack-allocation\\whole-stack-allocation-input.json",
+    "capturedAtUtc":  "2026-07-31T09:25:07.0803171+00:00"
+}

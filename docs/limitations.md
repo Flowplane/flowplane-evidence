@@ -21,6 +21,9 @@
 - Tool and sidecar evidence qualifies only the documented local interoperability path. It does not make an HTTP/sidecar integration a first-class native wrapper.
 - The GCP Pub/Sub emulator does not provide Eventarc. The local bridge converts only the incoming Pub/Sub push envelope to a binary CloudEvent envelope and is explicitly part of that proof boundary.
 - Five-minute stability evidence applies only to Embedded Spring/JVM, HTTP single, HTTP batch, gRPC batch, and gRPC streaming. It is not a general stability claim for every tool integration.
+- The 100 KB / 1,000-field HTTP, gRPC, batch, and custom Java observations use different transport and output boundaries. Their raw throughput values are not a protocol leaderboard.
+- The July 31 runtime campaign captured Flowplane commit `107d4b18d76c2ef5db5578be0f74c315200ee265` with a dirty worktree; the private tracked diff is identified by hash but is not published.
+- Redpanda Connect reported version 4.96.1, but the capture used the mutable image reference `redpandadata/connect:latest`. Future reproductions should pin a digest.
 
 ## Non-claims
 
@@ -29,5 +32,7 @@
 - No universal runtime-equivalence claim beyond the fixed contract fixture.
 - No universal throughput or latency guarantee.
 - No claim that implementation presence alone equals execution verification.
+- No claim that the mapping-specific custom Java implementation is a zero-copy tool or that it represents every custom implementation.
+- No universal lines-of-code, engineering-hours, or dollar-savings claim from the custom-code counterfactual.
 
 See [Evidence classification](evidence-classification.md) and [Historical attempts](../evidence/historical-attempts/README.md).

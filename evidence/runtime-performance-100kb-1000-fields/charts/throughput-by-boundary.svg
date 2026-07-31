@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Observed throughput by documented runtime boundary</title>
+  <desc id="desc">Horizontal bars for Flowplane HTTP, direct gRPC streaming, and mapping-specific custom Java. The chart warns that boundaries differ.</desc>
+  <rect width="960" height="420" fill="#0b1220"/>
+  <text x="48" y="48" fill="#f8fafc" font-family="system-ui" font-size="24" font-weight="700">Observed throughput by boundary</text>
+  <text x="48" y="75" fill="#94a3b8" font-family="system-ui" font-size="14">Context only: transport and output-materialization boundaries differ</text>
+  <text x="48" y="132" fill="#cbd5e1" font-family="system-ui" font-size="15">HTTP: Kafka → bridge → runtime → Kafka</text>
+  <rect x="360" y="108" width="107" height="34" rx="5" fill="#38bdf8"/>
+  <text x="478" y="131" fill="#f8fafc" font-family="system-ui" font-size="14">186.767 records/s</text>
+  <text x="48" y="207" fill="#cbd5e1" font-family="system-ui" font-size="15">gRPC: client → stream runtime → response</text>
+  <rect x="360" y="183" width="526" height="34" rx="5" fill="#34d399"/>
+  <text x="747" y="206" fill="#07131a" font-family="system-ui" font-size="14" font-weight="700">1,314.523 records/s</text>
+  <text x="48" y="282" fill="#cbd5e1" font-family="system-ui" font-size="15">Custom Java: Kafka → runtime → Kafka</text>
+  <rect x="360" y="258" width="81" height="34" rx="5" fill="#f59e0b"/>
+  <text x="452" y="281" fill="#f8fafc" font-family="system-ui" font-size="14">141.080 records/s</text>
+  <line x1="360" y1="325" x2="886" y2="325" stroke="#334155"/>
+  <text x="360" y="350" fill="#64748b" font-family="system-ui" font-size="12">0</text>
+  <text x="743" y="350" fill="#64748b" font-family="system-ui" font-size="12">1,000</text>
+  <text x="48" y="390" fill="#94a3b8" font-family="system-ui" font-size="12">100 variants · 102,400 bytes each · 1,000 output fields · no pass/fail threshold</text>
+</svg>

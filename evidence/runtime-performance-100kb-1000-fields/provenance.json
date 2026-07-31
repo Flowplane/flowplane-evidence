@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "runtime-output-write-boundary",
+  "mappingSha256": "007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+  "payloadCorpusSha256": "ba3fc084ce067c2ef6b52b7326760889b492e6ad8dc553a0a2aecf4bf0c7a607",
+  "manualTransformedInsertionUsed": false,
+  "campaigns": [
+    {
+      "id": "hard-http-20260731-0805",
+      "producerTargets": ["campaign input topic"],
+      "derivedOutputWriter": "Redpanda Connect after the live HTTP runtime response",
+      "outputRecords": 500000,
+      "dlqRecords": 0
+    },
+    {
+      "id": "grpc-20260730-2317",
+      "producerTargets": ["live bidirectional gRPC stream"],
+      "derivedOutputWriter": "Flowplane gRPC runtime response stream",
+      "responseRecords": 500000,
+      "downstreamPublisher": "none"
+    },
+    {
+      "id": "custom-java-20260731-0937",
+      "producerTargets": ["campaign input topic"],
+      "derivedOutputWriter": "mapping-specific custom Java runtime",
+      "outputRecords": 500000,
+      "dlqRecords": 0
+    },
+    {
+      "id": "http-batch-20260731-1305",
+      "producerTargets": ["campaign input topic"],
+      "derivedOutputWriter": "Redpanda Connect after Flowplane HTTP batch responses",
+      "outputRecords": 10000,
+      "dlqRecords": 0
+    },
+    {
+      "id": "http-batch50-20260731-0915",
+      "producerTargets": ["campaign input topic"],
+      "derivedOutputWriter": "Redpanda Connect after Flowplane HTTP batch responses",
+      "outputRecords": 10000,
+      "dlqRecords": 0
+    }
+  ]
+}

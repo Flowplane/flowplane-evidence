@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "http-batch-20260731-1305",
+  "status": "MEASURED",
+  "outcome": "OBSERVED",
+  "performanceThresholdsApplied": false,
+  "batch": {"tool": "Redpanda Connect 4.96.1", "capturedImage": "redpandadata/connect:latest", "sizeRecords": 10, "pipelineThreads": 4, "toolTransformations": false},
+  "identity": {"mappingSha256": "007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31", "payloadCorpusSha256": "ba3fc084ce067c2ef6b52b7326760889b492e6ad8dc553a0a2aecf4bf0c7a607", "mappingFields": 1000, "payloadVariants": 100, "payloadBytesEach": 102400},
+  "traffic": {"warmupRecords": 1000, "measuredRecords": 10000, "input": 10000, "output": 10000, "dlq": 0, "elapsedSeconds": 70.02262740000151, "recordsPerSecond": 142.8109794120605},
+  "latency": {"transformOnlyMicros": {"p50": 556.2, "p95": 1484.8, "p99": 2308.2, "p999": 4434.6, "max": 7087.6, "samples": 10000}, "kafkaToOutputMillis": {"p50": 46, "p95": 71, "p99": 82, "max": 141, "matchedSamples": 1000, "negativeTimestampSamples": 1}},
+  "allocationEstimatedBytesPerOperation": {"transformOnly": 419096, "runtimeJvm": 1831377.4168, "redpandaConnect": 452639.484, "sourceProducerJvm": 633187.9752, "sharedKafkaBrokerJvm": 1333325.4832, "exactAdditiveTotalAvailable": false},
+  "policyCanary": {"records": 6, "required": "DLQ", "validation": "DLQ", "typeMismatch": "DLQ", "lookupMiss": "DLQ", "overflow": "OK", "malformedJson": "DLQ"},
+  "manualTransformedInsertionUsed": false
+}

@@ -22,7 +22,11 @@ def write_zip(destination: Path, entries: list[tuple[Path, str]]) -> None:
 
 raw_entries = [
     (path, path.relative_to(ROOT / "evidence").as_posix())
-    for evidence_root in (ROOT / "evidence/integration-proofs", ROOT / "evidence/trigger-proofs")
+    for evidence_root in (
+        ROOT / "evidence/integration-proofs",
+        ROOT / "evidence/trigger-proofs",
+        ROOT / "evidence/runtime-performance-100kb-1000-fields",
+    )
     for path in evidence_root.rglob("*") if path.is_file()
 ]
 write_zip(release_root / "raw-evidence.zip", raw_entries)

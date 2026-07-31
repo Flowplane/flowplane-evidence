@@ -1,0 +1,59 @@
+{
+    "schemaVersion":  1,
+    "kind":  "custom-java-campaign-manifest",
+    "campaignId":  "custom-java-20260731-0937",
+    "runtimeType":  "CUSTOM_JAVA_JSON",
+    "state":  "DRAINED",
+    "warmupRecords":  10000,
+    "measuredRecords":  500000,
+    "runtimeExpectedTotal":  510000,
+    "measuredWindow":  {
+                           "startUtc":  "2026-07-31T09:38:05.8236538Z",
+                           "publishEndUtc":  "2026-07-31T10:37:14.0000000Z",
+                           "drainEndUtc":  "2026-07-31T10:37:14.7233061Z",
+                           "sharedBoundarySemantics":  "start is persisted broker JFR startedAtUtc; publishEnd is measured producer JFR host LastWriteTimeUtc after producer JVM dump/copy; drainEnd is Docker runtime FinishedAt after consuming the configured 510000 total records",
+                           "inferenceLimit":  "publisher manifest has elapsed duration but no embedded wall-clock timestamps; producer JFR persisted time is used instead of inventing a timestamp"
+                       },
+    "measuredDeltas":  {
+                           "input":  500000,
+                           "output":  500000,
+                           "dlq":  0
+                       },
+    "consumerLag":  {
+                        "capturedAtUtc":  "2026-07-31T10:43:16.1917410Z",
+                        "available":  true,
+                        "total":  0,
+                        "committedOffsetTotal":  510000,
+                        "logEndOffsetTotal":  510000,
+                        "partitionsObserved":  12,
+                        "raw":  [
+                                    "System.Management.Automation.RemoteException",
+                                    "Consumer group \u0027fpbench-custom-java-custom-java-20260731-0937-consumer\u0027 has no active members.",
+                                    "",
+                                    "GROUP                                                  TOPIC                                             PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID     HOST            CLIENT-ID",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 9          42328           42328           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 10         42551           42551           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 7          42467           42467           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 8          42458           42458           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 5          42193           42193           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 6          42881           42881           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 3          42202           42202           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 4          42693           42693           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 1          42431           42431           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 2          42710           42710           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 0          42547           42547           0               -               -               -",
+                                    "fpbench-custom-java-custom-java-20260731-0937-consumer fpbench-custom-java-custom-java-20260731-0937-raw 11         42539           42539           0               -               -               -"
+                                ]
+                    },
+    "provenance":  "<benchmark-workspace>\\results\\custom-java-20260731-0937\\custom-java-provenance.json",
+    "recoveredWithoutRepublish":  true,
+    "dockerStats":  {
+                        "state":  "unavailable",
+                        "reason":  "controller_process_terminated_before_in_memory_samples_were_persisted",
+                        "samples":  [
+
+                                    ],
+                        "invented":  false
+                    },
+    "cleanupRequired":  true
+}

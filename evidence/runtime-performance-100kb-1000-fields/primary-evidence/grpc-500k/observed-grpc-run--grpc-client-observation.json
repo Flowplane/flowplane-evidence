@@ -1,0 +1,67 @@
+{
+  "schema" : "flowplane.grpc-runtime-observation.v1",
+  "schemaVersion" : 1,
+  "kind" : "flowplane-benchmark-grpc-observation",
+  "campaignId" : "grpc-20260730-2317",
+  "runtimeType" : "GRPC",
+  "runtimeId" : "fpbench-grpc-grpc-20260730-2317-runtime",
+  "mappingId" : "6a6c3de0b92c57a9b8eaa880",
+  "artifactId" : "6c1491d5-6621-4226-b83c-c7e562544947",
+  "artifactHash" : "sha256:007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+  "transport" : "GRPC_STREAM",
+  "transportEvidence" : "control-plane runtime preferredTransport; assignment endpoint does not expose transport",
+  "observationMode" : "PERFORMANCE_MONITORING_ONLY",
+  "startedAt" : "2026-07-31T06:18:28.847625Z",
+  "completedAt" : "2026-07-31T06:24:49.214488800Z",
+  "elapsedSeconds" : 380.366,
+  "configuredRecords" : 500000,
+  "recordsSent" : 500000,
+  "batchesSent" : 50000,
+  "responseRecords" : 500000,
+  "responseBatches" : 50000,
+  "okObserved" : 500000,
+  "dlqObserved" : 0,
+  "failedObserved" : 0,
+  "responseDrainCompleted" : true,
+  "outstandingBatches" : 0,
+  "rpcObservation" : "none reported",
+  "achievedRecordsPerSecond" : 1314.5233801128388,
+  "transformedOutputBytesObserved" : 23594145000,
+  "responseLatency" : {
+    "unit" : "microseconds",
+    "semantics" : "source record send to runtime response; every record in a batch shares its batch latency",
+    "values" : {
+      "observations" : 50000,
+      "reservoirSize" : 50000,
+      "averageMicros" : 268510.46582599997,
+      "p50Micros" : 262785.9,
+      "p95Micros" : 340473.4,
+      "p99Micros" : 397863.2,
+      "p999Micros" : 474931.8,
+      "maxMicros" : 716644.3
+    }
+  },
+  "clientRequestAllocation" : {
+    "unit" : "bytes per record",
+    "semantics" : "sender-thread request construction and gRPC submission allocation divided by records in batch",
+    "values" : {
+      "observations" : 50000,
+      "reservoirSize" : 50000,
+      "average" : 2121.54084,
+      "p50" : 2081.0,
+      "p95" : 2382.0,
+      "p99" : 2638.0,
+      "p999" : 3323.0,
+      "max" : 433915.0
+    }
+  },
+  "streams" : 16,
+  "batchSize" : 10,
+  "maxInflightBatches" : 256,
+  "peakInflightBatches" : 48,
+  "outputHandling" : "responses counted and discarded; bounded hash/size samples only; no downstream publisher exists",
+  "jfr" : {
+    "scope" : "full client JVM measured interval",
+    "path" : "<benchmark-workspace>\\results\\grpc-20260730-2317\\observed-grpc-run\\grpc-client.jfr"
+  }
+}

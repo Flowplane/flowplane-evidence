@@ -1,0 +1,19 @@
+{
+    "schemaVersion":  1,
+    "kind":  "flowplane-benchmark-end-to-end-latency",
+    "campaignId":  "grpc-20260730-2317",
+    "runtimeType":  "GRPC",
+    "artifactHash":  "sha256:007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "latency":  {
+                    "unit":  "nanoseconds",
+                    "totalSamples":  50000,
+                    "retainedSamples":  50000,
+                    "p50":  262785900,
+                    "p95":  340473400,
+                    "p99":  397863200,
+                    "p999":  474931800,
+                    "max":  716644300
+                },
+    "semantics":  "source record send to runtime response; every record in a batch shares its batch latency",
+    "observedAtUtc":  "2026-07-31T06:24:59.3555495Z"
+}

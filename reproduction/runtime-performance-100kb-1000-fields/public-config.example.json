@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "recordCount": 500000,
+  "payloadBytes": 102400,
+  "payloadVariants": 100,
+  "mappingFields": 1000,
+  "dockerNetwork": "<existing-docker-network>",
+  "kafkaBootstrap": "<host:port>",
+  "controlPlaneBaseUrl": "<control-plane-url>",
+  "productUi": "<product-ui-url>",
+  "resultsRoot": "<absolute-output-directory>",
+  "http": {
+    "runtimeImage": "<immutable-image-reference>",
+    "redpandaConnectImage": "redpandadata/connect:4.96.1"
+  },
+  "grpc": {
+    "streams": 16,
+    "batchSize": 10,
+    "maxInFlightBatches": 256
+  }
+}

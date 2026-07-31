@@ -1,0 +1,21 @@
+{
+    "schemaVersion":  1,
+    "kind":  "flowplane-benchmark-campaign-result",
+    "campaignId":  "grpc-20260730-2317",
+    "runtime":  "GRPC",
+    "status":  "COMPLETE",
+    "outcome":  "OBSERVED",
+    "performanceThresholdsApplied":  false,
+    "measuredRecordCount":  500000,
+    "mappingId":  "6a6c3de0b92c57a9b8eaa880",
+    "artifactHash":  "sha256:007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "responseRecords":  500000,
+    "okObserved":  500000,
+    "dlqObserved":  0,
+    "failedObserved":  0,
+    "downstreamInsertion":  "none",
+    "observationPath":  "<benchmark-workspace>\\results\\grpc-20260730-2317\\observed-grpc-run\\grpc-client-observation.json",
+    "dashboardPath":  "<benchmark-workspace>\\results\\grpc-20260730-2317\\dashboard.json",
+    "uiEvidencePath":  "<benchmark-workspace>\\results\\grpc-20260730-2317\\state-gates\\ui-verified-external.json",
+    "completedAtUtc":  "2026-07-31T06:31:50.5161344Z"
+}

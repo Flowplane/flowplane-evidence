@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "capturedAtUtcRange": {
+    "start": "2026-07-31T06:17:45Z",
+    "end": "2026-07-31T16:02:31Z"
+  },
+  "executionClass": "live local Docker stack",
+  "hostOs": "Windows 11",
+  "dockerNetwork": "flowplane-quality-stack_default",
+  "existingComposeStackReused": true,
+  "newComposeFileCreated": false,
+  "flowplaneSource": {
+    "commit": "107d4b18d76c2ef5db5578be0f74c315200ee265",
+    "dirtyAtCapture": true,
+    "statusSha256": "553e81c1fad66ab6ff2b76f456c075cb7c6d04f9f93a562cc0df0b5d44239c5d",
+    "trackedDiffSha256": "3a692a87e997c6e307b60c957b460e6bf1195f1ed75ccd004708eead46c992a2",
+    "publicProductDiffAvailable": false
+  },
+  "tools": {
+    "httpBridge": {
+      "name": "Redpanda Connect",
+      "reportedVersion": "4.96.1",
+      "capturedImageReference": "redpandadata/connect:latest",
+      "immutableDigestCaptured": false
+    },
+    "grpcLoadDriver": {
+      "name": "isolated Java gRPC observation client",
+      "downstreamPublisher": false
+    }
+  },
+  "limitations": [
+    "Local Docker evidence is not managed-service certification.",
+    "The private product dirty diff is identified by hash but is not published.",
+    "The Redpanda Connect capture used a mutable image tag; future runs must pin a digest."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "schemaVersion":  1,
+    "kind":  "flowplane-benchmark-state-gate",
+    "campaignId":  "hard-http-20260731-0805",
+    "runtime":  "HTTP",
+    "targetState":  "PARITY_PREFLIGHT_VALIDATED",
+    "validated":  true,
+    "evidenceMeaning":  "runtime/core identity validation only; no performance threshold or verdict",
+    "observedAtUtc":  "2026-07-31T08:05:37.0197983Z",
+    "observation":  {
+                        "httpStatus":  200,
+                        "inputBytes":  102400,
+                        "outputBytes":  46995,
+                        "outputFieldCount":  1000,
+                        "outputSha256":  "db1437054f8f166b4755f86451850b9b5bf9127a8c9b9bb83ad1f758a1b62bfd",
+                        "governedCoreOutputSha256":  "db1437054f8f166b4755f86451850b9b5bf9127a8c9b9bb83ad1f758a1b62bfd",
+                        "requestElapsedMs":  526.484,
+                        "artifactId":  "1627d17a-ca6b-49e7-b224-1b979fd58933",
+                        "artifactHash":  "sha256:007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+                        "mappingId":  "6a6c571eb92c57a9b8eaa8c4"
+                    }
+}

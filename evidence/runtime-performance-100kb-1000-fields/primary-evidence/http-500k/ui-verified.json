@@ -1,0 +1,18 @@
+{
+    "schemaVersion":  1,
+    "kind":  "flowplane-benchmark-state-gate",
+    "campaignId":  "http-rerun-20260730-1752",
+    "runtime":  "HTTP",
+    "targetState":  "UI_VERIFIED",
+    "validated":  true,
+    "evidenceMeaning":  "live product UI displayed the fresh HTTP runtime and telemetry during the 500000-record run; no performance verdict",
+    "observedAtUtc":  "2026-07-30T19:07:16.5592043Z",
+    "observation":  {
+                        "page":  "http://localhost:5174/runtimes",
+                        "runtimeId":  "fpbench-http-http-rerun-20260730-1752-runtime",
+                        "runtimeVisible":  true,
+                        "liveIndicatorVisible":  true,
+                        "screenshotPath":  "<benchmark-workspace>\\output\\playwright\\http-rerun-500k-live-runtime.png",
+                        "screenshotSha256":  "b22aacbd4c2e71d28d40b595b692efd78003d624c4052cc7646d6b3aff71228b"
+                    }
+}

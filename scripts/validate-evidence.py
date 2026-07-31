@@ -81,7 +81,11 @@ def check_release_archive() -> None:
     assert (release_root / "evidence-manifest.json").read_bytes() == (ROOT / "evidence/manifest.json").read_bytes(), "release manifest copy is stale"
     expected = {
         path.relative_to(ROOT / "evidence").as_posix(): path
-        for evidence_root in (ROOT / "evidence/integration-proofs", ROOT / "evidence/trigger-proofs")
+        for evidence_root in (
+            ROOT / "evidence/integration-proofs",
+            ROOT / "evidence/trigger-proofs",
+            ROOT / "evidence/runtime-performance-100kb-1000-fields",
+        )
         for path in evidence_root.rglob("*") if path.is_file()
     }
     with zipfile.ZipFile(release_root / "raw-evidence.zip") as archive:
@@ -103,6 +107,42 @@ def check_claims() -> None:
         assert claim["status"] in APPROVED_STATUSES, f"{claim['claim_id']} uses invalid status {claim['status']}"
         evidence = ROOT / claim["evidence_path"]
         assert evidence.is_file(), f"{claim['claim_id']} evidence path missing: {claim['evidence_path']}"
+
+
+def check_runtime_performance_primary_evidence() -> None:
+    family = ROOT / "evidence/runtime-performance-100kb-1000-fields"
+    primary = family / "primary-evidence"
+
+    http_result = json.loads((family / "runs/http-500k/result.json").read_text(encoding="utf-8"))
+    http_campaign = json.loads((primary / "http-hard-500k/campaign-result.json").read_text(encoding="utf-8"))
+    http_publisher = json.loads((primary / "http-hard-500k/observed-http-run--measured-publisher.json").read_text(encoding="utf-8"))
+    http_latency = json.loads((primary / "http-hard-500k/observed-http-run--kafka-end-to-end-latency.json").read_text(encoding="utf-8"))
+    assert http_campaign["campaignId"] == http_result["campaignId"] == http_publisher["campaignId"]
+    assert http_campaign["counts"] == {"raw": 500000, "output": 500000, "dlq": 0, "consumerLag": 0}
+    assert http_publisher["sentRecordCount"] == http_result["accounting"]["input"] == 500000
+    assert http_publisher["achievedRecordsPerSecond"] == http_result["publisher"]["recordsPerSecond"]
+    assert http_publisher["elapsedSeconds"] == http_result["publisher"]["elapsedSeconds"]
+    assert http_latency["sampleCountMatched"] == http_result["latency"]["kafkaToOutputMillis"]["matchedSamples"]
+    assert http_latency["latencyMillis"]["p50"] == http_result["latency"]["kafkaToOutputMillis"]["p50"]
+
+    grpc_result = json.loads((family / "runs/grpc-stream-500k/result.json").read_text(encoding="utf-8"))
+    grpc_observation = json.loads((primary / "grpc-500k/observed-grpc-run--grpc-client-observation.json").read_text(encoding="utf-8"))
+    grpc_calibration = json.loads((primary / "grpc-500k/grpc-transform-calibration.json").read_text(encoding="utf-8"))
+    assert grpc_observation["campaignId"] == grpc_result["campaignId"]
+    assert grpc_observation["recordsSent"] == grpc_observation["responseRecords"] == 500000
+    assert grpc_observation["achievedRecordsPerSecond"] == 1314.5233801128388
+    assert round(grpc_observation["achievedRecordsPerSecond"], 3) == grpc_result["throughput"]["recordsPerSecond"]
+    assert grpc_calibration["boundaries"]["transformOnly"]["p50"] / 1000 == grpc_result["latency"]["transformOnlyMicros"]["p50"]
+
+    valid_parity = json.loads((primary / "custom-java-500k/valid-parity-evidence.json").read_text(encoding="utf-8"))
+    policy_parity = json.loads((primary / "custom-java-500k/policy-parity-evidence.json").read_text(encoding="utf-8"))
+    artifact_audit = json.loads((primary / "custom-java-500k/custom-java-artifact-audit.json").read_text(encoding="utf-8"))
+    assert valid_parity["parityState"] == "PROVEN" and valid_parity["byteExactRecordCount"] == 100
+    assert valid_parity["differences"] == []
+    assert policy_parity["parityState"] == "PROVEN"
+    assert policy_parity["expectedRecordCount"] == policy_parity["actualRecordCount"] == 6
+    assert policy_parity["expectedSha256"] == policy_parity["actualSha256"]
+    assert artifact_audit["artifact"]["sha256"] == valid_parity["jarSha256"] == policy_parity["competitorArtifact"]["sha256"]
 
 
 def check_manifest() -> None:
@@ -343,6 +383,7 @@ if __name__ == "__main__":
     check_hashes()
     check_release_archive()
     check_claims()
+    check_runtime_performance_primary_evidence()
     check_manifest()
     check_repeatability()
     check_soak()
@@ -350,4 +391,4 @@ if __name__ == "__main__":
     check_scaling_and_charts()
     check_live_demo()
     check_document_links()
-    print("Evidence validation passed: checksums, claims, statuses, manifest, qualification, accounting, parity, charts, live-demo provenance, and links.")
+    print("Evidence validation passed: checksums, claims, primary runtime measurements, statuses, manifest, qualification, accounting, parity, charts, live-demo provenance, and links.")

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-07-31
+
+- Prepared evidence release `evidence-2026.07.3` for the isolated 100 KB / 1,000-field runtime campaign.
+- Added exact accounting and performance observations for 500,000-record live HTTP and gRPC streaming runs.
+- Added mapping-specific custom Java valid-output and policy parity plus its 500,000-record counterfactual observation.
+- Added controlled 10,000-record HTTP batch-size 10 and 50 observations with transform, Kafka-to-output, allocation, resource, and policy evidence.
+- Published the exact synthetic mapping, deterministic workload generator, one-row-per-field mapping inventory, gRPC client, and custom comparison source without adding a Docker Compose file.
+- Documented incompatible measurement boundaries, incomplete whole-stack allocation, dirty source-state, mutable Redpanda image-tag, and single-observation limitations.
+
 ## 2026-07-21
 
 - Prepared immutable release `evidence-2026.07.2` for the complete 2026-07-20/21 live-local supplement.

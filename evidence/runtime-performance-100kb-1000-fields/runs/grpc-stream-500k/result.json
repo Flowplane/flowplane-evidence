@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "grpc-20260730-2317",
+  "status": "MEASURED",
+  "outcome": "OBSERVED",
+  "performanceThresholdsApplied": false,
+  "topology": "isolated Java gRPC client -> Flowplane GRPC_STREAM runtime -> response client",
+  "configuration": {"batchSize": 10, "streams": 16, "maxInFlightBatches": 256},
+  "identity": {
+    "mappingSha256": "007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "payloadCorpusSha256": "ba3fc084ce067c2ef6b52b7326760889b492e6ad8dc553a0a2aecf4bf0c7a607",
+    "payloadVariants": 100,
+    "payloadBytesEach": 102400,
+    "mappingFields": 1000
+  },
+  "accounting": {"sent": 500000, "responses": 500000, "ok": 500000, "dlq": 0, "failed": 0, "downstreamInsertion": "none"},
+  "throughput": {"elapsedSeconds": 380.366, "recordsPerSecond": 1314.523, "inputBytes": 51200000000, "outputBytes": 23594145000},
+  "latency": {
+    "transformOnlyMicros": {"samples": 10000, "p50": 464.6, "p95": 741.9, "p99": 1320.3, "p999": 3622.4, "max": 5461.9},
+    "sendToResponseMillis": {"batchSamples": 50000, "p50": 262.786, "p95": 340.473, "p99": 397.863, "p999": 474.932, "max": 716.644}
+  },
+  "allocationEstimated": {
+    "transformOnlyBytesPerOperationP50": 419232,
+    "runtimeTotalBytes": 725247265616,
+    "runtimeBytesPerRecord": 1450494.531232,
+    "clientTotalBytes": 26848458296,
+    "clientBytesPerRecord": 53696.916592,
+    "crossProcessTotalBytes": 752095723912,
+    "crossProcessBytesPerRecord": 1504191.447824,
+    "exactAllocatorCounter": false
+  },
+  "policyCanary": {"sent": 100, "responses": 100, "ok": 20, "dlq": 80, "failed": 0},
+  "parity": {"variant": 0, "outputBytes": 46995, "outputSha256": "db1437054f8f166b4755f86451850b9b5bf9127a8c9b9bb83ad1f758a1b62bfd"}
+}

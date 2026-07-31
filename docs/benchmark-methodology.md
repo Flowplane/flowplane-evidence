@@ -7,6 +7,8 @@
 3. **Live runtime probe:** Kafka and Flink run locally in Docker, including transport and runtime execution. These latencies are not directly comparable to JMH.
 4. **Soak:** a 30-minute producer/consumer run preserves producer, streaming, topic-count, lag, throughput, latency, heap, and GC evidence.
 5. **Contract parity:** fixed valid and invalid fixtures are executed through protocol adapters and compared by output hash and canonical failure fields.
+6. **Live multi-process runtime campaign:** an input-only publisher drives a live runtime or runtime bridge while independent collectors preserve exact accounting, transform-only latency, transport/end-to-end latency, allocation estimates, Docker resources, policy canaries, and UI telemetry. No performance threshold is implied by completion.
+7. **Mapping-specific counterfactual:** a hand-written implementation is first required to match the fixed valid and policy fixtures, then observed under its documented topology. This is not a generic language or product comparison.
 
 ## Core protocol
 
@@ -23,4 +25,11 @@ Average time used 5 × 1-second warmups, 5 × 10-second measurements, and 3 fork
 - Preserve missed qualification checks with their threshold and observation; do not relabel a measured result as qualified.
 - Compare results only when timed boundaries, payload shape, output materialization, host, runtime, and protocol are compatible.
 - Treat local Docker, LocalStack, and emulator runs as local proofs, not managed-service certification.
+- Keep transform-only, runtime-request, Kafka-to-output, and source-send-to-response latency boundaries separate.
+- Do not label independent process-allocation estimates as exact whole-stack B/op when a required component is uninstrumented.
+- Retain and count negative timestamp correlations instead of silently clamping them.
+- Treat UI telemetry as corroborating operational evidence rather than the source of benchmark truth.
 - Verify all public artifacts with [checksums](../evidence/checksums.sha256).
+
+The detailed multi-process protocol and comparison rules are in the
+[100 KB / 1,000-field runtime methodology](../evidence/runtime-performance-100kb-1000-fields/methodology.md).

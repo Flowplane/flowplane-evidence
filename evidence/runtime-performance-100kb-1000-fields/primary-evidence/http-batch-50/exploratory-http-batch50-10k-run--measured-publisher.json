@@ -1,0 +1,6044 @@
+{
+  "achievedRecordsPerSecond": 141.40017204838912,
+  "campaignId": "http-batch50-20260731-0915",
+  "configuredRatePerSecond": 0,
+  "elapsedSeconds": 70.7212717999937,
+  "firstSequence": 0,
+  "fixturePath": "<benchmark-workspace>\\fixtures\\valid-payloads-100kb.jsonl",
+  "formatVersion": 1,
+  "kafkaKey": "decimal measured sequence",
+  "lastSequence": 9999,
+  "lastVariantIndex": 99,
+  "latencySampleLimit": 1000,
+  "latencySamples": [
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 29431,
+      "sequence": 0,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 82,
+      "sequence": 10,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 1020,
+      "sequence": 20,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 74,
+      "sequence": 30,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 42302,
+      "sequence": 40,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 244,
+      "sequence": 50,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 217,
+      "sequence": 60,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 58,
+      "sequence": 70,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 221,
+      "sequence": 80,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 60,
+      "sequence": 90,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 420,
+      "sequence": 100,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 37161,
+      "sequence": 110,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 351,
+      "sequence": 120,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 89,
+      "sequence": 130,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 874,
+      "sequence": 140,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 430,
+      "sequence": 150,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 211,
+      "sequence": 160,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 104,
+      "sequence": 170,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 38418,
+      "sequence": 180,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 175,
+      "sequence": 190,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 77,
+      "sequence": 200,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 301,
+      "sequence": 210,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 81,
+      "sequence": 220,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 300,
+      "sequence": 230,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 65,
+      "sequence": 240,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 472,
+      "sequence": 250,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 36487,
+      "sequence": 260,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 65,
+      "sequence": 270,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 212,
+      "sequence": 280,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 67,
+      "sequence": 290,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 134,
+      "sequence": 300,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 126,
+      "sequence": 310,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 103,
+      "sequence": 320,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 35134,
+      "sequence": 330,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 36376,
+      "sequence": 340,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 302,
+      "sequence": 350,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 210,
+      "sequence": 360,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 162,
+      "sequence": 370,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 80,
+      "sequence": 380,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 84,
+      "sequence": 390,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 66,
+      "sequence": 400,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 43763,
+      "sequence": 410,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 238,
+      "sequence": 420,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 155,
+      "sequence": 430,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 78,
+      "sequence": 440,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 858,
+      "sequence": 450,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 39862,
+      "sequence": 460,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 35021,
+      "sequence": 470,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 68,
+      "sequence": 480,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 365,
+      "sequence": 490,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 67,
+      "sequence": 500,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 203,
+      "sequence": 510,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 92,
+      "sequence": 520,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 27361,
+      "sequence": 530,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 141,
+      "sequence": 540,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 157,
+      "sequence": 550,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 129,
+      "sequence": 560,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 110,
+      "sequence": 570,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 152,
+      "sequence": 580,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 76,
+      "sequence": 590,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 89,
+      "sequence": 600,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 82,
+      "sequence": 610,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 35617,
+      "sequence": 620,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 59,
+      "sequence": 630,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 215,
+      "sequence": 640,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 222,
+      "sequence": 650,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 72,
+      "sequence": 660,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 290,
+      "sequence": 670,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 290,
+      "sequence": 680,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 15787,
+      "sequence": 690,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 71,
+      "sequence": 700,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 264,
+      "sequence": 710,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 94,
+      "sequence": 720,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 242,
+      "sequence": 730,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 125,
+      "sequence": 740,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 16146,
+      "sequence": 750,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 476,
+      "sequence": 760,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 114,
+      "sequence": 770,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 68,
+      "sequence": 780,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 126,
+      "sequence": 790,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 224,
+      "sequence": 800,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 186,
+      "sequence": 810,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 177,
+      "sequence": 820,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 70,
+      "sequence": 830,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 81,
+      "sequence": 840,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 399,
+      "sequence": 850,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 82,
+      "sequence": 860,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 39445,
+      "sequence": 870,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 35922,
+      "sequence": 880,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 89,
+      "sequence": 890,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 326,
+      "sequence": 900,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 82,
+      "sequence": 910,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 207,
+      "sequence": 920,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 121,
+      "sequence": 930,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 31472,
+      "sequence": 940,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 37704,
+      "sequence": 950,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 87,
+      "sequence": 960,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 366,
+      "sequence": 970,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 89,
+      "sequence": 980,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 22831,
+      "sequence": 990,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 61,
+      "sequence": 1000,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "a57ea94fb1745a34ad313306cf03c90fb4368596a421ce3dec5c8c539cc206b8",
+      "renderWriteMicros": 66,
+      "sequence": 1010,
+      "variantIndex": 10
+    },
+    {
+      "payloadSha256": "18aa268b29669a322147d29cffe74b7f34c724e04dbe666327f9505977595ce7",
+      "renderWriteMicros": 233,
+      "sequence": 1020,
+      "variantIndex": 20
+    },
+    {
+      "payloadSha256": "9c7753f842115ba674ae7d561946976c4a298152514c270d6f29ed9ea88a4b93",
+      "renderWriteMicros": 58,
+      "sequence": 1030,
+      "variantIndex": 30
+    },
+    {
+      "payloadSha256": "000990ea6c3470a1463356183a6b5e89f82fdbaa2febea7a61e5a781daa3d150",
+      "renderWriteMicros": 133,
+      "sequence": 1040,
+      "variantIndex": 40
+    },
+    {
+      "payloadSha256": "29c53a9074a9ba227649edf3546690975adb139e9e3d821cbb139eba011a2551",
+      "renderWriteMicros": 77,
+      "sequence": 1050,
+      "variantIndex": 50
+    },
+    {
+      "payloadSha256": "4ec0f24e6780148ed6c291b038ff011a2b6b7f8f11103e3180062cf777b006ba",
+      "renderWriteMicros": 102,
+      "sequence": 1060,
+      "variantIndex": 60
+    },
+    {
+      "payloadSha256": "c040cb372574e229ff4f6f4e70655fc2bcd3e41cafdf47aaa966456c76d6815b",
+      "renderWriteMicros": 99,
+      "sequence": 1070,
+      "variantIndex": 70
+    },
+    {
+      "payloadSha256": "3af95cafd48605d97443066cf1adb23012afd3d3415498d6b218db306e8f26ef",
+      "renderWriteMicros": 30652,
+      "sequence": 1080,
+      "variantIndex": 80
+    },
+    {
+      "payloadSha256": "0fbacb771d0722c0a56d4d5550a4c8ee4c391ccb75b179fd98a50a766935c791",
+      "renderWriteMicros": 438,
+      "sequence": 1090,
+      "variantIndex": 90
+    },
+    {
+      "payloadSha256": "08a7905cd794151096101c9258c5abe4112b6f170995e80a70066b5b71ae15e0",
+      "renderWriteMicros": 58,
+      "sequence": 1100,
+      "variantIndex": 0
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 89,
+      "sequence": 1111,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 134,
+      "sequence": 1121,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 104,
+      "sequence": 1131,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 86,
+      "sequence": 1141,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 222,
+      "sequence": 1151,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 77,
+      "sequence": 1161,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 626,
+      "sequence": 1171,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 376,
+      "sequence": 1181,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 311,
+      "sequence": 1191,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 309,
+      "sequence": 1201,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 48,
+      "sequence": 1211,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 61,
+      "sequence": 1221,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 1736,
+      "sequence": 1231,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 13609,
+      "sequence": 1241,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 414,
+      "sequence": 1251,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 62,
+      "sequence": 1261,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 63,
+      "sequence": 1271,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 265,
+      "sequence": 1281,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 25864,
+      "sequence": 1291,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 363,
+      "sequence": 1301,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 61,
+      "sequence": 1311,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 66,
+      "sequence": 1321,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 267,
+      "sequence": 1331,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 24258,
+      "sequence": 1341,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 92,
+      "sequence": 1351,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 283,
+      "sequence": 1361,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 169,
+      "sequence": 1371,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 94,
+      "sequence": 1381,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 164,
+      "sequence": 1391,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 236,
+      "sequence": 1401,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 310,
+      "sequence": 1411,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 286,
+      "sequence": 1421,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 135,
+      "sequence": 1431,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 69,
+      "sequence": 1441,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 124,
+      "sequence": 1451,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 108,
+      "sequence": 1461,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 118,
+      "sequence": 1471,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 339,
+      "sequence": 1481,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 71,
+      "sequence": 1491,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 280,
+      "sequence": 1501,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 87,
+      "sequence": 1511,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 240,
+      "sequence": 1521,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 37910,
+      "sequence": 1531,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 38160,
+      "sequence": 1541,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 101,
+      "sequence": 1551,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 179,
+      "sequence": 1561,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 313,
+      "sequence": 1571,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 19974,
+      "sequence": 1581,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 827,
+      "sequence": 1591,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 36635,
+      "sequence": 1601,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 54,
+      "sequence": 1611,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 83,
+      "sequence": 1621,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 73,
+      "sequence": 1631,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 85,
+      "sequence": 1641,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 21204,
+      "sequence": 1651,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 42150,
+      "sequence": 1661,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 89,
+      "sequence": 1671,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 259,
+      "sequence": 1681,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 129,
+      "sequence": 1691,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 147,
+      "sequence": 1701,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 29801,
+      "sequence": 1711,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 160,
+      "sequence": 1721,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 95,
+      "sequence": 1731,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 240,
+      "sequence": 1741,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 299,
+      "sequence": 1751,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 134,
+      "sequence": 1761,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 835,
+      "sequence": 1771,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 25644,
+      "sequence": 1781,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 51,
+      "sequence": 1791,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 67,
+      "sequence": 1801,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 167,
+      "sequence": 1811,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 60,
+      "sequence": 1821,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 168,
+      "sequence": 1831,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 113,
+      "sequence": 1841,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 56662,
+      "sequence": 1851,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 33721,
+      "sequence": 1861,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 195,
+      "sequence": 1871,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 71,
+      "sequence": 1881,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 57,
+      "sequence": 1891,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 83,
+      "sequence": 1901,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 83,
+      "sequence": 1911,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 125,
+      "sequence": 1921,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 25731,
+      "sequence": 1931,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 70,
+      "sequence": 1941,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 510,
+      "sequence": 1951,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 161,
+      "sequence": 1961,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 87,
+      "sequence": 1971,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 365,
+      "sequence": 1981,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 106,
+      "sequence": 1991,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 97,
+      "sequence": 2001,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 625,
+      "sequence": 2011,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 82,
+      "sequence": 2021,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 36110,
+      "sequence": 2031,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 25098,
+      "sequence": 2041,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 276,
+      "sequence": 2051,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 189,
+      "sequence": 2061,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 104,
+      "sequence": 2071,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 235,
+      "sequence": 2081,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 26096,
+      "sequence": 2091,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 38078,
+      "sequence": 2101,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 70,
+      "sequence": 2111,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "b2caabdb3046204ddd110d27e43fd01907941930bcfce812efc62aa71e1e8603",
+      "renderWriteMicros": 117,
+      "sequence": 2121,
+      "variantIndex": 21
+    },
+    {
+      "payloadSha256": "f2c42eac7ba144a081be4da8858af54ba33cf846e40ec2134589ab0447a15174",
+      "renderWriteMicros": 1149,
+      "sequence": 2131,
+      "variantIndex": 31
+    },
+    {
+      "payloadSha256": "5f23e77ffad89d7503015a96cda92f5f57a9c4fea1f44702661d5284f22fe8b6",
+      "renderWriteMicros": 318,
+      "sequence": 2141,
+      "variantIndex": 41
+    },
+    {
+      "payloadSha256": "2aeed98c992bcd6720a0dd5fbcaec2a2a98d6f992ee8ba825f4e52953e90c537",
+      "renderWriteMicros": 236,
+      "sequence": 2151,
+      "variantIndex": 51
+    },
+    {
+      "payloadSha256": "7cf64e14fe553916fe75970fb1eec3ffd77ba4075a94fe982c26f4a10dc98cf0",
+      "renderWriteMicros": 210,
+      "sequence": 2161,
+      "variantIndex": 61
+    },
+    {
+      "payloadSha256": "64eb1896c1c77f80631c425f83029651bad50d86ff0d1cf1984f359ae678fda2",
+      "renderWriteMicros": 252,
+      "sequence": 2171,
+      "variantIndex": 71
+    },
+    {
+      "payloadSha256": "3150bed05752dd302622e8e7d4c00dfc9c273c2587b3e2139d5f65a038809ced",
+      "renderWriteMicros": 108,
+      "sequence": 2181,
+      "variantIndex": 81
+    },
+    {
+      "payloadSha256": "a89838f8c34071d872b95199f0b9fae341c9b71b33f6015255de59d94902655e",
+      "renderWriteMicros": 87,
+      "sequence": 2191,
+      "variantIndex": 91
+    },
+    {
+      "payloadSha256": "70316fc641967804123b75241aa20f8009a6717b4873067c1c7be0dcb89824c7",
+      "renderWriteMicros": 281,
+      "sequence": 2201,
+      "variantIndex": 1
+    },
+    {
+      "payloadSha256": "272c0d27992b01542214876457c302498efb718cdadbb8b67e8c9e1e8c2d05b5",
+      "renderWriteMicros": 67,
+      "sequence": 2211,
+      "variantIndex": 11
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 293,
+      "sequence": 2222,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 42893,
+      "sequence": 2232,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 25106,
+      "sequence": 2242,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 241,
+      "sequence": 2252,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 65,
+      "sequence": 2262,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 143,
+      "sequence": 2272,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 260,
+      "sequence": 2282,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 56,
+      "sequence": 2292,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 245,
+      "sequence": 2302,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 308,
+      "sequence": 2312,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 161,
+      "sequence": 2322,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 39865,
+      "sequence": 2332,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 56,
+      "sequence": 2342,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 67,
+      "sequence": 2352,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 69,
+      "sequence": 2362,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 472,
+      "sequence": 2372,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 541,
+      "sequence": 2382,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 90,
+      "sequence": 2392,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 39856,
+      "sequence": 2402,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 42803,
+      "sequence": 2412,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 64,
+      "sequence": 2422,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 47,
+      "sequence": 2432,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 92,
+      "sequence": 2442,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 1268,
+      "sequence": 2452,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 419,
+      "sequence": 2462,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 74,
+      "sequence": 2472,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 70,
+      "sequence": 2482,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 131,
+      "sequence": 2492,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 215,
+      "sequence": 2502,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 84,
+      "sequence": 2512,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 73,
+      "sequence": 2522,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 42973,
+      "sequence": 2532,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 52,
+      "sequence": 2542,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 83,
+      "sequence": 2552,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 307,
+      "sequence": 2562,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 346,
+      "sequence": 2572,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 522,
+      "sequence": 2582,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 76,
+      "sequence": 2592,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 37289,
+      "sequence": 2602,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 84,
+      "sequence": 2612,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 134,
+      "sequence": 2622,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 102,
+      "sequence": 2632,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 53,
+      "sequence": 2642,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 87,
+      "sequence": 2652,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 1215,
+      "sequence": 2662,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 33177,
+      "sequence": 2672,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 42600,
+      "sequence": 2682,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 462,
+      "sequence": 2692,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 399,
+      "sequence": 2702,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 259,
+      "sequence": 2712,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 213,
+      "sequence": 2722,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 58,
+      "sequence": 2732,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 92,
+      "sequence": 2742,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 648,
+      "sequence": 2752,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 39170,
+      "sequence": 2762,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 70,
+      "sequence": 2772,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 74,
+      "sequence": 2782,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 343,
+      "sequence": 2792,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 234,
+      "sequence": 2802,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 97,
+      "sequence": 2812,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 320,
+      "sequence": 2822,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 30701,
+      "sequence": 2832,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 32966,
+      "sequence": 2842,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 66,
+      "sequence": 2852,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 100,
+      "sequence": 2862,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 64,
+      "sequence": 2872,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 209,
+      "sequence": 2882,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 84,
+      "sequence": 2892,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 31029,
+      "sequence": 2902,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 81,
+      "sequence": 2912,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 82,
+      "sequence": 2922,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 207,
+      "sequence": 2932,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 35339,
+      "sequence": 2942,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 119,
+      "sequence": 2952,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 192,
+      "sequence": 2962,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 398,
+      "sequence": 2972,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 54,
+      "sequence": 2982,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 69,
+      "sequence": 2992,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 192,
+      "sequence": 3002,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 122,
+      "sequence": 3012,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 74,
+      "sequence": 3022,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 38883,
+      "sequence": 3032,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 279,
+      "sequence": 3042,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 673,
+      "sequence": 3052,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 31439,
+      "sequence": 3062,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 33252,
+      "sequence": 3072,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 72,
+      "sequence": 3082,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 63,
+      "sequence": 3092,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 73,
+      "sequence": 3102,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 73,
+      "sequence": 3112,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 69,
+      "sequence": 3122,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 648,
+      "sequence": 3132,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 1627,
+      "sequence": 3142,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 169,
+      "sequence": 3152,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 62,
+      "sequence": 3162,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 225,
+      "sequence": 3172,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 235,
+      "sequence": 3182,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 37415,
+      "sequence": 3192,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 43841,
+      "sequence": 3202,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 54,
+      "sequence": 3212,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 220,
+      "sequence": 3222,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "dca73dfe112190242082ed719899196a452472a5dbbe5a12639c97c9942d0562",
+      "renderWriteMicros": 108,
+      "sequence": 3232,
+      "variantIndex": 32
+    },
+    {
+      "payloadSha256": "d8774a9fdd2b08a04295de199ebf0b8f91a21308326bb247f0deba483dc988ae",
+      "renderWriteMicros": 78,
+      "sequence": 3242,
+      "variantIndex": 42
+    },
+    {
+      "payloadSha256": "752c85c6eee3ab0f1c114008d4b52c075cb946f1f8ac75cecddbf60a987ea345",
+      "renderWriteMicros": 59,
+      "sequence": 3252,
+      "variantIndex": 52
+    },
+    {
+      "payloadSha256": "f7ddb8e97cd99e6f8e9b110d9d216370e4a907af5a6e03abfade1839e44e411e",
+      "renderWriteMicros": 66,
+      "sequence": 3262,
+      "variantIndex": 62
+    },
+    {
+      "payloadSha256": "afe06a7f298887ddc7e34b728a9e0b70b09ae0469083840145cd5277b70180c2",
+      "renderWriteMicros": 281,
+      "sequence": 3272,
+      "variantIndex": 72
+    },
+    {
+      "payloadSha256": "3391ad25720709a7f35908ace6c1718fb6f28529c51987375fb01584c4dcb401",
+      "renderWriteMicros": 159,
+      "sequence": 3282,
+      "variantIndex": 82
+    },
+    {
+      "payloadSha256": "2cc7a70e435355b46cd5d7e9a7956b01f973d229313eb05e49ff638dd47fb4cf",
+      "renderWriteMicros": 83,
+      "sequence": 3292,
+      "variantIndex": 92
+    },
+    {
+      "payloadSha256": "2cf41d2db747b0039d810e552adacc6cf0005549ce845c208b2f499472def340",
+      "renderWriteMicros": 277,
+      "sequence": 3302,
+      "variantIndex": 2
+    },
+    {
+      "payloadSha256": "18cfc6f242c62a22cef935aacf07fc85a776da86d43673e15cc5f19293051b4a",
+      "renderWriteMicros": 44371,
+      "sequence": 3312,
+      "variantIndex": 12
+    },
+    {
+      "payloadSha256": "6c92aba5048ac9199b2af8e7d03f3ed2685ec95a42dd38f6ffd9cf900d1d0e14",
+      "renderWriteMicros": 436,
+      "sequence": 3322,
+      "variantIndex": 22
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 41576,
+      "sequence": 3333,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 171,
+      "sequence": 3343,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 387,
+      "sequence": 3353,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 51,
+      "sequence": 3363,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 95,
+      "sequence": 3373,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 148,
+      "sequence": 3383,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 162,
+      "sequence": 3393,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 253,
+      "sequence": 3403,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 128,
+      "sequence": 3413,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 40654,
+      "sequence": 3423,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 67,
+      "sequence": 3433,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 278,
+      "sequence": 3443,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 81,
+      "sequence": 3453,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 41157,
+      "sequence": 3463,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 39198,
+      "sequence": 3473,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 38546,
+      "sequence": 3483,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 250,
+      "sequence": 3493,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 202,
+      "sequence": 3503,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 717,
+      "sequence": 3513,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 57,
+      "sequence": 3523,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 260,
+      "sequence": 3533,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 73,
+      "sequence": 3543,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 76,
+      "sequence": 3553,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 38116,
+      "sequence": 3563,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 51,
+      "sequence": 3573,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 162,
+      "sequence": 3583,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 73,
+      "sequence": 3593,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 312,
+      "sequence": 3603,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 452,
+      "sequence": 3613,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 74,
+      "sequence": 3623,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 63,
+      "sequence": 3633,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 36329,
+      "sequence": 3643,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 80,
+      "sequence": 3653,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 131,
+      "sequence": 3663,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 60,
+      "sequence": 3673,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 249,
+      "sequence": 3683,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 277,
+      "sequence": 3693,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 97,
+      "sequence": 3703,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 94,
+      "sequence": 3713,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 246,
+      "sequence": 3723,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 282,
+      "sequence": 3733,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 109,
+      "sequence": 3743,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 61,
+      "sequence": 3753,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 62,
+      "sequence": 3763,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 39561,
+      "sequence": 3773,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 35389,
+      "sequence": 3783,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 177,
+      "sequence": 3793,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 249,
+      "sequence": 3803,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 441,
+      "sequence": 3813,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 167,
+      "sequence": 3823,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 280,
+      "sequence": 3833,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 53,
+      "sequence": 3843,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 76,
+      "sequence": 3853,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 71,
+      "sequence": 3863,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 82,
+      "sequence": 3873,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 53,
+      "sequence": 3883,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 285,
+      "sequence": 3893,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 70,
+      "sequence": 3903,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 38205,
+      "sequence": 3913,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 38750,
+      "sequence": 3923,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 212,
+      "sequence": 3933,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 643,
+      "sequence": 3943,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 160,
+      "sequence": 3953,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 452,
+      "sequence": 3963,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 71,
+      "sequence": 3973,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 40187,
+      "sequence": 3983,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 39645,
+      "sequence": 3993,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 61,
+      "sequence": 4003,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 57,
+      "sequence": 4013,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 56,
+      "sequence": 4023,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 50,
+      "sequence": 4033,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 220,
+      "sequence": 4043,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 283,
+      "sequence": 4053,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 75,
+      "sequence": 4063,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 78,
+      "sequence": 4073,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 37873,
+      "sequence": 4083,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 63,
+      "sequence": 4093,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 57,
+      "sequence": 4103,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 117,
+      "sequence": 4113,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 547,
+      "sequence": 4123,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 81,
+      "sequence": 4133,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 83,
+      "sequence": 4143,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 27106,
+      "sequence": 4153,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 128,
+      "sequence": 4163,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 88,
+      "sequence": 4173,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 92,
+      "sequence": 4183,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 118,
+      "sequence": 4193,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 93,
+      "sequence": 4203,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 41291,
+      "sequence": 4213,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 52,
+      "sequence": 4223,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 295,
+      "sequence": 4233,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 38,
+      "sequence": 4243,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 70,
+      "sequence": 4253,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 108,
+      "sequence": 4263,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 89,
+      "sequence": 4273,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 190,
+      "sequence": 4283,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 136,
+      "sequence": 4293,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 194,
+      "sequence": 4303,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 578,
+      "sequence": 4313,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 95,
+      "sequence": 4323,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 34483,
+      "sequence": 4333,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "2653eb1c449a061586a36d43b68f76ed973d14d47e990ba4bd94bf87c2b27bb0",
+      "renderWriteMicros": 112,
+      "sequence": 4343,
+      "variantIndex": 43
+    },
+    {
+      "payloadSha256": "4786b07a246fdde768e5893294cf3d00a49bdd1b51e783b4dfdfda67f0e45d1d",
+      "renderWriteMicros": 96,
+      "sequence": 4353,
+      "variantIndex": 53
+    },
+    {
+      "payloadSha256": "2de61b5f08ed5ebbd7d461e0dabef75038fc77deca3b1d3e3340af9ba6c573e2",
+      "renderWriteMicros": 501,
+      "sequence": 4363,
+      "variantIndex": 63
+    },
+    {
+      "payloadSha256": "2d0dcb901ab1688108972962a990cbeeb97f2292d4f8fa17fe5bc6602855c077",
+      "renderWriteMicros": 94,
+      "sequence": 4373,
+      "variantIndex": 73
+    },
+    {
+      "payloadSha256": "51e7bc8f82936b2b040e7ff0d614133b66cf899e52bcaf9d310332e6586ef935",
+      "renderWriteMicros": 93,
+      "sequence": 4383,
+      "variantIndex": 83
+    },
+    {
+      "payloadSha256": "da4cc98f2ec2d9a9c0bd9f735b5c5fdef86602b089735cc6f928d70bded99f0c",
+      "renderWriteMicros": 28935,
+      "sequence": 4393,
+      "variantIndex": 93
+    },
+    {
+      "payloadSha256": "aff56f79598f388b5e41564426e40ea7bdff9063101a7a7fc288b8960c9cfdca",
+      "renderWriteMicros": 886,
+      "sequence": 4403,
+      "variantIndex": 3
+    },
+    {
+      "payloadSha256": "a85daefef70912ea115fd987152e8e694d7939eead78241260cde82aa4178774",
+      "renderWriteMicros": 313,
+      "sequence": 4413,
+      "variantIndex": 13
+    },
+    {
+      "payloadSha256": "e2f09d450ae270129904cb7e9ee5d8041bb5f6e102c8e03dbbd69e9f55f1e799",
+      "renderWriteMicros": 39370,
+      "sequence": 4423,
+      "variantIndex": 23
+    },
+    {
+      "payloadSha256": "6a03545793eee6410de6451f46396ebf399653e7e2248af0e9668e7be95e2d13",
+      "renderWriteMicros": 54,
+      "sequence": 4433,
+      "variantIndex": 33
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 38202,
+      "sequence": 4444,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 38171,
+      "sequence": 4454,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 383,
+      "sequence": 4464,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 108,
+      "sequence": 4474,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 170,
+      "sequence": 4484,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 289,
+      "sequence": 4494,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 362,
+      "sequence": 4504,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 440,
+      "sequence": 4514,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 40999,
+      "sequence": 4524,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 43103,
+      "sequence": 4534,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 39582,
+      "sequence": 4544,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 238,
+      "sequence": 4554,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 116,
+      "sequence": 4564,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 96,
+      "sequence": 4574,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 86,
+      "sequence": 4584,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 170,
+      "sequence": 4594,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 24624,
+      "sequence": 4604,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 414,
+      "sequence": 4614,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 79,
+      "sequence": 4624,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 256,
+      "sequence": 4634,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 41636,
+      "sequence": 4644,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 527,
+      "sequence": 4654,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 209,
+      "sequence": 4664,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 528,
+      "sequence": 4674,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 73,
+      "sequence": 4684,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 290,
+      "sequence": 4694,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 78,
+      "sequence": 4704,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 281,
+      "sequence": 4714,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 148,
+      "sequence": 4724,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 41630,
+      "sequence": 4734,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 40385,
+      "sequence": 4744,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 735,
+      "sequence": 4754,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 336,
+      "sequence": 4764,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 303,
+      "sequence": 4774,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 64,
+      "sequence": 4784,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 269,
+      "sequence": 4794,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 107,
+      "sequence": 4804,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 40611,
+      "sequence": 4814,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 34829,
+      "sequence": 4824,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 315,
+      "sequence": 4834,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 398,
+      "sequence": 4844,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 102,
+      "sequence": 4854,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 91,
+      "sequence": 4864,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 208,
+      "sequence": 4874,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 66,
+      "sequence": 4884,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 39895,
+      "sequence": 4894,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 41775,
+      "sequence": 4904,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 101,
+      "sequence": 4914,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 57,
+      "sequence": 4924,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 153,
+      "sequence": 4934,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 66,
+      "sequence": 4944,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 427,
+      "sequence": 4954,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 202,
+      "sequence": 4964,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 81,
+      "sequence": 4974,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 103,
+      "sequence": 4984,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 52,
+      "sequence": 4994,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 39795,
+      "sequence": 5004,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 41400,
+      "sequence": 5014,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 172,
+      "sequence": 5024,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 92,
+      "sequence": 5034,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 316,
+      "sequence": 5044,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 275,
+      "sequence": 5054,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 779,
+      "sequence": 5064,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 41782,
+      "sequence": 5074,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 41887,
+      "sequence": 5084,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 193,
+      "sequence": 5094,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 89,
+      "sequence": 5104,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 250,
+      "sequence": 5114,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 368,
+      "sequence": 5124,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 218,
+      "sequence": 5134,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 75,
+      "sequence": 5144,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 73,
+      "sequence": 5154,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 72,
+      "sequence": 5164,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 39884,
+      "sequence": 5174,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 39336,
+      "sequence": 5184,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 94,
+      "sequence": 5194,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 269,
+      "sequence": 5204,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 104,
+      "sequence": 5214,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 145,
+      "sequence": 5224,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 108,
+      "sequence": 5234,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 39314,
+      "sequence": 5244,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 37519,
+      "sequence": 5254,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 67,
+      "sequence": 5264,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 77,
+      "sequence": 5274,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 160,
+      "sequence": 5284,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 186,
+      "sequence": 5294,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 110,
+      "sequence": 5304,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 69,
+      "sequence": 5314,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 72,
+      "sequence": 5324,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 42828,
+      "sequence": 5334,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 40125,
+      "sequence": 5344,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 422,
+      "sequence": 5354,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 93,
+      "sequence": 5364,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 184,
+      "sequence": 5374,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 65,
+      "sequence": 5384,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 215,
+      "sequence": 5394,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 254,
+      "sequence": 5404,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 294,
+      "sequence": 5414,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 41804,
+      "sequence": 5424,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 41261,
+      "sequence": 5434,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 48,
+      "sequence": 5444,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "129af08c6445de05c09bf478bf22b61fa16e5309fe30adc938e9fbf4a675e4ed",
+      "renderWriteMicros": 58,
+      "sequence": 5454,
+      "variantIndex": 54
+    },
+    {
+      "payloadSha256": "ef58ed2df0f3977bc606b619af69cc660f27b1170629f9391e12555cfecef7d6",
+      "renderWriteMicros": 79,
+      "sequence": 5464,
+      "variantIndex": 64
+    },
+    {
+      "payloadSha256": "8b9d99c24c38050b34ec98d524294e44359f2666052009afa26c9827e721eb07",
+      "renderWriteMicros": 173,
+      "sequence": 5474,
+      "variantIndex": 74
+    },
+    {
+      "payloadSha256": "8985461278b76cabf3c9ec554f0b386e09338cba29bbd02d4d410e6211fa235e",
+      "renderWriteMicros": 238,
+      "sequence": 5484,
+      "variantIndex": 84
+    },
+    {
+      "payloadSha256": "bd5522f7943e57b01a843cca0ff5b5b9c0e8908bb297409cb50204c8ae6ff5d0",
+      "renderWriteMicros": 86,
+      "sequence": 5494,
+      "variantIndex": 94
+    },
+    {
+      "payloadSha256": "4eeba0d5d48582bc4bf97df93f54fed9c687e86776ca3aa8ca624027a3d3a67a",
+      "renderWriteMicros": 113,
+      "sequence": 5504,
+      "variantIndex": 4
+    },
+    {
+      "payloadSha256": "c955a6a8bc5a5eb09b268151fd11e2a70380aa4f4142e332066ae04319cdd725",
+      "renderWriteMicros": 49579,
+      "sequence": 5514,
+      "variantIndex": 14
+    },
+    {
+      "payloadSha256": "07c9d751ce760f68160bacfbdd75cb5f0cf47f088208a6d67d28bf09db288278",
+      "renderWriteMicros": 37112,
+      "sequence": 5524,
+      "variantIndex": 24
+    },
+    {
+      "payloadSha256": "2e99e03234f30ee4003d4a20f21f6b7d0a454bd61fe45088b5eaadc79b790baa",
+      "renderWriteMicros": 260,
+      "sequence": 5534,
+      "variantIndex": 34
+    },
+    {
+      "payloadSha256": "743e1ba2971442296f213883716db8387a03de57f423f9bcae8190624210bfa5",
+      "renderWriteMicros": 67,
+      "sequence": 5544,
+      "variantIndex": 44
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 85,
+      "sequence": 5555,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 692,
+      "sequence": 5565,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 290,
+      "sequence": 5575,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 190,
+      "sequence": 5585,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 60,
+      "sequence": 5595,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 95,
+      "sequence": 5605,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 123,
+      "sequence": 5615,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 596,
+      "sequence": 5625,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 61,
+      "sequence": 5635,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 202,
+      "sequence": 5645,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 484,
+      "sequence": 5655,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 52,
+      "sequence": 5665,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 47,
+      "sequence": 5675,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 72,
+      "sequence": 5685,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 546,
+      "sequence": 5695,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 42355,
+      "sequence": 5705,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 41777,
+      "sequence": 5715,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 59,
+      "sequence": 5725,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 210,
+      "sequence": 5735,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 3066,
+      "sequence": 5745,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 68,
+      "sequence": 5755,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 81,
+      "sequence": 5765,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 348,
+      "sequence": 5775,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 88,
+      "sequence": 5785,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 88,
+      "sequence": 5795,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 313,
+      "sequence": 5805,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 35569,
+      "sequence": 5815,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 174,
+      "sequence": 5825,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 58,
+      "sequence": 5835,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 60,
+      "sequence": 5845,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 232,
+      "sequence": 5855,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 70,
+      "sequence": 5865,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 29539,
+      "sequence": 5875,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 599,
+      "sequence": 5885,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 66,
+      "sequence": 5895,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 98,
+      "sequence": 5905,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 78,
+      "sequence": 5915,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 72,
+      "sequence": 5925,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 40055,
+      "sequence": 5935,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 38647,
+      "sequence": 5945,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 240,
+      "sequence": 5955,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 334,
+      "sequence": 5965,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 314,
+      "sequence": 5975,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 324,
+      "sequence": 5985,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 272,
+      "sequence": 5995,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 71,
+      "sequence": 6005,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 68,
+      "sequence": 6015,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 39559,
+      "sequence": 6025,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 175,
+      "sequence": 6035,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 514,
+      "sequence": 6045,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 96,
+      "sequence": 6055,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 76,
+      "sequence": 6065,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 60,
+      "sequence": 6075,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 62,
+      "sequence": 6085,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 1060,
+      "sequence": 6095,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 39027,
+      "sequence": 6105,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 38688,
+      "sequence": 6115,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 259,
+      "sequence": 6125,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 211,
+      "sequence": 6135,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 250,
+      "sequence": 6145,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 292,
+      "sequence": 6155,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 615,
+      "sequence": 6165,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 206,
+      "sequence": 6175,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 39516,
+      "sequence": 6185,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 263,
+      "sequence": 6195,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 130,
+      "sequence": 6205,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 567,
+      "sequence": 6215,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 310,
+      "sequence": 6225,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 53,
+      "sequence": 6235,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 63,
+      "sequence": 6245,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 194,
+      "sequence": 6255,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 40788,
+      "sequence": 6265,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 41460,
+      "sequence": 6275,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 75,
+      "sequence": 6285,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 50,
+      "sequence": 6295,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 97,
+      "sequence": 6305,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 58,
+      "sequence": 6315,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 100,
+      "sequence": 6325,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 725,
+      "sequence": 6335,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 162,
+      "sequence": 6345,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 44502,
+      "sequence": 6355,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 37566,
+      "sequence": 6365,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 282,
+      "sequence": 6375,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 192,
+      "sequence": 6385,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 269,
+      "sequence": 6395,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 54,
+      "sequence": 6405,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 222,
+      "sequence": 6415,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 243,
+      "sequence": 6425,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 67,
+      "sequence": 6435,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 36176,
+      "sequence": 6445,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 40091,
+      "sequence": 6455,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 38843,
+      "sequence": 6465,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 100,
+      "sequence": 6475,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 154,
+      "sequence": 6485,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 47,
+      "sequence": 6495,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 316,
+      "sequence": 6505,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 61,
+      "sequence": 6515,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 239,
+      "sequence": 6525,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 189,
+      "sequence": 6535,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 39891,
+      "sequence": 6545,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 443,
+      "sequence": 6555,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "0757c704380623f8c1b9abae0304f7aceae1e7dc9c477e6e775dbb9f89b36c06",
+      "renderWriteMicros": 213,
+      "sequence": 6565,
+      "variantIndex": 65
+    },
+    {
+      "payloadSha256": "679b23b245fdef2bbe43029db333c47d935d8597bb5f095e2d4cc1a3465f9fef",
+      "renderWriteMicros": 61,
+      "sequence": 6575,
+      "variantIndex": 75
+    },
+    {
+      "payloadSha256": "9c39e4b7faf0a67fe37fdc0e8eaad2b3fa950682809a6de8ce4384b68a58a64a",
+      "renderWriteMicros": 54,
+      "sequence": 6585,
+      "variantIndex": 85
+    },
+    {
+      "payloadSha256": "53e7d17030c4258a1a80f7ce435daebf408148c308dae904d5a5d5a9cd2ed2f9",
+      "renderWriteMicros": 144,
+      "sequence": 6595,
+      "variantIndex": 95
+    },
+    {
+      "payloadSha256": "cd0a89ea14786404b688d1a8bdd720a47c65409d63475ec52d72db9291166e55",
+      "renderWriteMicros": 38703,
+      "sequence": 6605,
+      "variantIndex": 5
+    },
+    {
+      "payloadSha256": "52e958d9a2c1969ff88a5128a54b2e2f65bacdcc926574a76fc60672b3e6cb8f",
+      "renderWriteMicros": 70,
+      "sequence": 6615,
+      "variantIndex": 15
+    },
+    {
+      "payloadSha256": "eff7abcb6d533efff9860aab8e94cb75214016999ab8c88ba034bb7503e89ef3",
+      "renderWriteMicros": 49,
+      "sequence": 6625,
+      "variantIndex": 25
+    },
+    {
+      "payloadSha256": "d8ac17261043c9177eab69863db7d68830440af2e6ba25198c9e04060e456631",
+      "renderWriteMicros": 50,
+      "sequence": 6635,
+      "variantIndex": 35
+    },
+    {
+      "payloadSha256": "4e19fb5aece2eebf3ccb430b5f4910ed4a9e28a870558274773e0f2c80a7d2ca",
+      "renderWriteMicros": 341,
+      "sequence": 6645,
+      "variantIndex": 45
+    },
+    {
+      "payloadSha256": "e4dbb87c94ff31e1bed5f99e043bfa284c24346d2b1c98998cc528cf48a30a30",
+      "renderWriteMicros": 284,
+      "sequence": 6655,
+      "variantIndex": 55
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 622,
+      "sequence": 6666,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 181,
+      "sequence": 6676,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 382,
+      "sequence": 6686,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 65,
+      "sequence": 6696,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 44704,
+      "sequence": 6706,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 60,
+      "sequence": 6716,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 221,
+      "sequence": 6726,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 105,
+      "sequence": 6736,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 265,
+      "sequence": 6746,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 37240,
+      "sequence": 6756,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 38606,
+      "sequence": 6766,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 172,
+      "sequence": 6776,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 61,
+      "sequence": 6786,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 65,
+      "sequence": 6796,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 236,
+      "sequence": 6806,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 287,
+      "sequence": 6816,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 561,
+      "sequence": 6826,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 37638,
+      "sequence": 6836,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 36700,
+      "sequence": 6846,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 287,
+      "sequence": 6856,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 227,
+      "sequence": 6866,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 83,
+      "sequence": 6876,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 129,
+      "sequence": 6886,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 415,
+      "sequence": 6896,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 168,
+      "sequence": 6906,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 107,
+      "sequence": 6916,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 41017,
+      "sequence": 6926,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 112,
+      "sequence": 6936,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 547,
+      "sequence": 6946,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 84,
+      "sequence": 6956,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 114,
+      "sequence": 6966,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 439,
+      "sequence": 6976,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 113,
+      "sequence": 6986,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 229,
+      "sequence": 6996,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 34438,
+      "sequence": 7006,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 36678,
+      "sequence": 7016,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 79,
+      "sequence": 7026,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 63,
+      "sequence": 7036,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 96,
+      "sequence": 7046,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 295,
+      "sequence": 7056,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 292,
+      "sequence": 7066,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 83,
+      "sequence": 7076,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 34865,
+      "sequence": 7086,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 38518,
+      "sequence": 7096,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 67,
+      "sequence": 7106,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 99,
+      "sequence": 7116,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 133,
+      "sequence": 7126,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 96,
+      "sequence": 7136,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 70,
+      "sequence": 7146,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 865,
+      "sequence": 7156,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 39943,
+      "sequence": 7166,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 303,
+      "sequence": 7176,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 78,
+      "sequence": 7186,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 81,
+      "sequence": 7196,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 133,
+      "sequence": 7206,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 62,
+      "sequence": 7216,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 165,
+      "sequence": 7226,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 38323,
+      "sequence": 7236,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 83,
+      "sequence": 7246,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 166,
+      "sequence": 7256,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 68,
+      "sequence": 7266,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 67,
+      "sequence": 7276,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 230,
+      "sequence": 7286,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 320,
+      "sequence": 7296,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 219,
+      "sequence": 7306,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 33764,
+      "sequence": 7316,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 39964,
+      "sequence": 7326,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 58,
+      "sequence": 7336,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 771,
+      "sequence": 7346,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 413,
+      "sequence": 7356,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 57,
+      "sequence": 7366,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 139,
+      "sequence": 7376,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 175,
+      "sequence": 7386,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 43460,
+      "sequence": 7396,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 280,
+      "sequence": 7406,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 252,
+      "sequence": 7416,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 59,
+      "sequence": 7426,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 341,
+      "sequence": 7436,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 345,
+      "sequence": 7446,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 220,
+      "sequence": 7456,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 96,
+      "sequence": 7466,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 40222,
+      "sequence": 7476,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 103,
+      "sequence": 7486,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 61,
+      "sequence": 7496,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 45,
+      "sequence": 7506,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 121,
+      "sequence": 7516,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 89,
+      "sequence": 7526,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 205,
+      "sequence": 7536,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 74,
+      "sequence": 7546,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 40018,
+      "sequence": 7556,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 44062,
+      "sequence": 7566,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 57,
+      "sequence": 7576,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 350,
+      "sequence": 7586,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 121,
+      "sequence": 7596,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 302,
+      "sequence": 7606,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 277,
+      "sequence": 7616,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 61,
+      "sequence": 7626,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 40644,
+      "sequence": 7636,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 43411,
+      "sequence": 7646,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 104,
+      "sequence": 7656,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 589,
+      "sequence": 7666,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "f3c8fee0f8feb8a37a191bbe869f194f4b5c077d4399e25cb9209644c7e65ec3",
+      "renderWriteMicros": 84,
+      "sequence": 7676,
+      "variantIndex": 76
+    },
+    {
+      "payloadSha256": "204f43f80a5fa9805f7b16db5189dba61a9e691cf42542ec0613570f3ab24c00",
+      "renderWriteMicros": 143,
+      "sequence": 7686,
+      "variantIndex": 86
+    },
+    {
+      "payloadSha256": "9260159fcc384eb50c7ebe90117cfe2175e3cf230da41ee805c1b9e428cdc70d",
+      "renderWriteMicros": 189,
+      "sequence": 7696,
+      "variantIndex": 96
+    },
+    {
+      "payloadSha256": "0808ffc0bb96f5a7f912308ec79ae9710c325bc07800bce5aac518afadb984d5",
+      "renderWriteMicros": 56,
+      "sequence": 7706,
+      "variantIndex": 6
+    },
+    {
+      "payloadSha256": "52adfa414c6dc2c594931d266ba67fd02df852365cbed83df7365020795acfab",
+      "renderWriteMicros": 72,
+      "sequence": 7716,
+      "variantIndex": 16
+    },
+    {
+      "payloadSha256": "e87e442b1281544caf6d5d5ae539a272d3fcc4995609f326f2f0cffe84877d4a",
+      "renderWriteMicros": 36620,
+      "sequence": 7726,
+      "variantIndex": 26
+    },
+    {
+      "payloadSha256": "37b052513ae1a6df8189cd3f7b93e1cacba3fdd2fb01721b0846408b8c5a24e5",
+      "renderWriteMicros": 37708,
+      "sequence": 7736,
+      "variantIndex": 36
+    },
+    {
+      "payloadSha256": "e8ae62d79f327b0302178469537a3ad4be52397ccde62506c12159d126dc8bb3",
+      "renderWriteMicros": 191,
+      "sequence": 7746,
+      "variantIndex": 46
+    },
+    {
+      "payloadSha256": "1f1f694a7a33d20a9bdae3322ac58efa6b43a5e5174e6ba9e730dd4326b473c1",
+      "renderWriteMicros": 96,
+      "sequence": 7756,
+      "variantIndex": 56
+    },
+    {
+      "payloadSha256": "83bd6d9d4926d80d6b6f24578cf57aa9c084f3f33bcc3a6587c45dc24bf6b2b4",
+      "renderWriteMicros": 222,
+      "sequence": 7766,
+      "variantIndex": 66
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 44,
+      "sequence": 7777,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 67,
+      "sequence": 7787,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 379,
+      "sequence": 7797,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 110,
+      "sequence": 7807,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 63,
+      "sequence": 7817,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 794,
+      "sequence": 7827,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 43887,
+      "sequence": 7837,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 39338,
+      "sequence": 7847,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 488,
+      "sequence": 7857,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 260,
+      "sequence": 7867,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 266,
+      "sequence": 7877,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 60,
+      "sequence": 7887,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 67,
+      "sequence": 7897,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 78,
+      "sequence": 7907,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 81,
+      "sequence": 7917,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 52,
+      "sequence": 7927,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 118,
+      "sequence": 7937,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 294,
+      "sequence": 7947,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 773,
+      "sequence": 7957,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 191,
+      "sequence": 7967,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 63,
+      "sequence": 7977,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 37090,
+      "sequence": 7987,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 34188,
+      "sequence": 7997,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 62,
+      "sequence": 8007,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 57,
+      "sequence": 8017,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 65,
+      "sequence": 8027,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 166,
+      "sequence": 8037,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 38694,
+      "sequence": 8047,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 36175,
+      "sequence": 8057,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 66,
+      "sequence": 8067,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 47,
+      "sequence": 8077,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 160,
+      "sequence": 8087,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 223,
+      "sequence": 8097,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 118,
+      "sequence": 8107,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 67,
+      "sequence": 8117,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 37725,
+      "sequence": 8127,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 28223,
+      "sequence": 8137,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 123,
+      "sequence": 8147,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 205,
+      "sequence": 8157,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 67,
+      "sequence": 8167,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 71,
+      "sequence": 8177,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 36819,
+      "sequence": 8187,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 155,
+      "sequence": 8197,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 142,
+      "sequence": 8207,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 50,
+      "sequence": 8217,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 497,
+      "sequence": 8227,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 134,
+      "sequence": 8237,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 407,
+      "sequence": 8247,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 142,
+      "sequence": 8257,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 41612,
+      "sequence": 8267,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 43648,
+      "sequence": 8277,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 34117,
+      "sequence": 8287,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 177,
+      "sequence": 8297,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 120,
+      "sequence": 8307,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 150,
+      "sequence": 8317,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 238,
+      "sequence": 8327,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 81,
+      "sequence": 8337,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 52,
+      "sequence": 8347,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 627,
+      "sequence": 8357,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 127,
+      "sequence": 8367,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 112,
+      "sequence": 8377,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 75,
+      "sequence": 8387,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 41162,
+      "sequence": 8397,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 38905,
+      "sequence": 8407,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 194,
+      "sequence": 8417,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 50,
+      "sequence": 8427,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 292,
+      "sequence": 8437,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 635,
+      "sequence": 8447,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 70,
+      "sequence": 8457,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 34585,
+      "sequence": 8467,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 42034,
+      "sequence": 8477,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 103,
+      "sequence": 8487,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 707,
+      "sequence": 8497,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 249,
+      "sequence": 8507,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 123,
+      "sequence": 8517,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 95,
+      "sequence": 8527,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 461,
+      "sequence": 8537,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 39372,
+      "sequence": 8547,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 37786,
+      "sequence": 8557,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 289,
+      "sequence": 8567,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 58,
+      "sequence": 8577,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 191,
+      "sequence": 8587,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 776,
+      "sequence": 8597,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 39420,
+      "sequence": 8607,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 106,
+      "sequence": 8617,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 63,
+      "sequence": 8627,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 73,
+      "sequence": 8637,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 66,
+      "sequence": 8647,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 117,
+      "sequence": 8657,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 31156,
+      "sequence": 8667,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 235,
+      "sequence": 8677,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 61,
+      "sequence": 8687,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 67,
+      "sequence": 8697,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 703,
+      "sequence": 8707,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 77,
+      "sequence": 8717,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 427,
+      "sequence": 8727,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 66,
+      "sequence": 8737,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 61,
+      "sequence": 8747,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 113,
+      "sequence": 8757,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 68,
+      "sequence": 8767,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 58,
+      "sequence": 8777,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "819c4a1a363672578b8c514acb68b33a3187cc436924e7864a33408029855b88",
+      "renderWriteMicros": 177,
+      "sequence": 8787,
+      "variantIndex": 87
+    },
+    {
+      "payloadSha256": "bc04539633a13816db84c29f7bb009d04600d9aa5c981eff32c6b3cc99b5de49",
+      "renderWriteMicros": 209,
+      "sequence": 8797,
+      "variantIndex": 97
+    },
+    {
+      "payloadSha256": "c19db490baf45bf28089fcf5d416c468740358aad7121a51bd0dde0a90a8ce28",
+      "renderWriteMicros": 70,
+      "sequence": 8807,
+      "variantIndex": 7
+    },
+    {
+      "payloadSha256": "e9884ae868a04ffda6f2e24a4bddfee98e4eee4ba0404638babfadfacb8c9a40",
+      "renderWriteMicros": 40106,
+      "sequence": 8817,
+      "variantIndex": 17
+    },
+    {
+      "payloadSha256": "5f2d52a9a64c38d7a1e2087881a39ff1d816d864bccedb08416a4ae1434ce6ee",
+      "renderWriteMicros": 40320,
+      "sequence": 8827,
+      "variantIndex": 27
+    },
+    {
+      "payloadSha256": "c16b17c18beabc4ccc5153089acb4372e940850120ca33f64905b60565e65513",
+      "renderWriteMicros": 241,
+      "sequence": 8837,
+      "variantIndex": 37
+    },
+    {
+      "payloadSha256": "83c87d4eab2a82aad7cef4ebb5abfcf54122ca2d29ad71b9b655d2c460769d1e",
+      "renderWriteMicros": 86,
+      "sequence": 8847,
+      "variantIndex": 47
+    },
+    {
+      "payloadSha256": "8e988bf06b30e7fffe36b6a3a928f7c14ee1dc153b3fd523b2ee12dd3959b32d",
+      "renderWriteMicros": 121,
+      "sequence": 8857,
+      "variantIndex": 57
+    },
+    {
+      "payloadSha256": "23841e0b1ffd8c6657ba2c6e389ed8c1d66de1187f6dc3d266afb1bc5a08fbd3",
+      "renderWriteMicros": 280,
+      "sequence": 8867,
+      "variantIndex": 67
+    },
+    {
+      "payloadSha256": "a39a9b9360c7e641b871d5972d59e22eb50e65fb1d606a25ba0857da5bbca606",
+      "renderWriteMicros": 254,
+      "sequence": 8877,
+      "variantIndex": 77
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 73,
+      "sequence": 8888,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 609,
+      "sequence": 8898,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 80,
+      "sequence": 8908,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 198,
+      "sequence": 8918,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 38626,
+      "sequence": 8928,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 37766,
+      "sequence": 8938,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 414,
+      "sequence": 8948,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 161,
+      "sequence": 8958,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 185,
+      "sequence": 8968,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 67,
+      "sequence": 8978,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 281,
+      "sequence": 8988,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 211,
+      "sequence": 8998,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 66,
+      "sequence": 9008,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 42011,
+      "sequence": 9018,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 46,
+      "sequence": 9028,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 48,
+      "sequence": 9038,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 420,
+      "sequence": 9048,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 302,
+      "sequence": 9058,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 222,
+      "sequence": 9068,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 69,
+      "sequence": 9078,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 313,
+      "sequence": 9088,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 41991,
+      "sequence": 9098,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 53,
+      "sequence": 9108,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 65,
+      "sequence": 9118,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 238,
+      "sequence": 9128,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 329,
+      "sequence": 9138,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 51,
+      "sequence": 9148,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 161,
+      "sequence": 9158,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 115,
+      "sequence": 9168,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 125,
+      "sequence": 9178,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 39852,
+      "sequence": 9188,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 39810,
+      "sequence": 9198,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 145,
+      "sequence": 9208,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 150,
+      "sequence": 9218,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 55,
+      "sequence": 9228,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 75,
+      "sequence": 9238,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 249,
+      "sequence": 9248,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 69,
+      "sequence": 9258,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 34576,
+      "sequence": 9268,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 29707,
+      "sequence": 9278,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 50,
+      "sequence": 9288,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 112,
+      "sequence": 9298,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 73,
+      "sequence": 9308,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 69,
+      "sequence": 9318,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 36342,
+      "sequence": 9328,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 55,
+      "sequence": 9338,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 303,
+      "sequence": 9348,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 75,
+      "sequence": 9358,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 83,
+      "sequence": 9368,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 82,
+      "sequence": 9378,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 566,
+      "sequence": 9388,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 51473,
+      "sequence": 9398,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 37798,
+      "sequence": 9408,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 188,
+      "sequence": 9418,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 105,
+      "sequence": 9428,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 145,
+      "sequence": 9438,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 112,
+      "sequence": 9448,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 71,
+      "sequence": 9458,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 423,
+      "sequence": 9468,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 35837,
+      "sequence": 9478,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 39072,
+      "sequence": 9488,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 60,
+      "sequence": 9498,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 87,
+      "sequence": 9508,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 251,
+      "sequence": 9518,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 241,
+      "sequence": 9528,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 176,
+      "sequence": 9538,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 72,
+      "sequence": 9548,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 85,
+      "sequence": 9558,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 23756,
+      "sequence": 9568,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 53,
+      "sequence": 9578,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 107,
+      "sequence": 9588,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 86,
+      "sequence": 9598,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 29767,
+      "sequence": 9608,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 692,
+      "sequence": 9618,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 176,
+      "sequence": 9628,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 73,
+      "sequence": 9638,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 255,
+      "sequence": 9648,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 122,
+      "sequence": 9658,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 741,
+      "sequence": 9668,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 38540,
+      "sequence": 9678,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 93,
+      "sequence": 9688,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 272,
+      "sequence": 9698,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 74,
+      "sequence": 9708,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 58,
+      "sequence": 9718,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 650,
+      "sequence": 9728,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 75,
+      "sequence": 9738,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 42255,
+      "sequence": 9748,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 39512,
+      "sequence": 9758,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 228,
+      "sequence": 9768,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 271,
+      "sequence": 9778,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 281,
+      "sequence": 9788,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 84,
+      "sequence": 9798,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 86,
+      "sequence": 9808,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 224,
+      "sequence": 9818,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 95,
+      "sequence": 9828,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 39409,
+      "sequence": 9838,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 39585,
+      "sequence": 9848,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 62,
+      "sequence": 9858,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 198,
+      "sequence": 9868,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 91,
+      "sequence": 9878,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 82,
+      "sequence": 9888,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "f5e6c6abf219d6bdef9fe1a350d7cf3ed77601fb338e68141657098df00a8dcc",
+      "renderWriteMicros": 91,
+      "sequence": 9898,
+      "variantIndex": 98
+    },
+    {
+      "payloadSha256": "05f0031cf372d6bfb771c0dea725d574d52cf5e9da2a2a2661d3994a6902d5e2",
+      "renderWriteMicros": 120,
+      "sequence": 9908,
+      "variantIndex": 8
+    },
+    {
+      "payloadSha256": "221b87c03ae2e2d0e8cab615df5cb2b3814d15789df9737a8335c04f4a53db9b",
+      "renderWriteMicros": 103,
+      "sequence": 9918,
+      "variantIndex": 18
+    },
+    {
+      "payloadSha256": "801d1e683ca4e130008af9a6933618deb504114fcb01c4d635682b0ecb19b61d",
+      "renderWriteMicros": 78,
+      "sequence": 9928,
+      "variantIndex": 28
+    },
+    {
+      "payloadSha256": "9344ad01c09ab48dea62f8e6f8f6e582290b055e1b568541bd512a2ea5794ca5",
+      "renderWriteMicros": 38250,
+      "sequence": 9938,
+      "variantIndex": 38
+    },
+    {
+      "payloadSha256": "9ee0bd0ef66637e617ea9d35328987b4bf69e1d45d3c09939b107e2c62803cfd",
+      "renderWriteMicros": 47650,
+      "sequence": 9948,
+      "variantIndex": 48
+    },
+    {
+      "payloadSha256": "14d7819667ae780f61a42aabfb56a9d36761db8f6632bd157cb4035b7b79fff4",
+      "renderWriteMicros": 241,
+      "sequence": 9958,
+      "variantIndex": 58
+    },
+    {
+      "payloadSha256": "fa7d9aa84eb62ef2fa63851d9f2c2a094b463b9aaa23ccbf30bdd7905b3ee4db",
+      "renderWriteMicros": 92,
+      "sequence": 9968,
+      "variantIndex": 68
+    },
+    {
+      "payloadSha256": "2df562bc9e2f7e7200e3e12bd77730ef74452b0f961c601ca1cf6795749657ea",
+      "renderWriteMicros": 232,
+      "sequence": 9978,
+      "variantIndex": 78
+    },
+    {
+      "payloadSha256": "f1fa2942949db3f855b3d6f921a96b118e04cd33c9600e2d5bfed9862392dcee",
+      "renderWriteMicros": 67,
+      "sequence": 9988,
+      "variantIndex": 88
+    },
+    {
+      "payloadSha256": "47f4d0abb8b30a55fcd43423270118bc42be7cbf96674f86a32bf89ce4db2494",
+      "renderWriteMicros": 90,
+      "sequence": 9999,
+      "variantIndex": 99
+    }
+  ],
+  "mode": "exploratory",
+  "payloadBytesEach": 102400,
+  "payloadBytesSent": 1024000000,
+  "payloadSource": "immutable 100-record fixture corpus reused round-robin",
+  "producerAcks": "all",
+  "producerExitCode": 0,
+  "producerFlushConfirmedByExit": true,
+  "producerIdempotence": true,
+  "producerJfr": {
+    "allocationSemantics": "JFR sampled allocation estimate; divide only by the exact sentRecordCount",
+    "containerRecording": "/tmp/flowplane-benchmark-producer-http-batch50-20260731-0915.jfr",
+    "enabled": true,
+    "hostOutput": "<benchmark-workspace>\\results\\http-batch50-20260731-0915\\exploratory-http-batch50-10k-run\\whole-stack-allocation\\source-producer.jfr",
+    "pythonRendererIncluded": false,
+    "recordingBytes": 1643353,
+    "scope": "kafka-console-producer JVM only",
+    "sha256": "5b51bc995690f16eda6b863a89922f53ad495a874285b6d559df541e7c371e99"
+  },
+  "producerTuning": {
+    "batch.size": "1048576",
+    "buffer.memory": "268435456",
+    "compression.type": "lz4",
+    "linger.ms": "10",
+    "max.request.size": "2097152"
+  },
+  "recordValueBytesEach": 102400,
+  "sentRecordCount": 10000,
+  "status": "COMPLETE",
+  "topic": "fpbench-http-batch-http-batch50-20260731-0915-raw"
+}

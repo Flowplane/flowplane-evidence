@@ -1,0 +1,46 @@
+{
+    "schemaVersion":  1,
+    "kind":  "flowplane-benchmark-runtime-output-provenance",
+    "campaignId":  "hard-http-20260731-0805",
+    "runtimeType":  "HTTP",
+    "artifactHash":  "sha256:007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "observedAtUtc":  "2026-07-31T08:21:05.6567297Z",
+    "topicsCreatedEmpty":  true,
+    "resumedAfterCompletedWarmup":  true,
+    "rawPublisher":  {
+                         "sourcePath":  "<benchmark-workspace>\\harness\\workload\\publisher\\publisher.py",
+                         "sourceSha256":  "35a05a8e93ab5f068bc721b6ede1d58d8020003f1e0daee9fdc988478677afbd",
+                         "permittedWriteTopics":  [
+                                                      "fpbench-http-hard-http-20260731-0805-raw"
+                                                  ]
+                     },
+    "downstreamProducer":  {
+                               "bridge":  {
+                                              "containerName":  "fpbench-http-hard-http-20260731-0805-integration",
+                                              "configSha256":  "95f70e47f9aa595c64d9e33e15c361763ffedf058102ed04908f71cef5d2afb2",
+                                              "labels":  {
+                                                             "flowplane.benchmark":  "true",
+                                                             "flowplane.benchmark.campaign-id":  "hard-http-20260731-0805",
+                                                             "flowplane.benchmark.component":  "redpanda-connect-http",
+                                                             "maintainer":  "Ashley Jeffs \u003cash.jeffs@redpanda.com\u003e",
+                                                             "org.opencontainers.image.source":  "https://github.com/redpanda-data/connect"
+                                                         },
+                                              "image":  "redpandadata/connect:latest",
+                                              "generatedConfigPath":  "<benchmark-workspace>\\results\\hard-http-20260731-0805\\observed-http-run\\generated\\redpanda-connect-hard-http-20260731-0805.yaml",
+                                              "generatedConfigSha256":  "df0cffc96fba9e4f330c690876e8ad8e8595dd9ac86fb14d44980fcc579f25fa"
+                                          },
+                               "readiness":  {
+                                                 "readyAtUtc":  "2026-07-31T08:21:05.6534075Z",
+                                                 "startupLogPath":  "<benchmark-workspace>\\results\\hard-http-20260731-0805\\observed-http-run\\bridge-startup.log",
+                                                 "startupLogSha256":  "6d64211cd0afb17f134ed16d6e46d5b9d5ebaab378bbbfeb133d6845b7950eed"
+                                             },
+                               "transformUrl":  "http://fpbench-http-hard-http-20260731-0805-runtime:8080/transform",
+                               "permittedWriteTopics":  [
+                                                            "fpbench-http-hard-http-20260731-0805-output",
+                                                            "fpbench-http-hard-http-20260731-0805-dlq"
+                                                        ]
+                           },
+    "manualDownstreamInsertionUsed":  false,
+    "recordKey":  "decimal measured sequence is preserved from raw input through runtime-derived output or DLQ",
+    "evidenceBasis":  "new empty campaign topics; publisher command names only raw topic; output and DLQ, including the preserved Kafka key, are configured only on the labeled runtime bridge"
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "kind": "flowplane-benchmark-ui-verification",
+  "campaignId": "http-batch-20260731-1305",
+  "page": "http://localhost:5174/runtimes",
+  "runtimeName": "HTTP_BATCH benchmark http-batch-20260731-1305",
+  "runtimeTypeDisplayed": "SIDECAR RUNTIME",
+  "environment": "PRODUCTION",
+  "artifactId": "01d85647-0c62-4c67-9cf7-19d378ac5ec4",
+  "mappingVersion": "v1.0.0",
+  "liveFilterActive": true,
+  "observedRuntimeP99Millis": 14.3,
+  "observedHeapPercent": 2.9,
+  "screenshot": "<benchmark-ui-output>\\playwright\\http-batch-10k-runtimes.png",
+  "verifiedAtUtc": "2026-07-31T16:04:45Z"
+}

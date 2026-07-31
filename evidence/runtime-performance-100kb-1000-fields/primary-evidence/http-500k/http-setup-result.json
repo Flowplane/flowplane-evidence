@@ -1,0 +1,25 @@
+{
+    "schemaVersion":  1,
+    "kind":  "flowplane-http-runtime-setup-result",
+    "campaignId":  "http-rerun-20260730-1752",
+    "runtime":  "HTTP",
+    "runtimeId":  "fpbench-http-http-rerun-20260730-1752-runtime",
+    "containerId":  "12ce7407512b",
+    "mappingId":  "6a6b8f60b92c57a9b8eaa6d3",
+    "approvalId":  "6a6b8f60b92c57a9b8eaa6d9",
+    "artifactId":  "8fd6761a-f75c-4b7d-9835-96a2f6593220",
+    "artifactHash":  "sha256:866ac4276189154a0b4432ee12b7f689acacda220449c27a9ed59fe0b257a1b3",
+    "runtimeHealth":  "HEALTHY",
+    "activeArtifactHash":  "sha256:866ac4276189154a0b4432ee12b7f689acacda220449c27a9ed59fe0b257a1b3",
+    "jfr":  "/evidence/http-runtime.jfr",
+    "secretDelivery":  "short-lived-read-only-bind",
+    "secretPersistedInDockerConfig":  false,
+    "repositoryIntegrityPassed":  true,
+    "repositoryIntegrity":  {
+                                "validated":  true,
+                                "commitUnchanged":  true,
+                                "statusUnchanged":  true,
+                                "trackedDiffUnchanged":  true
+                            },
+    "observedAtUtc":  "2026-07-30T17:57:09.9178875Z"
+}

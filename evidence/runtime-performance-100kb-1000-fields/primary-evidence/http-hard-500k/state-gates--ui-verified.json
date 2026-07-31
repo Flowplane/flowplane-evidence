@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "kind": "flowplane-benchmark-state-gate",
+  "campaignId": "hard-http-20260731-0805",
+  "runtime": "HTTP",
+  "targetState": "UI_VERIFIED",
+  "validated": true,
+  "evidenceMeaning": "live product UI displayed the hard HTTP runtime and telemetry after the 500000-record measured run; no performance verdict",
+  "observedAtUtc": "2026-07-31T09:17:27.1930338Z",
+  "observation": {
+    "page": "http://localhost:5174/runtimes",
+    "runtimeId": "fpbench-http-hard-http-20260731-0805-runtime",
+    "runtimeName": "HTTP benchmark hard-http-20260731-0805",
+    "runtimeVisible": true,
+    "liveIndicatorVisible": true,
+    "runtimeTypeVisible": "HTTP runtime",
+    "telemetryVisible": {
+      "tps": 0,
+      "p99Milliseconds": 11.8,
+      "heapPercent": 3.3
+    },
+    "screenshotPath": "<benchmark-workspace>\\results\\hard-http-20260731-0805\\state-gates\\hard-http-20260731-0805-ui-verified.png",
+    "screenshotSha256": "96bae4d14a5f845ad6f4f5b31cacbfac17ad9c50a9d5be60b3a6496d2345fa5b"
+  }
+}

@@ -1,0 +1,92 @@
+{
+    "schemaVersion":  1,
+    "kind":  "flowplane-benchmark-http-run-observation",
+    "campaignId":  "http-rerun-20260730-1752",
+    "runtimeType":  "HTTP",
+    "artifactHash":  "sha256:866ac4276189154a0b4432ee12b7f689acacda220449c27a9ed59fe0b257a1b3",
+    "status":  "DRAINED",
+    "outcome":  "OBSERVED",
+    "performanceVerdict":  "NOT_APPLICABLE",
+    "startedAtSourceEpochMs":  1785434408147,
+    "completedAtUtc":  "2026-07-30T18:58:24.4116693Z",
+    "publisherCompletion":  {
+                                "manifestPath":  "<benchmark-workspace>\\results\\http-rerun-20260730-1752\\observed-http-run\\measured-publisher.json",
+                                "status":  "COMPLETE",
+                                "producerExitCode":  0,
+                                "flushConfirmed":  true
+                            },
+    "measuredWindow":  {
+                           "startUtc":  "2026-07-30T18:00:08.1476223Z",
+                           "startEpochMillis":  1785434408147,
+                           "publishEndUtc":  "2026-07-30T18:55:09.5364772Z",
+                           "publishEndEpochMillis":  1785437709536,
+                           "drainEndUtc":  "2026-07-30T18:55:17.6997379Z",
+                           "drainEndEpochMillis":  1785437717699,
+                           "purpose":  "window bounds for live JFR allocation totals, allocation rate, and derived B/op over exactly 500000 raw publications plus drain"
+                       },
+    "warmup":  {
+                   "before":  {
+                                  "raw":  0,
+                                  "output":  0,
+                                  "dlq":  0,
+                                  "consumerLag":  0,
+                                  "capturedAtUtc":  null
+                              },
+                   "after":  {
+                                 "raw":  10000,
+                                 "output":  10000,
+                                 "dlq":  0,
+                                 "consumerLag":  0,
+                                 "capturedAtUtc":  "2026-07-30T17:59:58.6867310Z"
+                             },
+                   "deltas":  {
+                                  "raw":  10000,
+                                  "output":  10000,
+                                  "dlq":  0,
+                                  "consumerLag":  0
+                              },
+                   "publisherManifest":  "<benchmark-workspace>\\results\\http-rerun-20260730-1752\\observed-http-run\\warmup-publisher.json"
+               },
+    "measured":  {
+                     "before":  {
+                                    "raw":  10000,
+                                    "output":  10000,
+                                    "dlq":  0,
+                                    "consumerLag":  0,
+                                    "capturedAtUtc":  "2026-07-30T18:00:07.2663391Z"
+                                },
+                     "after":  {
+                                   "raw":  510000,
+                                   "output":  510000,
+                                   "dlq":  0,
+                                   "consumerLag":  0,
+                                   "capturedAtUtc":  "2026-07-30T18:55:13.8798108Z"
+                               },
+                     "deltas":  {
+                                    "raw":  500000,
+                                    "output":  500000,
+                                    "dlq":  0,
+                                    "consumerLag":  0
+                                },
+                     "publisherManifest":  "<benchmark-workspace>\\results\\http-rerun-20260730-1752\\observed-http-run\\measured-publisher.json"
+                 },
+    "provenancePath":  "<benchmark-workspace>\\results\\http-rerun-20260730-1752\\observed-http-run\\runtime-output-provenance.json",
+    "bridgeIdentity":  {
+                           "containerName":  "fpbench-http-http-rerun-20260730-1752-integration",
+                           "configSha256":  "5db21000bd129544bddd6f30a1532569d5bf749b2fbef8441a477c86cf29db4f",
+                           "labels":  {
+                                          "flowplane.benchmark":  "true",
+                                          "flowplane.benchmark.campaign-id":  "http-rerun-20260730-1752",
+                                          "flowplane.benchmark.component":  "redpanda-connect-http",
+                                          "maintainer":  "Ashley Jeffs \u003cash.jeffs@redpanda.com\u003e",
+                                          "org.opencontainers.image.source":  "https://github.com/redpanda-data/connect"
+                                      },
+                           "image":  "redpandadata/connect:latest",
+                           "generatedConfigPath":  "<benchmark-workspace>\\results\\http-rerun-20260730-1752\\observed-http-run\\generated\\redpanda-connect-http-rerun-20260730-1752.yaml",
+                           "generatedConfigSha256":  "a25680e16d52817afe72b59fb4b0a095611752e059af8ea54289bf3a2976603d"
+                       },
+    "endToEndLatencyEvidencePath":  "<benchmark-workspace>\\results\\http-rerun-20260730-1752\\observed-http-run\\kafka-end-to-end-latency.json",
+    "metricSampleCount":  242,
+    "metricsDirectory":  "<benchmark-workspace>\\results\\http-rerun-20260730-1752\\observed-http-run\\metrics-samples",
+    "repositoryIntegrityValidated":  true
+}

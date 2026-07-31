@@ -1,0 +1,25 @@
+{
+    "schemaVersion":  1,
+    "kind":  "flowplane-benchmark-campaign-result",
+    "campaignId":  "http-rerun-20260730-1752",
+    "runtime":  "HTTP",
+    "status":  "COMPLETE",
+    "outcome":  "OBSERVED",
+    "performanceVerdict":  "NOT_APPLICABLE",
+    "performanceThresholdsApplied":  false,
+    "measuredRecordCount":  500000,
+    "artifactHash":  "sha256:866ac4276189154a0b4432ee12b7f689acacda220449c27a9ed59fe0b257a1b3",
+    "evidenceValidated":  true,
+    "repositoryIntegrityValidated":  true,
+    "policyCanaryObserved":  true,
+    "uiVerified":  true,
+    "counts":  {
+                   "raw":  500000,
+                   "output":  500000,
+                   "dlq":  0,
+                   "consumerLag":  0
+               },
+    "runObservationPath":  "<benchmark-workspace>\\results\\http-rerun-20260730-1752\\observed-http-run\\http-run-observation.json",
+    "provenancePath":  "<benchmark-workspace>\\results\\http-rerun-20260730-1752\\observed-http-run\\runtime-output-provenance.json",
+    "completedAtUtc":  "2026-07-30T19:07:33.0500975Z"
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "kind": "flowplane-http-batch-observational-summary",
+  "campaignId": "http-batch50-20260731-0915",
+  "outcome": "OBSERVED",
+  "passFailApplied": false,
+  "singleChangedVariable": "Redpanda Connect native batch count: 10 -> 50",
+  "batch": {
+    "tool": "Redpanda Connect 4.96.1",
+    "image": "redpandadata/connect:latest",
+    "sizeRecords": 50,
+    "pipelineThreads": 4,
+    "toolTransformations": false,
+    "manualDownstreamInsertionUsed": false
+  },
+  "identity": {
+    "runtimeId": "fpbench-http-batch-http-batch50-20260731-0915-runtime",
+    "mappingId": "6a6cccbeb92c57a9b8eaac18",
+    "artifactId": "0034e395-5b26-4520-b7f6-ad796b67f239",
+    "artifactHash": "sha256:007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "mappingFields": 1000,
+    "payloadVariants": 100,
+    "payloadBytesEach": 102400,
+    "payloadCorpusSha256": "ba3fc084ce067c2ef6b52b7326760889b492e6ad8dc553a0a2aecf4bf0c7a607"
+  },
+  "traffic": {
+    "warmupRecords": 1000,
+    "measuredRecords": 10000,
+    "publisherElapsedSeconds": 70.7212717999937,
+    "publisherRecordsPerSecond": 141.40017204838912,
+    "measuredInputRecords": 10000,
+    "measuredOutputRecords": 10000,
+    "measuredDlqRecords": 0,
+    "totalTopicCountsIncludingWarmup": { "input": 11000, "output": 11000, "dlq": 0 },
+    "republishedAfterControllerExitCodeIssue": false
+  },
+  "latency": {
+    "transformOnlyMicros": { "p50": 434.9, "p95": 705.2, "p99": 1094.3, "p999": 2161.0, "max": 3247.3, "samples": 10000 },
+    "kafkaToOutputMillis": { "p50": 56, "p95": 95, "p99": 681, "max": 1420, "matchedSamples": 1000, "missingSamples": 0, "negativeTimestampSamples": 4 },
+    "uiObservedRuntimeP99Millis": 47.2
+  },
+  "allocationEstimatedBytesPerOperation": {
+    "transformOnly": 419128,
+    "runtimeJvm": 2171579.0272,
+    "redpandaConnect": 748032.3856,
+    "sourceProducerJvm": 617504.784,
+    "kafkaBrokerJvm": 326345.7648,
+    "warning": "Independent sampled process estimates; not a precise additive whole-stack total. Kafka is a shared broker."
+  },
+  "dockerMeasuredWindow": {
+    "samples": 13,
+    "runtime": { "cpuAveragePercent": 35.37, "cpuMaxPercent": 73.97, "memoryAverageMiB": 613.19, "memoryMaxMiB": 626.7 },
+    "redpandaConnect": { "cpuAveragePercent": 33.33, "cpuMaxPercent": 48.97, "memoryAverageMiB": 96.41, "memoryMaxMiB": 221.9 }
+  },
+  "policyCanaries": {
+    "batchRecords": 6,
+    "required": "DLQ",
+    "validation": "DLQ",
+    "typeMismatch": "DLQ",
+    "lookupMiss": "DLQ",
+    "overflow": "OK",
+    "malformedJson": "DLQ"
+  },
+  "comparisonToBatch10": {
+    "batch10RecordsPerSecond": 142.8109794120605,
+    "batch50RecordsPerSecond": 141.40017204838912,
+    "throughputDifferencePercent": -0.987886476231608,
+    "batch10KafkaLatencyMillis": { "p50": 46, "p95": 71, "p99": 82 },
+    "batch50KafkaLatencyMillis": { "p50": 56, "p95": 95, "p99": 681 },
+    "interpretation": "One observation per batch size. Batch 50 did not increase record throughput and showed substantially higher Kafka-to-output tail latency. No pass/fail conclusion is applied."
+  }
+}

@@ -122,6 +122,8 @@ The strongest preserved measurements are:
 | 1 MiB input, 976 compiled mapping fields | **0.504 ms mean**, **1.300 ms p99**, approximately **188 KB allocated per operation** |
 | Fixed 976-field mapping, 1–64 MiB payloads | Near-linear measured scaling, with **R² 0.9989** |
 | Local Kafka/Flink soak | **1,080,001 records** with exact success/error accounting and final broker lag zero |
+| Live HTTP, 100 KB input, 1,000 mapped fields | **500,000 runtime-derived outputs**, zero DLQ/final lag, **186.767 records/s** |
+| Live gRPC streaming, same workload | **500,000 responses**, zero DLQ/failures, **1,314.523 records/s** at 16 streams and batches of 10 |
 
 The core benchmark includes full input scanning, parsing, mapping, transforms, policies, bounded error handling, and owned-output serialization. The payload-scaling fixture keeps transformed output size constant, so it measures input growth rather than proportional output materialization. Benchmark and live-runtime numbers describe different boundaries and should not be compared as if they were the same test.
 
@@ -131,6 +133,7 @@ Inspect the supporting material:
 - [Benchmark interpretation guide](docs/benchmark-interpretation.md)
 - [Raw benchmark and integration evidence](evidence/evidence-index.md)
 - [Core benchmark qualification report](docs/repeatability-qualification.md)
+- [100 KB / 1,000-field runtime campaign](evidence/runtime-performance-100kb-1000-fields/README.md)
 
 ## What has been proven
 
@@ -157,7 +160,7 @@ The repository contains preserved local integration runs, exact record accountin
 | [Evidence manifest](evidence/manifest.json) | Release identity, run inventory, and immutable references |
 | [Checksums](evidence/checksums.sha256) | Repository evidence integrity inventory |
 
-Evidence release `evidence-2026.07.2` covers preserved work from 2026-07-11 through 2026-07-21 UTC and references Flowplane source revision `10a26df`. Status definitions, dirty-worktree disclosures, emulator boundaries, broker-lag requirements, and other qualification details are maintained in the [evidence classification guide](docs/evidence-classification.md) and evidence-specific documents.
+Evidence release `evidence-2026.07.3` covers preserved work through 2026-07-31 UTC. Claim-level source revisions remain attached to each evidence set; the new runtime campaign captured revision `107d4b18` with its dirty-worktree hashes disclosed. Status definitions, emulator boundaries, broker-lag requirements, and other qualification details are maintained in the [evidence classification guide](docs/evidence-classification.md) and evidence-specific documents.
 
 To validate the repository locally:
 
@@ -192,6 +195,7 @@ This public evidence repository documents the supported stateless operation surf
 - [`docs/operations-and-transformations.md`](docs/operations-and-transformations.md) — supported mapping operations, policies, and minimal examples
 - [`examples/operations/README.md`](examples/operations/README.md) — verified starter mapping with input and expected output
 - [`docs/runtime-portability.md`](docs/runtime-portability.md) — execution modes and latest preserved local evidence
+- [`evidence/runtime-performance-100kb-1000-fields/README.md`](evidence/runtime-performance-100kb-1000-fields/README.md) — HTTP, gRPC, batch, and custom-code performance observations
 - [`docs/governance-and-security.md`](docs/governance-and-security.md) — artifact, access-control, audit, and telemetry model
 - [`docs/limitations.md`](docs/limitations.md) — evidence scope and non-goals
 - [`evidence/integration-proofs/EVIDENCE-OVERVIEW.md`](evidence/integration-proofs/EVIDENCE-OVERVIEW.md) — integration proof index

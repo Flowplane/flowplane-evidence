@@ -1,0 +1,20 @@
+{
+    "schemaVersion":  1,
+    "kind":  "custom-java-valid-parity-evidence",
+    "parityState":  "PROVEN",
+    "performanceVerdict":  null,
+    "mappingSha256":  "007b1546713568882b12a884cdcc85031746e32855770ef0306ae3bebfd7fc31",
+    "corpusSha256":  "ba3fc084ce067c2ef6b52b7326760889b492e6ad8dc553a0a2aecf4bf0c7a607",
+    "oracleSha256":  "75706983e25306dc552a42b2bdd8f1195cf55dbe3a8139edc21d238e2b5f42ac",
+    "jarSha256":  "067f69ecd7388f1a7378571f0d22c7a06356e7a1df319b223a663ecb973e5a3a",
+    "payloadVariantCount":  100,
+    "payloadBytesEach":  102400,
+    "outputFieldCount":  1000,
+    "byteExactRecordCount":  100,
+    "differences":  [
+
+                    ],
+    "manualDownstreamInsertionUsed":  false,
+    "liveTrafficUsed":  false,
+    "generatedAtUtc":  "2026-07-31T09:28:28.9750425Z"
+}
