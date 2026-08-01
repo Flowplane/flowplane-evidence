@@ -193,6 +193,7 @@ This public evidence repository documents the supported stateless operation surf
 - [`docs/live-demo.md`](docs/live-demo.md) — full live workflow, chapter guide, and proof boundary
 - [`docs/how-it-works.md`](docs/how-it-works.md) — mapping lifecycle from authoring through runtime execution
 - [`docs/operations-and-transformations.md`](docs/operations-and-transformations.md) — supported mapping operations, policies, and minimal examples
+- [`docs/operations-reference.md`](docs/operations-reference.md) — complete plain-language reference for every supported operation and option
 - [`examples/operations/README.md`](examples/operations/README.md) — verified starter mapping with input and expected output
 - [`docs/runtime-portability.md`](docs/runtime-portability.md) — execution modes and latest preserved local evidence
 - [`evidence/runtime-performance-100kb-1000-fields/README.md`](evidence/runtime-performance-100kb-1000-fields/README.md) — HTTP, gRPC, batch, and custom-code performance observations

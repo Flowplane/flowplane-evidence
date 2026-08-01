@@ -1,162 +1,231 @@
 # Operations and transformations
 
-This catalog describes the stateless mapping operations supported by the current Flowplane transformation runtime. Each row contains a minimal YAML example and the result for the stated input. The examples are intentionally small so they can be copied into a larger mapping.
+Flowplane changes one JSON record into another JSON record.
 
-The catalog was checked against the current compiler and runtime contract suite on 2026-07-22. The verification ran 25 focused contract tests covering the full sample mapping, operation boundaries, encryption round trips, output shapes, and equivalent execution strategies, plus one exact starter-fixture comparison; all 26 passed. See the [verification record](../examples/operations/verification.json).
+A mapping can copy fields, clean text, calculate values, reshape arrays, validate data, and protect sensitive information. The same mapping can run through Kafka, Flink, Pulsar, HTTP, or another supported runtime.
 
-## Minimal mapping
+In this guide:
+
+- an **operation** is one action, such as copying or masking a field; and
+- a **transformation** is the complete input-to-output change made by a mapping.
+
+Flowplane mappings are stateless: each record is transformed independently. The host system remains responsible for transport, retries, acknowledgements, ordering, checkpoints, and destinations.
+
+## Start with a simple example
+
+Input:
+
+```json
+{
+  "device": {
+    "id": "42",
+    "type": "gateway",
+    "status": "ok"
+  },
+  "temperatureC": 20
+}
+```
+
+Mapping:
 
 ```yaml
 output: FLAT_OBJECT
+
 fields:
-  order_id: $.order.id
+  device_id: $.device.id
+
+  status:
+    path: $.device.status
+    case_convert: upper
+
+  label:
+    valueExpr:
+      function:
+        name: concat
+        args:
+          - path: $.device.type
+          - const: "-"
+          - path: $.device.id
+
+  temperature_f:
+    expression: "$.temperatureC * 1.8 + 32"
+    round:
+      scale: 2
 ```
 
-Input `{"order":{"id":"A-1"}}` produces `{"order_id":"A-1"}`. A field may use the short path form above or the expanded `path: $.order.id` form.
+Output:
 
-## Value sources and composition
+```json
+{
+  "device_id": "42",
+  "status": "OK",
+  "label": "gateway-42",
+  "temperature_f": 68.00
+}
+```
 
-| Operation | Minimal field recipe | Example result |
+This example performs four operations: copy, uppercase, join, and calculate.
+
+The runnable files are in the [operations starter example](../examples/operations/README.md).
+
+This page is the readable guide. For every accepted operation and option, including less common policies and error formats, use the [complete operations reference](operations-reference.md).
+
+## Copy or create values
+
+| What you want | Mapping example | Meaning |
 |---|---|---|
-| JSONPath selection | `id: $.order.id` | `A-1` |
-| Path aliases | `id: { direct: $.order.id }` or `id: { source: $.order.id }` | `A-1` |
-| Fallback paths | `region: { path: $.missing, fallback: [$.tenant.region] }` | `us-west` |
-| Constant | `env: { constant: production }` | `production` |
-| Literal value | `env: { value: production }` | `production` |
-| Context metadata | `request_id: { metadata: requestId }` | the runtime request ID |
-| Message header | `trace_id: { header: x-trace-id }` | the `x-trace-id` value |
-| Generated UUID | `id: { generate: uuid }` | a new UUID string |
-| Generated timestamp | `created_at: { generate: now }` | the current ISO-8601 instant |
-| Coalesce | `email: { valueExpr: { coalesce: { mode: FIRST_NON_EMPTY, candidates: [{path: $.primary}, {path: $.backup}, {const: unknown}] } } }` | first non-empty candidate |
-| Conditional case | `route: { valueExpr: { case: { branches: [{when: {path: $.risk, operator: EQ, value: HIGH}, then: {const: page}}], else: {const: observe} } } }` | `page` when `risk` is `HIGH` |
-| Lookup | `action: { path: $.status, lookup: { dictionary: statusCodes } }` | dictionary value for `status` |
-| Function | `label: { valueExpr: { function: { name: concat, args: [{path: $.type}, {const: "-"}, {path: $.id}] } } }` | `gateway-42` |
+| Copy a field | `order_id: $.order.id` | Read the value at the JSON path |
+| Use another path if missing | `fallback: [$.account.region]` | Try the fallback after the main path |
+| Add a fixed value | `constant: production` | Always return `production` |
+| Add a literal | `value: production` | Another way to return a fixed value |
+| Read runtime metadata | `metadata: requestId` | Read a value supplied by the runtime |
+| Read a message header | `header: x-trace-id` | Read a transport header |
+| Generate an ID | `generate: uuid` | Create a new UUID |
+| Add the current time | `generate: now` | Create an ISO-8601 timestamp |
 
-Coalesce modes are `FIRST_NON_MISSING`, `FIRST_NON_NULL`, `FIRST_NON_EMPTY`, and `FIRST_VALID`. Function keys `function`, `func`, and `fn` are accepted aliases.
+`path`, `direct`, and `source` can all select input data. Prefer `path` because it is easiest to understand.
 
-### Predicates
+Example with a fallback:
 
-Case branches support `all`/`and` and `any`/`or` composition. The available predicate operators are:
+```yaml
+fields:
+  region:
+    path: $.customer.region
+    fallback:
+      - $.account.region
+      - $.defaultRegion
+```
 
-| Operator | Example condition | Matches when |
+Flowplane uses the first available value.
+
+## Clean and format text
+
+| Operation | Input | Result |
 |---|---|---|
-| `EXISTS` | `{ path: $.email, operator: EXISTS }` | the path exists |
-| `MISSING` | `{ path: $.email, operator: MISSING }` | the path is absent |
-| `IS_NULL` | `{ path: $.email, operator: IS_NULL }` | the value is null |
-| `NOT_NULL` | `{ path: $.email, operator: NOT_NULL }` | the value is not null |
-| `IS_EMPTY` | `{ path: $.email, operator: IS_EMPTY }` | the value is blank or empty |
-| `NOT_EMPTY` | `{ path: $.email, operator: NOT_EMPTY }` | the value is not empty |
-| `EQ`, `NE` | `{ path: $.status, operator: EQ, value: OK }` | equality or inequality holds |
-| `GT`, `GTE`, `LT`, `LTE` | `{ path: $.score, operator: GTE, value: 80 }` | numeric comparison holds |
-| `IN` | `{ path: $.status, operator: IN, value: [OK, WARN] }` | the value is in the list |
-| `REGEX_MATCH` | `{ path: $.code, operator: REGEX_MATCH, value: "^A-" }` | the regex matches |
-| `STARTS_WITH` | `{ path: $.code, operator: STARTS_WITH, value: A- }` | the string starts with `A-` |
-| `ENDS_WITH` | `{ path: $.file, operator: ENDS_WITH, value: .json }` | the string ends with `.json` |
-| `CONTAINS` | `{ path: $.message, operator: CONTAINS, value: error }` | the string contains `error` |
+| `case_convert: upper` | `ready` | `READY` |
+| `case_convert: lower` | `READY` | `ready` |
+| `normalize_string: true` | `  Fan   speed  ` | `Fan speed` |
+| `template: "status-${value}"` | `OK` | `status-OK` |
+| `substring: {start: 0, end: 2}` | `GW-0042` | `GW` |
+| `split: {by: "|"}` | `a|b|c` | `[a, b, c]` |
+| `regex_match` | `OK` | keeps `OK` when it matches; adds a field error when it does not |
+| `regex_extract` | `GW-0042` | the matching text or capture group |
+| `regex_replace` | `fw-v2.7.1` | `v2.7.1` after removing `fw-` |
 
-## Functions
+Example:
 
-The value-expression function form supports these operations:
+```yaml
+fields:
+  clean_message:
+    path: $.message
+    normalize_string: true
 
-| Function | Minimal invocation | Example result |
-|---|---|---|
-| `concat` | `name: concat; args: [{const: Ada}, {const: " "}, {const: Lovelace}]` | `Ada Lovelace` |
-| `template` | `name: template; args: [{const: "id="}, {path: $.id}]` | `id=42` |
-| `upper` | `name: upper; args: [{const: stream}]` | `STREAM` |
-| `lower` | `name: lower; args: [{const: STREAM}]` | `stream` |
-| `trim` | `name: trim; args: [{const: "  ready  "}]` | `ready` |
-| `substring` | `name: substring; args: [{const: stream}, {const: 1}, {const: 5}]` | `trea` |
-| `split` | `name: split; args: [{const: "a,b,c"}, {const: ","}]` | `["a","b","c"]` |
-| `round` | `name: round; args: [{const: 12.345}, {const: 2}]` | `12.35` |
-| `now` | `name: now` | the current ISO-8601 instant |
-| `uuid` | `name: uuid` | a new UUID string |
-| `hash` | `name: hash; args: [{const: abc}]` | SHA-256 digest of `abc` |
+  serial_family:
+    path: $.serial
+    regex_extract: "^(GW)-.*"
 
-## String and regex transforms
+  firmware_version:
+    path: $.firmware
+    regex_replace: "^fw-"
+    replacement: ""
+```
 
-| Operation | Minimal field recipe | Example result |
-|---|---|---|
-| Uppercase | `status: { path: $.status, case_convert: upper }` | `OK` from `ok` |
-| Lowercase | `status: { path: $.status, case_convert: lower }` | `ok` from `OK` |
-| Normalize whitespace | `message: { path: $.message, normalize_string: true }` | `Fan speed unstable` |
-| Template current value | `label: { path: $.status, template: "status-${value}" }` | `status-OK` |
-| Substring | `prefix: { path: $.serial, substring: { start: 0, end: 2 } }` | `GW` |
-| Split | `parts: { path: $.labels, split: { by: "|" } }` | `["a","b"]` |
-| Regex match | `valid: { path: $.status, regex_match: "^(OK|FAIL)$" }` | `true` |
-| Regex extract | `family: { path: $.serial, regex_extract: "^(GW)-.*" }` | `GW` |
-| Regex replace | `version: { path: $.firmware, regex_replace: "^fw-", replacement: "" }` | `v2.7.1` |
+## Join values with functions
 
-## Expressions and numeric transforms
+```yaml
+fields:
+  device_label:
+    valueExpr:
+      function:
+        name: concat
+        args:
+          - path: $.device.type
+          - const: "-"
+          - path: $.device.id
+```
 
-| Operation | Minimal field recipe | Example result |
-|---|---|---|
-| Arithmetic expression | `total: { expression: "$.price * $.quantity" }` | `30` from `10 × 3` |
-| Comparison expression | `adult: { expression: "$.age >= 18" }` | `true` for `21` |
-| Arithmetic alias | `adjusted: { arithmetic: "$.load + 10" }` | `75` for `65` |
-| Round | `amount: { path: $.amount, round: { scale: 2 } }` | `12.35` from `12.345` |
+For type `gateway` and ID `42`, the result is `gateway-42`.
 
-Simple expressions support `+`, `-`, `*`, `/`, `>`, `>=`, `<`, `<=`, `==`, and `!=`. Arithmetic is evaluated from left to right; use separate fields when conventional operator precedence is required.
+| Function | What it does |
+|---|---|
+| `concat` | Joins values into one string |
+| `template` | Builds text from multiple values |
+| `upper` / `lower` | Changes letter case |
+| `trim` | Removes spaces from both ends |
+| `substring` | Returns part of a string |
+| `split` | Splits text into a list |
+| `round` | Rounds a number to a selected scale |
+| `now` | Returns the current time |
+| `uuid` | Creates a UUID |
+| `hash` | Creates a SHA-256 digest |
 
-## Type conversion
+`function`, `func`, and `fn` are accepted aliases. Prefer `function` for readability.
 
-Use `cast` or `type` with any of the following types.
+## Choose a value
 
-| Type | Example | Result |
-|---|---|---|
-| `STRING` | `value: { path: $.id, cast: string }` | string value |
-| `INT` / `INTEGER` | `value: { path: $.count, cast: int }` | 32-bit integer |
-| `LONG` | `value: { path: $.count, cast: long }` | 64-bit integer |
-| `DOUBLE` | `value: { path: $.amount, cast: double }` | double-precision number |
-| `DECIMAL` | `value: { path: $.amount, cast: decimal, decimalScale: 2, decimalScalePolicy: ROUND }` | fixed-scale decimal |
-| `BOOLEAN` | `value: { path: $.enabled, cast: boolean }` | boolean |
-| `TIMESTAMP` | `value: { path: $.time, cast: timestamp }` | epoch milliseconds |
-| `DATE` | `value: { path: $.day, cast: date, date_format: MM/dd/yyyy }` | ISO date |
-| `TIME` | `value: { path: $.clock, cast: time, date_format: HH:mm:ss }` | ISO time |
-| `JSON` | `value: { path: $.raw, cast: json }` | parsed JSON value |
-| `OBJECT` | `value: { path: $.raw, cast: object }` | object/map |
-| `ARRAY` | `value: { path: $.items, cast: array }` | array/list |
+### Use the first useful value
 
-Decimal scale policies are `FAIL`, `ROUND`, and `TRUNCATE`. Numeric overflow can use `ERROR`, `CLAMP`, or `DEFAULT`.
+```yaml
+fields:
+  email:
+    valueExpr:
+      coalesce:
+        mode: FIRST_NON_EMPTY
+        candidates:
+          - path: $.primaryEmail
+          - path: $.backupEmail
+          - const: unknown@example.com
+```
 
-## Array transforms
+Flowplane checks the candidates in order and returns the first non-empty value.
 
-For input `items: [{name: cpu, value: 82}, {name: mem, value: 67}, {name: disk, value: 91}]`:
+Coalesce modes are:
 
-| Operation | Minimal field recipe | Result |
-|---|---|---|
-| `FIRST` | `value: { path: $.items[*].name, array_mode: FIRST }` | `cpu` |
-| `LAST` | `value: { path: $.items[*].name, array_mode: LAST }` | `disk` |
-| `INDEX` | `value: { path: $.items[*].name, array_mode: INDEX, array_index: 1 }` | `mem` |
-| `ONLY` | `value: { path: $.single[*].name, array_mode: ONLY }` | the only element; errors for any other cardinality |
-| `FILTER_FIRST` | `value: { path: "$.items[?(@.value >= 80)].name", array_mode: FILTER_FIRST }` | `cpu` |
-| `FILTER_ALL` | `value: { path: "$.items[?(@.value >= 80)].name", array_mode: FILTER_ALL }` | `["cpu","disk"]` |
-| `COUNT` | `value: { path: $.items[*], array_mode: COUNT }` | `3` |
-| `COLLECT` | `value: { path: $.items[*].name, array_mode: COLLECT }` | `["cpu","mem","disk"]` |
-| `JOIN` | `value: { path: $.items[*].name, array_mode: JOIN, delimiter: "|" }` | `cpu|mem|disk` |
-| Filter | `value: { path: $.items[*], filter: "item.value >= 80" }` | the `cpu` and `disk` objects |
-| Map | `value: { path: $.items[*], map: { metric: item.name, reading: item.value } }` | renamed object fields |
-| Flatten | `value: { path: $.groups, flatten: true }` | one-level flattened list |
-| Distinct | `value: { path: $.tags[*], distinct: true }` | duplicates removed |
-| Aggregate count | `value: { path: $.items[*].value, aggregate: count }` | `3` |
-| Aggregate sum | `value: { path: $.items[*].value, aggregate: sum }` | `240` |
-| Aggregate min | `value: { path: $.items[*].value, aggregate: min }` | `67` |
-| Aggregate max | `value: { path: $.items[*].value, aggregate: max }` | `91` |
+- `FIRST_NON_MISSING`: skip paths that do not exist;
+- `FIRST_NON_NULL`: also skip null values;
+- `FIRST_NON_EMPTY`: also skip empty values; and
+- `FIRST_VALID`: return the first usable candidate.
 
-## Object transforms
+### Use conditions
 
-| Operation | Minimal field recipe | Example result |
-|---|---|---|
-| Construct object | `customer: { object: { id: $.customer.id, email: $.customer.email } }` | a new object with `id` and `email` |
-| Merge objects | `profile: { merge: [$.profile.base, $.profile.preferences] }` | one object containing both sets of fields |
-| Nested output | `customer.id: { path: $.customerId }` | `{ "customer": { "id": "C-1" } }` in object output |
+```yaml
+fields:
+  route:
+    valueExpr:
+      case:
+        branches:
+          - when:
+              path: $.risk
+              operator: EQ
+              value: HIGH
+            then:
+              const: page-oncall
+        else:
+          const: observe
+```
 
-## Lookup behavior
+When `risk` is `HIGH`, the output is `page-oncall`. Otherwise it is `observe`.
+
+Supported conditions:
+
+- equality: `EQ`, `NE`;
+- numeric comparison: `GT`, `GTE`, `LT`, `LTE`;
+- presence: `EXISTS`, `MISSING`, `IS_NULL`, `NOT_NULL`;
+- empty values: `IS_EMPTY`, `NOT_EMPTY`;
+- text and collections: `IN`, `CONTAINS`, `STARTS_WITH`, `ENDS_WITH`; and
+- regular expressions: `REGEX_MATCH`.
+
+Use `all`/`and` when every condition must match. Use `any`/`or` when one match is enough.
+
+### Use a lookup table
 
 ```yaml
 lookups:
   statusCodes:
     OK: observe
+    WARN: investigate
     FAIL: dispatch
+
 fields:
   action:
     path: $.status
@@ -164,81 +233,270 @@ fields:
       dictionary: statusCodes
       onMiss: DEFAULT
       defaultValue: unknown
-      caseInsensitive: true
-      trimInput: true
 ```
 
-Lookup miss actions are `KEEP_ORIGINAL`, `DEFAULT`, `NULL`, `SKIP_FIELD`, and `ERROR`. `resultField` selects a property from an object-valued dictionary entry. A lookup may also be expressed inside `valueExpr` and may declare its key with `path` or `key`.
+`WARN` becomes `investigate`. An unknown code becomes `unknown`.
 
-## Validation and field policies
+Lookup miss actions are `KEEP_ORIGINAL`, `DEFAULT`, `NULL`, `SKIP_FIELD`, and `ERROR`. Lookups can also ignore case, trim input, and select one property from an object-valued result.
 
-| Capability | Minimal example | Behavior |
-|---|---|---|
-| Required field | `id: { path: $.id, required: true }` | reports a missing-required-field error |
-| Regex validation | `id: { path: $.id, validate: "^evt-" }` | accepts matching strings |
-| Validation map | `age: { path: $.age, validate: { required: true, min: 0, max: 120, one_of: [18, 21, 65] } }` | applies declared constraints; `pattern` is also available |
-| Field error: skip | `age: { path: $.age, cast: int, on_error: { action: SKIP_FIELD } }` | omits the failed field |
-| Field error: null | `age: { path: $.age, cast: int, on_error: { action: SET_NULL } }` | emits null |
-| Field error: default | `age: { path: $.age, cast: int, on_error: { action: SET_DEFAULT, value: 0 } }` | emits the configured value |
-
-Policy options are:
-
-| Input condition | Supported actions |
-|---|---|
-| Missing value (`onMissing`) | `NULL`, `SKIP_FIELD`, `ERROR` |
-| Null value (`onNull`) | `ALLOW`, `DEFAULT`, `ERROR` |
-| Array where scalar expected (`onArray`) | `USE_PICK`, `JSON_STRING`, `ERROR` |
-| Object where scalar expected (`onObject`) | `NATIVE`, `JSON_STRING`, `ERROR` |
-| Type mismatch (`onTypeMismatch`) | `COERCE`, `STRINGIFY`, `DEFAULT`, `ERROR` |
-| Numeric overflow (`onOverflow`) | `ERROR`, `CLAMP`, `DEFAULT` |
-
-`default`/`defaultValue` supplies the default used by the relevant policies. `strict: true` enables strict field handling.
-
-## Data protection
-
-| Operation | Minimal field recipe | Result |
-|---|---|---|
-| Mask | `token: { path: $.token, mask: last4 }` | masks all but the final four characters |
-| Sensitive | `token: { path: $.token, sensitive: true }` | applies the same protected display behavior |
-| Hash | `digest: { path: $.id, hash: sha256 }` | hexadecimal digest |
-| Redact | `secret: { path: $.secret, redact: true }` | redacted value |
-| Encrypt | `secret: { path: $.secret, encrypt: { key_ref: payments } }` | AES-GCM ciphertext |
-| Decrypt | `secret: { path: $.ciphertext, decrypt: { key_ref: payments } }` | original plaintext |
-
-Encryption keys are resolved by key reference from runtime configuration. Encryption output includes a fresh initialization vector, so ciphertext is intentionally nondeterministic. Do not place real keys or secrets in mappings or public fixtures.
-
-## Output controls
-
-Mapping output shapes are `OBJECT`, `FLAT_OBJECT`, `JSON_STRING`, `PRIMITIVE`, and `BYTES`.
+## Calculate values
 
 ```yaml
-output:
-  shape: FLAT_OBJECT
+fields:
+  total:
+    expression: "$.price * $.quantity"
+
+  is_adult:
+    expression: "$.age >= 18"
+
+  temperature_f:
+    expression: "$.temperatureC * 1.8 + 32"
+    round:
+      scale: 2
 ```
 
-Host output materialization options include complex-value modes `NATIVE_JSON`, `JSON_STRING`, and `ERROR`, plus field naming policies `AS_IS`, `SNAKE_CASE`, and `CAMEL_CASE`. A host runtime may apply these options or override the output shape while preserving the same compiled transformation semantics.
+Expressions support `+`, `-`, `*`, `/`, `>`, `>=`, `<`, `<=`, `==`, and `!=`.
 
-## Mapping-level error behavior
+Arithmetic is evaluated from left to right. Split complex calculations into separate fields when normal operator precedence matters. `arithmetic` is an alias for an arithmetic `expression`.
+
+## Convert data types
+
+```yaml
+fields:
+  quantity:
+    path: $.quantity
+    cast: int
+
+  amount:
+    path: $.amount
+    cast: decimal
+    decimalScale: 2
+    decimalScalePolicy: ROUND
+```
+
+| Type | Result |
+|---|---|
+| `STRING` | Text |
+| `INT` / `INTEGER` | 32-bit whole number |
+| `LONG` | 64-bit whole number |
+| `DOUBLE` | Floating-point number |
+| `DECIMAL` | Precise decimal number |
+| `BOOLEAN` | `true` or `false` |
+| `TIMESTAMP` | Epoch milliseconds |
+| `DATE` | Calendar date |
+| `TIME` | Time of day |
+| `JSON` | Parsed JSON value |
+| `OBJECT` | JSON object |
+| `ARRAY` | JSON array |
+
+Use `date_format` for non-standard date or time text. Decimal scale policies are `FAIL`, `ROUND`, and `TRUNCATE`. Numeric overflow policies are `ERROR`, `CLAMP`, and `DEFAULT`.
+
+## Work with arrays
+
+For this input:
+
+```json
+{
+  "signals": [
+    { "name": "cpu", "value": 82 },
+    { "name": "mem", "value": 67 },
+    { "name": "disk", "value": 91 }
+  ]
+}
+```
+
+Flowplane supports these selection modes:
+
+| Mode | Result for signal names |
+|---|---|
+| `FIRST` | `cpu` |
+| `LAST` | `disk` |
+| `INDEX` with index `1` | `mem` |
+| `ONLY` | the value only when exactly one exists |
+| `FILTER_FIRST` | first value matching a path filter |
+| `FILTER_ALL` | all values matching a path filter |
+| `COUNT` | `3` |
+| `COLLECT` | `[cpu, mem, disk]` |
+| `JOIN` | `cpu|mem|disk` |
+
+Example:
+
+```yaml
+fields:
+  first_signal:
+    path: $.signals[*].name
+    array_mode: FIRST
+
+  high_signals:
+    path: $.signals[?(@.value >= 80)].name
+    array_mode: FILTER_ALL
+
+  signal_total:
+    path: $.signals[*].value
+    aggregate: sum
+```
+
+This produces `cpu`, `[cpu, disk]`, and `240`.
+
+Other array operations:
+
+| Operation | What it does |
+|---|---|
+| `filter` | Keeps items matching a condition such as `item.value >= 80` |
+| `map` | Renames or selects properties in every item |
+| `flatten` | Converts nested lists into one list |
+| `distinct` | Removes duplicate values |
+| `aggregate: count` | Counts values |
+| `aggregate: sum` | Adds numeric values |
+| `aggregate: min` / `max` | Returns the smallest or largest value |
+
+## Build objects
+
+Create a new object:
+
+```yaml
+fields:
+  customer:
+    object:
+      id: $.customerId
+      email: $.customerEmail
+```
+
+Merge existing objects:
+
+```yaml
+fields:
+  profile:
+    merge:
+      - $.profile.basic
+      - $.profile.preferences
+```
+
+Create nested output by using dotted field names with `output: OBJECT`:
+
+```yaml
+output: OBJECT
+fields:
+  customer.id: $.customerId
+  customer.email: $.customerEmail
+```
+
+## Validate and handle bad values
+
+```yaml
+fields:
+  event_id:
+    path: $.event.id
+    required: true
+    validate: "^evt-"
+
+  age:
+    path: $.age
+    cast: int
+    validate:
+      min: 0
+      max: 120
+    on_error:
+      action: SET_DEFAULT
+      value: 0
+```
+
+Validation supports `required`, `pattern`, `min`, `max`, and `one_of`.
+
+When one field fails, `on_error` can:
+
+- `SKIP_FIELD`: omit the field;
+- `SET_NULL`: return null; or
+- `SET_DEFAULT`: return a configured value.
+
+Field policies handle unexpected input:
+
+| Problem | Setting | Choices |
+|---|---|---|
+| Missing path | `onMissing` | `NULL`, `SKIP_FIELD`, `ERROR` |
+| Null value | `onNull` | `ALLOW`, `DEFAULT`, `ERROR` |
+| Array instead of a scalar | `onArray` | `USE_PICK`, `JSON_STRING`, `ERROR` |
+| Object instead of a scalar | `onObject` | `NATIVE`, `JSON_STRING`, `ERROR` |
+| Incorrect type | `onTypeMismatch` | `COERCE`, `STRINGIFY`, `DEFAULT`, `ERROR` |
+| Number is too large | `onOverflow` | `ERROR`, `CLAMP`, `DEFAULT` |
+
+`default` or `defaultValue` supplies a fallback value. Use `strict: true` for strict field handling.
+
+## Protect sensitive values
+
+| Operation | What it does |
+|---|---|
+| `mask: last4` | Hides everything except the final four characters |
+| `sensitive: true` | Applies protected display behavior |
+| `hash: sha256` | Creates a one-way, repeatable digest |
+| `redact: true` | Replaces the value with null |
+| `encrypt` | Creates AES-GCM ciphertext using a runtime key reference |
+| `decrypt` | Restores ciphertext using the same key reference |
+
+Example:
+
+```yaml
+fields:
+  masked_token:
+    path: $.token
+    mask: last4
+
+  customer_hash:
+    path: $.customerId
+    hash: sha256
+
+  encrypted_secret:
+    path: $.secret
+    encrypt:
+      key_ref: payments
+```
+
+`tok-1234567890` becomes `**********7890`. Encryption keys come from secure runtime configuration and are not stored in the mapping.
+
+## Choose the output format
+
+| Output shape | Meaning |
+|---|---|
+| `OBJECT` | Nested JSON object |
+| `FLAT_OBJECT` | Flat JSON object |
+| `JSON_STRING` | Serialized JSON text |
+| `PRIMITIVE` | One output value |
+| `BYTES` | Serialized bytes |
+
+Host output options can keep objects and arrays as native JSON, convert them to JSON strings, or reject them. Host options can also keep field names unchanged or convert them to snake case or camel case.
+
+## Handle a failed record
+
+Field-level `on_error` handles one field. Mapping-level policies tell the host what to do with the whole record.
 
 ```yaml
 errorPolicy:
   onTransformationError: ROUTE_TO_DLQ
   onValidationFailure: SKIP_RECORD
   onTypeMismatch: REDACT_AND_PROCEED
-  dlqTopicTemplate: "${inputTopic}.flowplane.dlq"
-  includeOriginalPayload: false
-  includeErrorMetadata: true
-
-errorOutput:
-  action: EMIT_TO_TOPIC
-  format: CLOUD_EVENTS
-  topicTemplate: "errors.${inputTopic}"
 ```
 
-Mapping-level error actions are `FAIL_PIPELINE`, `SKIP_RECORD`, `ROUTE_TO_DLQ`, and `REDACT_AND_PROCEED`. Error-output actions are `ROUTE_TO_DLQ`, `EMIT_TO_TOPIC`, `FAIL_PIPELINE`, `DROP`, and `RETRY`; formats are `ENVELOPE`, `FIELD_ERRORS`, `COMPACT`, `CLOUD_EVENTS`, and `CUSTOM`. These directives travel with the compiled mapping; the host integration performs transport actions such as topic emission, retry, and record acknowledgement.
+Record actions:
 
-## Intentional boundary
+- `FAIL_PIPELINE`: report failure and stop;
+- `SKIP_RECORD`: do not emit the record;
+- `ROUTE_TO_DLQ`: send it to a dead-letter destination; and
+- `REDACT_AND_PROCEED`: remove sensitive error content and continue.
 
-This mapping language is stateless. Broker transport, joins, windows, sessions, state stores, timers, watermarks, retries, acknowledgements, ordering, checkpoints, and backpressure remain host-runtime responsibilities. Stateful DSL keys are rejected rather than silently accepted.
+Error output can use `ROUTE_TO_DLQ`, `EMIT_TO_TOPIC`, `FAIL_PIPELINE`, `DROP`, or `RETRY`. Supported formats are `ENVELOPE`, `FIELD_ERRORS`, `COMPACT`, `CLOUD_EVENTS`, and `CUSTOM`.
 
-For a runnable, deterministic starter fixture, see the [operations example](../examples/operations/README.md).
+The host performs the actual retry, topic write, acknowledgement, or dead-letter write.
+
+## What is outside the mapping
+
+Flowplane mappings intentionally do not implement joins between records, time windows, sessions, state stores, timers, watermarks, broker delivery, retries, acknowledgements, checkpoints, backpressure, or ordering.
+
+Those responsibilities belong to Kafka, Flink, Pulsar, Spark, NiFi, or another host. Flowplane rejects stateful mapping keys instead of pretending to support them.
+
+## Verification
+
+The documented operation surface was checked on 2026-07-22 with 25 compiler/runtime contract tests and one exact public-fixture comparison. All 26 checks passed.
+
+See the [verification record](../examples/operations/verification.json) for the runtime revision, result, and fixture hashes. All examples use synthetic data.
+
+Continue to the [complete operations reference](operations-reference.md) for an explanation of every supported operation and option.
